@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_kAUWANRkEeevt7A7e6Mzcw" confirmationNeeded="false" name="valentin_pc_fixe">
+  <contextParameter xmi:id="_kAUWAdRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_kAUWAtRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
+  <contextParameter xmi:id="_kAUWA9RkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_kAUWBNRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_kAUWBdRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_kAUWBtRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_kAUWB9RkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_geoloc_egc_t2.csv"/>
+  <contextParameter xmi:id="_kAUWCNRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_kAUWCdRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_kAUWCtRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_kAUWC9RkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_kAUWDNRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_geoloc_egc_t3.csv"/>
+  <contextParameter xmi:id="_kAUWDdRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_kAUWDtRkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_kAUWD9RkEeevt7A7e6Mzcw" comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_kAUWENRkEeevt7A7e6Mzcw" comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_kAUWEdRkEeevt7A7e6Mzcw" comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_tree_egc_t1.csv"/>
+  <contextParameter xmi:id="_kAUWEtRkEeevt7A7e6Mzcw" comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_kAUWE9RkEeevt7A7e6Mzcw" comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_kAUWFNRkEeevt7A7e6Mzcw" comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_kAUWFdRkEeevt7A7e6Mzcw" comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_kAUWFtRkEeevt7A7e6Mzcw" comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/Y_tree_egc_t1.csv"/>
+  <contextParameter xmi:id="_kAUWF9RkEeevt7A7e6Mzcw" comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_kAUWGNRkEeevt7A7e6Mzcw" comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_kAUWGdRkEeevt7A7e6Mzcw" comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="&quot;\n&quot;"/>
+</talendfile:ContextType>
