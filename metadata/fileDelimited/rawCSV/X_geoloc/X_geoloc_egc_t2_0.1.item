@@ -3,9 +3,15 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_SR0JYdRjEeevt7A7e6Mzcw" name="X_geoloc_egc_t2" dataPackage="_SR0JYtRjEeevt7A7e6Mzcw" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.X_geoloc_egc_t2_File" Format="WINDOWS" Encoding="context.X_geoloc_egc_t2_Encoding" FieldSeparatorValue="context.X_geoloc_egc_t2_FieldSeparator" RowSeparatorValue="context.X_geoloc_egc_t2_RowSeparator" UseHeader="true" HeaderValue="context.X_geoloc_egc_t2_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_SR0JYtRjEeevt7A7e6Mzcw" name="default" dataManager="_SR0JYdRjEeevt7A7e6Mzcw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SR0JY9RjEeevt7A7e6Mzcw" id="_DsamQNRjEeevt7A7e6Mzcw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SR0JZNRjEeevt7A7e6Mzcw" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SR0JZdRjEeevt7A7e6Mzcw" label="coord_x" length="13" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SR0JZtRjEeevt7A7e6Mzcw" label="coord_y" length="13" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mTiIMNVIEeeAUamxoyJpvw" name="id" label="id" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mTiIMdVIEeeAUamxoyJpvw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mTiIMtVIEeeAUamxoyJpvw" name="coord_x" label="coord_x" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mTiIM9VIEeeAUamxoyJpvw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mTiINNVIEeeAUamxoyJpvw" name="coord_y" label="coord_y" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mTiINdVIEeeAUamxoyJpvw"/>
+      </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
