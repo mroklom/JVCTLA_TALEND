@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_1qvr4NqwEee7O_McRhvMDA" name="Y_tree_egc_merged" dataPackage="_1qvr4dqwEee7O_McRhvMDA" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.Y_tree_egc_merged_File" Format="WINDOWS" Encoding="context.Y_tree_egc_merged_Encoding" FieldSeparatorValue="context.Y_tree_egc_merged_FieldSeparator" RowSeparatorValue="context.Y_tree_egc_merged_RowSeparator" UseHeader="true" HeaderValue="context.Y_tree_egc_merged_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1qvr4dqwEee7O_McRhvMDA" name="default" dataManager="_1qvr4NqwEee7O_McRhvMDA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1qvr4tqwEee7O_McRhvMDA" id="_tXVEMNqwEee7O_McRhvMDA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr49qwEee7O_McRhvMDA" name="id" label="id" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr5NqwEee7O_McRhvMDA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr5dqwEee7O_McRhvMDA" name="Default_or_not" label="Default_or_not" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr5tqwEee7O_McRhvMDA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr59qwEee7O_McRhvMDA" name="Collet" label="Collet" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr6NqwEee7O_McRhvMDA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr6dqwEee7O_McRhvMDA" name="Houppier" label="Houppier" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr6tqwEee7O_McRhvMDA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr69qwEee7O_McRhvMDA" name="Racine" label="Racine" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr7NqwEee7O_McRhvMDA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1qvr7dqwEee7O_McRhvMDA" name="Tronc" label="Tronc" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1qvr7tqwEee7O_McRhvMDA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

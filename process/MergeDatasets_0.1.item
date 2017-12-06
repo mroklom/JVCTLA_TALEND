@@ -236,7 +236,7 @@
       <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="id" expression="&quot;dataset1-&quot; + row1.id" type="id_String" nullable="true"/>
@@ -377,7 +377,7 @@
       <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="id" expression="&quot;dataset2-&quot; + row2.id" type="id_String" nullable="true"/>
