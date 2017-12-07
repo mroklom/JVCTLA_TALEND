@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_3=>" expression="String.valueOf(Numeric.sequence(&quot;id-y-tree&quot;, 1, 1))">
+  <variables name="row3.id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Default_or_not" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Collet" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Houppier" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Racine" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Tronc" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>
