@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_dTNKwNsoEeevaPExxVHDjA" name="diagnosis" dataPackage="_dTNKwdsoEeevaPExxVHDjA" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.diagnosis_File" Encoding="context.diagnosis_Encoding" FieldSeparatorValue="context.diagnosis_FieldSeparator" RowSeparatorValue="context.diagnosis_RowSeparator" UseHeader="true" HeaderValue="context.diagnosis_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_dTNKwdsoEeevaPExxVHDjA" name="default" dataManager="_dTNKwNsoEeevaPExxVHDjA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_dTNKwtsoEeevaPExxVHDjA" id="_0ou8MNsnEeevaPExxVHDjA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKw9soEeevaPExxVHDjA" name="ID" label="ID" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKxNsoEeevaPExxVHDjA" name="isLast" label="isLast" length="1" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKxdsoEeevaPExxVHDjA" name="diagnosisYear" label="diagnosisYear" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKxtsoEeevaPExxVHDjA" name="diagnosis5YearPeriod" label="diagnosis5YearPeriod" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKx9soEeevaPExxVHDjA" name="diagnosisNote" label="diagnosisNote" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dTNKyNsoEeevaPExxVHDjA" name="developmentStatus" label="developmentStatus" length="20" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

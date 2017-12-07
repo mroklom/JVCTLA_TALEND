@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_D5D2MNspEeevaPExxVHDjA" name="trees" dataPackage="_D5D2MdspEeevaPExxVHDjA" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.trees_File" Encoding="context.trees_Encoding" FieldSeparatorValue="context.trees_FieldSeparator" RowSeparatorValue="context.trees_RowSeparator" UseHeader="true" HeaderValue="context.trees_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_D5D2MdspEeevaPExxVHDjA" name="default" dataManager="_D5D2MNspEeevaPExxVHDjA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_D5D2MtspEeevaPExxVHDjA" id="_fCzgINsoEeevaPExxVHDjA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2M9spEeevaPExxVHDjA" name="ID" label="ID" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2NNspEeevaPExxVHDjA" name="species" label="species" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2NdspEeevaPExxVHDjA" name="genus" label="genus" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2NtspEeevaPExxVHDjA" name="seedingYear" label="seedingYear" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2N9spEeevaPExxVHDjA" name="seeding5YearPeriod" label="seeding5YearPeriod" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2ONspEeevaPExxVHDjA" name="sidewalkProximity" label="sidewalkProximity" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2OdspEeevaPExxVHDjA" name="environmentBusyness" label="environmentBusyness" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2OtspEeevaPExxVHDjA" name="vigor" label="vigor" length="20" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
