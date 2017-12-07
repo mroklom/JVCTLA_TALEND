@@ -3,7 +3,6 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_kwVdsdRkEeevt7A7e6Mzcw" name="Y_tree_egc_t1" dataPackage="_kwVdstRkEeevt7A7e6Mzcw" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.Y_tree_egc_t1_File" Format="WINDOWS" Encoding="context.Y_tree_egc_t1_Encoding" FieldSeparatorValue="context.Y_tree_egc_t1_FieldSeparator" RowSeparatorValue="context.Y_tree_egc_t1_RowSeparator" UseHeader="true" HeaderValue="context.Y_tree_egc_t1_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_kwVdstRkEeevt7A7e6Mzcw" name="default" dataManager="_kwVdsdRkEeevt7A7e6Mzcw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kwVds9RkEeevt7A7e6Mzcw" id="_cKoMINRkEeevt7A7e6Mzcw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwVdtNRkEeevt7A7e6Mzcw" label="id" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwVdtdRkEeevt7A7e6Mzcw" label="Default_or_not" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwVdttRkEeevt7A7e6Mzcw" label="Collet" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwVdt9RkEeevt7A7e6Mzcw" label="Houppier" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
