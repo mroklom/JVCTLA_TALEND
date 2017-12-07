@@ -5,7 +5,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BOs5s9U_EeeDs6WN2mYV5Q" id="_5W53ANU-EeeDs6WN2mYV5Q" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5tdU_EeeDs6WN2mYV5Q" label="ADR_SECTEUR" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5ttU_EeeDs6WN2mYV5Q" label="ANNEEDEPLANTATION" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5t9U_EeeDs6WN2mYV5Q" label="ANNEEREALISATIONDIAGNOSTIC" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5t9U_EeeDs6WN2mYV5Q" label="ANNEEREALISATIONDIAGNOSTIC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5uNU_EeeDs6WN2mYV5Q" label="ANNEETRAVAUXPRECONISESDIAG" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5udU_EeeDs6WN2mYV5Q" label="CODE" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOs5utU_EeeDs6WN2mYV5Q" label="CODE_PARENT" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
