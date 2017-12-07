@@ -1,7 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="valentin_pc_fixe" jobType="Standard">
+  <context confirmationNeeded="false" name="johanna_pc_portable">
+    <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t2_RowSeparator" prompt="X_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t2_FieldSeparator" prompt="X_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t2_Encoding" prompt="X_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t2_Header" prompt="X_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t3_RowSeparator" prompt="X_tree_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t3_FieldSeparator" prompt="X_tree_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t3_Encoding" prompt="X_tree_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t3_Header" prompt="X_tree_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_Encoding" prompt="Y_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_FieldSeparator" prompt="Y_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_Header" prompt="Y_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_RowSeparator" prompt="Y_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_RowSeparator" prompt="X_geoloc_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_FieldSeparator" prompt="X_geoloc_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_Encoding" prompt="X_geoloc_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_Header" prompt="X_geoloc_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_merge_RowSeparator" prompt="X_tree_egc_merge_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_FieldSeparator" prompt="X_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_Encoding" prompt="X_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_merge_Header" prompt="X_tree_egc_merge_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_Encoding" prompt="Y_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_FieldSeparator" prompt="Y_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_File" prompt="Y_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_Header" prompt="Y_tree_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_RowSeparator" prompt="Y_tree_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="diagnosis_FieldSeparator" prompt="diagnosis_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="diagnosis_File" prompt="diagnosis_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diagnosis.csv"/>
+    <contextParameter comment="" name="diagnosis_Encoding" prompt="diagnosis_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="diagnosis_RowSeparator" prompt="diagnosis_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="diseases_File" prompt="diseases_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diseases.csv"/>
+    <contextParameter comment="" name="diseases_Encoding" prompt="diseases_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="diseases_FieldSeparator" prompt="diseases_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="diseases_RowSeparator" prompt="diseases_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="locations_File" prompt="locations_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/locations.csv"/>
+    <contextParameter comment="" name="locations_FieldSeparator" prompt="locations_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="locations_RowSeparator" prompt="locations_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="locations_Encoding" prompt="locations_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_File" prompt="trees_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/trees.csv"/>
+    <contextParameter comment="" name="trees_Encoding" prompt="trees_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_RowSeparator" prompt="trees_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="trees_FieldSeparator" prompt="trees_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="valentin_pc_fixe">
+    <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_geoloc_egc_t2.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_geoloc_egc_t3.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_tree_egc_t1.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/Y_tree_egc_t1.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t2_RowSeparator" prompt="X_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_tree_egc_t2.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t2_FieldSeparator" prompt="X_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t2_Encoding" prompt="X_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t2_Header" prompt="X_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_t3_RowSeparator" prompt="X_tree_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_tree_egc_t3.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t3_FieldSeparator" prompt="X_tree_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_t3_Encoding" prompt="X_tree_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_t3_Header" prompt="X_tree_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_Encoding" prompt="Y_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_FieldSeparator" prompt="Y_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/Y_tree_egc_t2.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_Header" prompt="Y_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_RowSeparator" prompt="Y_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_RowSeparator" prompt="X_geoloc_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_geoloc_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_FieldSeparator" prompt="X_geoloc_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_Encoding" prompt="X_geoloc_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_Header" prompt="X_geoloc_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_tree_egc_merge_RowSeparator" prompt="X_tree_egc_merge_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_FieldSeparator" prompt="X_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_Encoding" prompt="X_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_merge_Header" prompt="X_tree_egc_merge_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_Encoding" prompt="Y_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_FieldSeparator" prompt="Y_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_File" prompt="Y_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_Header" prompt="Y_tree_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_RowSeparator" prompt="Y_tree_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="diagnosis_FieldSeparator" prompt="diagnosis_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="diagnosis_File" prompt="diagnosis_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diagnosis.csv"/>
+    <contextParameter comment="" name="diagnosis_Encoding" prompt="diagnosis_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="diagnosis_RowSeparator" prompt="diagnosis_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="diseases_File" prompt="diseases_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diseases.csv"/>
+    <contextParameter comment="" name="diseases_Encoding" prompt="diseases_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="diseases_FieldSeparator" prompt="diseases_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="diseases_RowSeparator" prompt="diseases_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="locations_File" prompt="locations_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/locations.csv"/>
+    <contextParameter comment="" name="locations_FieldSeparator" prompt="locations_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="locations_RowSeparator" prompt="locations_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="locations_Encoding" prompt="locations_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_File" prompt="trees_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/trees.csv"/>
+    <contextParameter comment="" name="trees_Encoding" prompt="trees_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_RowSeparator" prompt="trees_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="trees_FieldSeparator" prompt="trees_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+  </context>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -103,4 +250,1281 @@
     <routinesParameter id="_iWBJqNRfEeegRtCSnIMgNw" name="TalendStringUtil"/>
     <routinesParameter id="_iWBJpNRfEeegRtCSnIMgNw" name="TalendString"/>
   </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ddQEANVIEeeAUamxoyJpvw" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.X_geoloc_egc_merged_File"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_geoloc_egc_merged_RowSeparator"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_geoloc_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.X_geoloc_egc_merged_Header"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_ddQEANVIEeeAUamxoyJpvw - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_ddQEANVIEeeAUamxoyJpvw - metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="coord_x"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="coord_y"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_geoloc_egc_merged_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="coord_x"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="coord_y"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="X_geoloc_egc_merged"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="merge "/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEETRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE_PARENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_PARENT_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DIAMETREARBREAUNMETRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ESPECE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="FREQUENTATIONCIBLE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="GENRE_BOTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="IDENTIFIANTPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="INTITULEPROTECTIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="NOTEDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PRIORITEDERENOUVELLEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RAISONDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="REMARQUES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SOUS_CATEGORIE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="SOUS_CATEGORIE_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEDEVELOPPEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEVELOPPEMENTDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="TRAITEMENTCHENILLES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="TRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TROTTOIR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TYPEIMPLANTATIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="VARIETE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="VIGUEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Default_or_not" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Collet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Houppier" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Racine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Tronc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="id" expression="row1.id " type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="row1.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="row1.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="ADR_SECTEUR" expression="row2.ADR_SECTEUR " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEDEPLANTATION" expression="row2.ANNEEDEPLANTATION " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEREALISATIONDIAGNOSTIC" expression="row2.ANNEEREALISATIONDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ANNEETRAVAUXPRECONISESDIAG" expression="row2.ANNEETRAVAUXPRECONISESDIAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE" expression="row2.CODE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT" expression="row2.CODE_PARENT " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT_DESC" expression="row2.CODE_PARENT_DESC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DIAMETREARBREAUNMETRE" expression="row2.DIAMETREARBREAUNMETRE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESPECE" expression="row2.ESPECE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="FREQUENTATIONCIBLE" expression="row2.FREQUENTATIONCIBLE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENRE_BOTA" expression="row2.GENRE_BOTA " type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDENTIFIANTPLU" expression="row2.IDENTIFIANTPLU " type="id_String" nullable="true"/>
+        <mapperTableEntries name="INTITULEPROTECTIONPLU" expression="row2.INTITULEPROTECTIONPLU " type="id_String" nullable="true"/>
+        <mapperTableEntries name="NOTEDIAGNOSTIC" expression="row2.NOTEDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PRIORITEDERENOUVELLEMENT" expression="row2.PRIORITEDERENOUVELLEMENT " type="id_String" nullable="true"/>
+        <mapperTableEntries name="RAISONDEPLANTATION" expression="row2.RAISONDEPLANTATION " type="id_String" nullable="true"/>
+        <mapperTableEntries name="REMARQUES" expression="row2.REMARQUES " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE" expression="row2.SOUS_CATEGORIE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE_DESC" expression="row2.SOUS_CATEGORIE_DESC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEDEVELOPPEMENT" expression="row2.STADEDEDEVELOPPEMENT " type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEVELOPPEMENTDIAG" expression="row2.STADEDEVELOPPEMENTDIAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAITEMENTCHENILLES" expression="row2.TRAITEMENTCHENILLES " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAVAUXPRECONISESDIAG" expression="row2.TRAVAUXPRECONISESDIAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TROTTOIR" expression="row2.TROTTOIR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TYPEIMPLANTATIONPLU" expression="row2.TYPEIMPLANTATIONPLU " type="id_String" nullable="true"/>
+        <mapperTableEntries name="VARIETE" expression="row2.VARIETE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="VIGUEUR" expression="row2.VIGUEUR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Default_or_not" expression="row3.Default_or_not " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Collet" expression="row3.Collet " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Houppier" expression="row3.Houppier " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Racine" expression="row3.Racine " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Tronc" expression="row3.Tronc " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" expression="row1.id " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="ADR_SECTEUR" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEDEPLANTATION" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEREALISATIONDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ANNEETRAVAUXPRECONISESDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT_DESC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DIAMETREARBREAUNMETRE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESPECE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FREQUENTATIONCIBLE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENRE_BOTA" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDENTIFIANTPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="INTITULEPROTECTIONPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="NOTEDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PRIORITEDERENOUVELLEMENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="RAISONDEPLANTATION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="REMARQUES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE_DESC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEDEVELOPPEMENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEVELOPPEMENTDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAITEMENTCHENILLES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAVAUXPRECONISESDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TROTTOIR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TYPEIMPLANTATIONPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VARIETE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VIGUEUR" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" expression="row1.id " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="Default_or_not" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Collet" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Houppier" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Racine" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Tronc" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.X_tree_egc_merged_File"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_tree_egc_merge_RowSeparator"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_tree_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.X_tree_egc_merge_Header"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ - metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADR_SECTEUR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEEDEPLANTATION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEEREALISATIONDIAGNOSTIC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEETRAVAUXPRECONISESDIAG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_PARENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_PARENT_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIAMETREARBREAUNMETRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESPECE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FREQUENTATIONCIBLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GENRE_BOTA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDENTIFIANTPLU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INTITULEPROTECTIONPLU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOTEDIAGNOSTIC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIORITEDERENOUVELLEMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RAISONDEPLANTATION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REMARQUES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOUS_CATEGORIE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOUS_CATEGORIE_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STADEDEDEVELOPPEMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STADEDEVELOPPEMENTDIAG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAITEMENTCHENILLES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAVAUXPRECONISESDIAG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TROTTOIR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TYPEIMPLANTATIONPLU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VARIETE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIGUEUR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_tree_egc_merged_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADR_SECTEUR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEEDEPLANTATION"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEEREALISATIONDIAGNOSTIC"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANNEETRAVAUXPRECONISESDIAG"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_PARENT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_PARENT_DESC"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIAMETREARBREAUNMETRE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESPECE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FREQUENTATIONCIBLE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GENRE_BOTA"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDENTIFIANTPLU"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INTITULEPROTECTIONPLU"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOTEDIAGNOSTIC"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIORITEDERENOUVELLEMENT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RAISONDEPLANTATION"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REMARQUES"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOUS_CATEGORIE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOUS_CATEGORIE_DESC"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STADEDEDEVELOPPEMENT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STADEDEVELOPPEMENTDIAG"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAITEMENTCHENILLES"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAVAUXPRECONISESDIAG"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TROTTOIR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TYPEIMPLANTATIONPLU"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VARIETE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIGUEUR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="X_tree_egc_merge"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_2">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEETRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE_PARENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_PARENT_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DIAMETREARBREAUNMETRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ESPECE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="FREQUENTATIONCIBLE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="GENRE_BOTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="IDENTIFIANTPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="INTITULEPROTECTIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="NOTEDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PRIORITEDERENOUVELLEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RAISONDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="REMARQUES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SOUS_CATEGORIE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="SOUS_CATEGORIE_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEDEVELOPPEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEVELOPPEMENTDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="TRAITEMENTCHENILLES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="TRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TROTTOIR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TYPEIMPLANTATIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="VARIETE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="VIGUEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEETRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE_PARENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_PARENT_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DIAMETREARBREAUNMETRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ESPECE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="FREQUENTATIONCIBLE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="GENRE_BOTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="IDENTIFIANTPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="INTITULEPROTECTIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="NOTEDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PRIORITEDERENOUVELLEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RAISONDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="REMARQUES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SOUS_CATEGORIE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="SOUS_CATEGORIE_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEDEVELOPPEMENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEVELOPPEMENTDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="TRAITEMENTCHENILLES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="TRAVAUXPRECONISESDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TROTTOIR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TYPEIMPLANTATIONPLU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="VARIETE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="VIGUEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_1qvE0NqwEee7O_McRhvMDA" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Y_tree_egc_merged_File"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.Y_tree_egc_merged_RowSeparator"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.Y_tree_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.Y_tree_egc_merged_Header"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_1qvE0NqwEee7O_McRhvMDA - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_1qvE0NqwEee7O_McRhvMDA - metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Default_or_not"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Collet"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Houppier"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Racine"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tronc"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.Y_tree_egc_merged_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Default_or_not"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Collet"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Houppier"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Racine"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tronc"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Y_tree_egc_merged"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_3">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Default_or_not" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Collet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Houppier" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Racine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Tronc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Default_or_not" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Collet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Houppier" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Racine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Tronc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="remove unnecessary columns"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out2">
+      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CODE_PARENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DIAMETREARBREAUNMETRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ESPECE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="FREQUENTATIONCIBLE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="GENRE_BOTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="NOTEDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SOUS_CATEGORIE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="SOUS_CATEGORIE_DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="STADEDEVELOPPEMENTDIAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TROTTOIR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="VIGUEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Collet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Houppier" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Racine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Tronc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out2">
+        <mapperTableEntries name="id" expression="out1.id " type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="out1.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="out1.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="ADR_SECTEUR" expression="out1.ADR_SECTEUR " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEDEPLANTATION" expression="out1.ANNEEDEPLANTATION " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEREALISATIONDIAGNOSTIC" expression="out1.ANNEEREALISATIONDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT" expression="out1.CODE_PARENT " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DIAMETREARBREAUNMETRE" expression="out1.DIAMETREARBREAUNMETRE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESPECE" expression="out1.ESPECE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="FREQUENTATIONCIBLE" expression="out1.FREQUENTATIONCIBLE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENRE_BOTA" expression="out1.GENRE_BOTA " type="id_String" nullable="true"/>
+        <mapperTableEntries name="NOTEDIAGNOSTIC" expression="out1.NOTEDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE" expression="out1.SOUS_CATEGORIE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE_DESC" expression="out1.SOUS_CATEGORIE_DESC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEVELOPPEMENTDIAG" expression="out1.STADEDEVELOPPEMENTDIAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TROTTOIR" expression="out1.TROTTOIR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="VIGUEUR" expression="out1.VIGUEUR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Collet" expression="out1.Collet " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Houppier" expression="out1.Houppier " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Racine" expression="out1.Racine " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Tronc" expression="out1.Tronc " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="ADR_SECTEUR" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEDEPLANTATION" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEREALISATIONDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ANNEETRAVAUXPRECONISESDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT_DESC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DIAMETREARBREAUNMETRE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESPECE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FREQUENTATIONCIBLE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENRE_BOTA" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDENTIFIANTPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="INTITULEPROTECTIONPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="NOTEDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PRIORITEDERENOUVELLEMENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="RAISONDEPLANTATION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="REMARQUES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE_DESC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEDEVELOPPEMENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEVELOPPEMENTDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAITEMENTCHENILLES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TRAVAUXPRECONISESDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TROTTOIR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TYPEIMPLANTATIONPLU" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VARIETE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VIGUEUR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Default_or_not" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Collet" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Houppier" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Racine" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Tronc" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="rename columns"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out3">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="seedingYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diagnosisYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="stationID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="species" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="environmentBusyness" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="genus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="diagnosisNote" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="environmentTypeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="environmentTypeDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sidewalkProximity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="vigor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="collar" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="crown" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="root" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="trunk" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out3">
+        <mapperTableEntries name="ID" expression="out2.id " type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="out2.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="out2.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" expression="out2.ADR_SECTEUR " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" expression="out2.ANNEEDEPLANTATION " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" expression="out2.ANNEEREALISATIONDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stationID" expression="out2.CODE_PARENT " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" expression="out2.DIAMETREARBREAUNMETRE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" expression="out2.ESPECE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" expression="out2.FREQUENTATIONCIBLE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" expression="out2.GENRE_BOTA " type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" expression="out2.NOTEDIAGNOSTIC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" expression="out2.SOUS_CATEGORIE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" expression="out2.SOUS_CATEGORIE_DESC " type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" expression="out2.STADEDEVELOPPEMENTDIAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" expression="out2.TROTTOIR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" expression="out2.VIGUEUR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" expression="out2.Collet " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" expression="out2.Houppier " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" expression="out2.Racine " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" expression="out2.Tronc " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="ADR_SECTEUR" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEDEPLANTATION" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANNEEREALISATIONDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODE_PARENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DIAMETREARBREAUNMETRE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESPECE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FREQUENTATIONCIBLE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENRE_BOTA" type="id_String" nullable="true"/>
+        <mapperTableEntries name="NOTEDIAGNOSTIC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SOUS_CATEGORIE_DESC" type="id_String" nullable="true"/>
+        <mapperTableEntries name="STADEDEVELOPPEMENTDIAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TROTTOIR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VIGUEUR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Collet" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Houppier" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Racine" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Tronc" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_4" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="update types"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out4">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="seedingYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diagnosisYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="stationID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="species" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="environmentBusyness" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="genus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="diagnosisNote" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="environmentTypeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="environmentTypeDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sidewalkProximity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="vigor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="collar" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="crown" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="root" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="trunk" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out4">
+        <mapperTableEntries name="ID" expression="Integer.parseInt(out3.ID) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="out3.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="out3.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" expression="out3.sector " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" expression="out3.seedingYear " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" expression="Integer.parseInt(out3.diagnosisYear) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stationID" expression="out3.stationID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" expression="out3.stumpDiameter " type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" expression="out3.species " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" expression="out3.environmentBusyness " type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" expression="out3.genus " type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" expression="out3.diagnosisNote " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" expression="out3.environmentTypeCode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" expression="out3.environmentTypeDesc " type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" expression="out3.developmentStatus " type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" expression="out3.sidewalkProximity " type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" expression="out3.vigor " type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" expression="out3.collar " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" expression="out3.crown " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" expression="out3.root " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" expression="out3.trunk " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stationID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_5" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="add missing columns"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out5">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="seedingYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diagnosisYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="stationID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="species" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="environmentBusyness" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="genus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="diagnosisNote" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="environmentTypeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="environmentTypeDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sidewalkProximity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="vigor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="collar" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="crown" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="root" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="trunk" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="isLast" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" originalLength="1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="diagnosis5YearPeriod" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="seeding5YearPeriod" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="stumpDiameterGroup" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="diseases" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMall" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRoads" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMotorways" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRiver" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestParking" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestIndustrialZone" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestTrainStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestPollutionStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out5">
+        <mapperTableEntries name="ID" expression="out4.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="out4.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="out4.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" expression="out4.sector " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" expression="out4.seedingYear " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" expression="out4.diagnosisYear " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stationID" expression="out4.stationID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" expression="out4.stumpDiameter " type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" expression="out4.species " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" expression="out4.environmentBusyness " type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" expression="out4.genus " type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" expression="out4.diagnosisNote " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" expression="out4.environmentTypeCode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" expression="out4.environmentTypeDesc " type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" expression="out4.developmentStatus " type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" expression="out4.sidewalkProximity " type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" expression="out4.vigor " type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" expression="out4.collar " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" expression="out4.crown " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" expression="out4.root " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" expression="out4.trunk " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="isLast" expression="false" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="diagnosis5YearPeriod" expression="out4.diagnosisYear - (out4.diagnosisYear%5) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seeding5YearPeriod" expression="out4.seedingYear - (out4.seedingYear%5) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stumpDiameterGroup" expression="0" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diseases" expression="null" type="id_String" nullable="true"/>
+        <mapperTableEntries name="closestMall" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRoads" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestMotorways" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRiver" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestParking" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestIndustrialZone" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestTrainStation" expression="-1f" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestPollutionStation" expression="-1f" type="id_Float" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out4" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stationID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="960" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_6" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kZ-ggNslEeevaPExxVHDjA-tMap_6-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="split files"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="diagnosis">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="isLast" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" originalLength="1" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diagnosisYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="diagnosis5YearPeriod" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="diagnosisNote" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="trees">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="species" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="genus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="seedingYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="seeding5YearPeriod" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sidewalkProximity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="environmentBusyness" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="vigor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="stumpDiameterGroup" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="diseases">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="root" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="trunk" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="collar" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="crown" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="diseases" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="locations">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="stationID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="environmentTypeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="environmentTypeDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMall" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRoads" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMotorways" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRiver" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestParking" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestIndustrialZone" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestTrainStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestPollutionStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="diagnosis">
+        <mapperTableEntries name="ID" expression="out5.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="isLast" expression="out5.isLast " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" expression="out5.diagnosisYear " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosis5YearPeriod" expression="out5.diagnosis5YearPeriod " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" expression="out5.diagnosisNote " type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" expression="out5.developmentStatus " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="trees">
+        <mapperTableEntries name="ID" expression="out5.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="species" expression="out5.species " type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" expression="out5.genus " type="id_String" nullable="true"/>
+        <mapperTableEntries name="seedingYear" expression="out5.seedingYear " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seeding5YearPeriod" expression="out5.seeding5YearPeriod " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" expression="out5.sidewalkProximity " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" expression="out5.environmentBusyness " type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" expression="out5.vigor " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" expression="out5.stumpDiameter " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameterGroup" expression="out5.stumpDiameterGroup " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="diseases">
+        <mapperTableEntries name="ID" expression="out5.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" expression="out5.root " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" expression="out5.trunk " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="collar" expression="out5.collar " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" expression="out5.crown " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diseases" expression="out5.diseases " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="locations">
+        <mapperTableEntries name="ID" expression="out5.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="coord_x" expression="out5.coord_x " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" expression="out5.coord_y " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="stationID" expression="out5.stationID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="sector" expression="out5.sector " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" expression="out5.environmentTypeCode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" expression="out5.environmentTypeDesc " type="id_String" nullable="true"/>
+        <mapperTableEntries name="closestMall" expression="out5.closestMall " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRoads" expression="out5.closestRoads " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestMotorways" expression="out5.closestMotorways " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRiver" expression="out5.closestRiver " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestParking" expression="out5.closestParking " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestIndustrialZone" expression="out5.closestIndustrialZone " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestTrainStation" expression="out5.closestTrainStation " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestPollutionStation" expression="out5.closestPollutionStation " type="id_Float" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out5" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="coord_x" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="coord_y" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="sector" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seedingYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stationID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentBusyness" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="diagnosisNote" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeCode" type="id_String" nullable="true"/>
+        <mapperTableEntries name="environmentTypeDesc" type="id_String" nullable="true"/>
+        <mapperTableEntries name="developmentStatus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="sidewalkProximity" type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" type="id_String" nullable="true"/>
+        <mapperTableEntries name="collar" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="crown" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="root" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="trunk" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="isLast" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="diagnosis5YearPeriod" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="seeding5YearPeriod" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="stumpDiameterGroup" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diseases" type="id_String" nullable="true"/>
+        <mapperTableEntries name="closestMall" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRoads" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestMotorways" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestRiver" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestParking" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestIndustrialZone" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestTrainStation" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closestPollutionStation" type="id_Float" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_dTMjsNsoEeevaPExxVHDjA" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.diagnosis_File"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.diagnosis_RowSeparator"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.diagnosis_FieldSeparator"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.diagnosis_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="diagnosis"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="isLast" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" originalLength="1" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diagnosisYear" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="diagnosis5YearPeriod" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="diagnosisNote" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_TP_HcNsqEeevaPExxVHDjA" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.diseases_File"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.diseases_RowSeparator"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.diseases_FieldSeparator"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_TP_HcNsqEeevaPExxVHDjA - metadata" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.diseases_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="diseases"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_2">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="root" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="trunk" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="collar" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="crown" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="diseases" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_4" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_D5DPINspEeevaPExxVHDjA" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.trees_File"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.trees_RowSeparator"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.trees_FieldSeparator"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_D5DPINspEeevaPExxVHDjA - metadata" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.trees_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="trees"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_4">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="species" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="genus" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="seedingYear" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="seeding5YearPeriod" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="sidewalkProximity" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="environmentBusyness" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="vigor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9xzuoNspEeevaPExxVHDjA" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.locations_File"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.locations_RowSeparator"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.locations_FieldSeparator"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_9xzuoNspEeevaPExxVHDjA - metadata" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.locations_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="locations"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_3">
+      <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stationID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="sector" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="environmentTypeCode" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="environmentTypeDesc" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestMall" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestRoads" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestMotorways" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestRiver" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestParking" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestIndustrialZone" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestTrainStation" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="closestPollutionStation" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out3" lineStyle="0" metaname="out3" offsetLabelX="-40" offsetLabelY="9" source="tMap_3" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out4" lineStyle="0" metaname="out4" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out5" lineStyle="0" metaname="out5" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tMap_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="diagnosis" lineStyle="0" metaname="diagnosis" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_6" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="diagnosis" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="trees" lineStyle="0" metaname="trees" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_6" target="tFileOutputDelimited_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="trees" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="diseases" lineStyle="0" metaname="diseases" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_6" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="diseases" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="locations" lineStyle="0" metaname="locations" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_6" target="tFileOutputDelimited_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="locations" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
 </talendfile:ProcessType>

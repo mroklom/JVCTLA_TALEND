@@ -7,6 +7,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzupdspEeevaPExxVHDjA" name="coord_x" label="coord_x" length="20" talendType="id_Float"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuptspEeevaPExxVHDjA" name="coord_y" label="coord_y" length="20" talendType="id_Float"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzup9spEeevaPExxVHDjA" name="stationID" label="stationID" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K1Fa4NsuEeevaPExxVHDjA" name="sector" label="sector" length="20" talendType="id_Integer"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqNspEeevaPExxVHDjA" name="environmentTypeCode" label="environmentTypeCode" length="20" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqdspEeevaPExxVHDjA" name="environmentTypeDesc" label="environmentTypeDesc" length="20" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqtspEeevaPExxVHDjA" name="closestMall" label="closestMall" length="20" talendType="id_Integer"/>

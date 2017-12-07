@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_4=>" expression="Integer.parseInt(out3.diagnosisYear)">
+  <variables name="out3.ID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.coord_x" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="out3.coord_y" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="out3.sector" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="out3.seedingYear" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="out3.diagnosisYear" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.stationID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.stumpDiameter" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.species" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.environmentBusyness" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.genus" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.diagnosisNote" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.environmentTypeCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.environmentTypeDesc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.developmentStatus" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.sidewalkProximity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.vigor" value="null" talendType="id_String" nullable="true"/>
+  <variables name="out3.collar" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="out3.crown" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="out3.root" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="out3.trunk" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>
