@@ -1,0 +1,10 @@
+Créer des jobs pour enlever les champs inutiles et des jobs pour comparer les distances, car :
+
+PB: Union de formes géométriques différentes impossible. 
+Donc 3 calculs distances(ici ex parking) :
+
+d1 = d(arbre, parking point)
+d2 = d(arbre, parking ligne)
+d3 = d(arbre, parking polygone)
+
+Ce que nous voulons : min(d1, d2, d3)
