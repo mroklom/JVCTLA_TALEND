@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_MqktcdxNEeeN964KCT_BNg" name="X_geoloc_egc_merged_with_ids" dataPackage="_MqktctxNEeeN964KCT_BNg" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.X_geoloc_egc_merged_with_ids_File" Format="WINDOWS" Encoding="context.X_geoloc_egc_merged_with_ids_Encoding" FieldSeparatorValue="context.X_geoloc_egc_merged_with_ids_FieldSeparator" RowSeparatorValue="context.X_geoloc_egc_merged_with_ids_RowSeparator" UseHeader="true" HeaderValue="context.X_geoloc_egc_merged_with_ids_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MqktctxNEeeN964KCT_BNg" name="default" dataManager="_MqktcdxNEeeN964KCT_BNg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mqktc9xNEeeN964KCT_BNg" id="_8bFnENxMEeeN964KCT_BNg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SikbkNxNEeeN964KCT_BNg" name="id" label="id" length="20" talendType="id_String">
+        <initialValue xmi:id="_SikbkdxNEeeN964KCT_BNg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SikbktxNEeeN964KCT_BNg" name="coord_x" label="coord_x" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Sikbk9xNEeeN964KCT_BNg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SikblNxNEeeN964KCT_BNg" name="coord_y" label="coord_y" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_SikbldxNEeeN964KCT_BNg"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

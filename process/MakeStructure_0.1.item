@@ -2,52 +2,52 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="valentin_pc_fixe" jobType="Standard">
   <context confirmationNeeded="false" name="johanna_pc_portable">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_geoloc_egc_t2.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_geoloc_egc_t3.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_tree_egc_t1.csv"/>
     <contextParameter comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/Y_tree_egc_t1.csv"/>
     <contextParameter comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t2_RowSeparator" prompt="X_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_tree_egc_t2.csv"/>
     <contextParameter comment="" name="X_tree_egc_t2_FieldSeparator" prompt="X_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t2_Encoding" prompt="X_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t2_Header" prompt="X_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t3_RowSeparator" prompt="X_tree_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_tree_egc_t3.csv"/>
     <contextParameter comment="" name="X_tree_egc_t3_FieldSeparator" prompt="X_tree_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t3_Encoding" prompt="X_tree_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t3_Header" prompt="X_tree_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t2_Encoding" prompt="Y_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="Y_tree_egc_t2_FieldSeparator" prompt="Y_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/Y_tree_egc_t2.csv"/>
     <contextParameter comment="" name="Y_tree_egc_t2_Header" prompt="Y_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t2_RowSeparator" prompt="Y_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_RowSeparator" prompt="X_geoloc_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_geoloc_egc_merged.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_FieldSeparator" prompt="X_geoloc_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_Encoding" prompt="X_geoloc_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_Header" prompt="X_geoloc_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_merge_RowSeparator" prompt="X_tree_egc_merge_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_tree_egc_merged.csv"/>
     <contextParameter comment="" name="X_tree_egc_merged_FieldSeparator" prompt="X_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_merged_Encoding" prompt="X_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_merge_Header" prompt="X_tree_egc_merge_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
@@ -72,6 +72,21 @@
     <contextParameter comment="" name="trees_Encoding" prompt="trees_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="trees_RowSeparator" prompt="trees_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="trees_FieldSeparator" prompt="trees_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_RowSeparator" prompt="X_geoloc_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_Header" prompt="X_geoloc_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_FieldSeparator" prompt="X_geoloc_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_Encoding" prompt="X_geoloc_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_File" prompt="X_geoloc_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_geoloc_egc_merged_with_ids.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_Encoding" prompt="X_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_File" prompt="X_tree_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_tree_egc_merged_with_ids.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_FieldSeparator" prompt="X_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_RowSeparator" prompt="X_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_Header" prompt="X_tree_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_Encoding" prompt="Y_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_File" prompt="Y_tree_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged_with_ids.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_Header" prompt="Y_tree_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_FieldSeparator" prompt="Y_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_RowSeparator" prompt="Y_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context confirmationNeeded="false" name="valentin_pc_fixe">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
@@ -145,6 +160,21 @@
     <contextParameter comment="" name="trees_Encoding" prompt="trees_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="trees_RowSeparator" prompt="trees_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="trees_FieldSeparator" prompt="trees_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_RowSeparator" prompt="X_geoloc_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_Header" prompt="X_geoloc_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_FieldSeparator" prompt="X_geoloc_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_Encoding" prompt="X_geoloc_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_with_ids_File" prompt="X_geoloc_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_Encoding" prompt="X_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_File" prompt="X_tree_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_FieldSeparator" prompt="X_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_RowSeparator" prompt="X_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="X_tree_egc_merged_with_ids_Header" prompt="X_tree_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_Encoding" prompt="Y_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_File" prompt="Y_tree_egc_merged_with_ids_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_Header" prompt="Y_tree_egc_merged_with_ids_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_FieldSeparator" prompt="Y_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="Y_tree_egc_merged_with_ids_RowSeparator" prompt="Y_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -253,25 +283,25 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ddQEANVIEeeAUamxoyJpvw" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MqktcNxNEeeN964KCT_BNg" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.X_geoloc_egc_merged_File"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.X_geoloc_egc_merged_with_ids_File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_geoloc_egc_merged_RowSeparator"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_geoloc_egc_merged_with_ids_RowSeparator"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_geoloc_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_geoloc_egc_merged_with_ids_FieldSeparator"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="context.X_geoloc_egc_merged_Header"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.X_geoloc_egc_merged_with_ids_Header"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_ddQEANVIEeeAUamxoyJpvw - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_MqktcNxNEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_ddQEANVIEeeAUamxoyJpvw - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_MqktcNxNEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -289,7 +319,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_geoloc_egc_merged_Encoding"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_geoloc_egc_merged_with_ids_Encoding"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
@@ -303,7 +333,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="X_geoloc_egc_merged"/>
+    <elementParameter field="TEXT" name="LABEL" value="X_geoloc_egc_merged_with_ids"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
       <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -456,25 +486,25 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_25jtoNxLEeeN964KCT_BNg" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.X_tree_egc_merged_File"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.X_tree_egc_merged_with_ids_File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_tree_egc_merge_RowSeparator"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.X_tree_egc_merged_with_ids_RowSeparator"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_tree_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.X_tree_egc_merged_with_ids_FieldSeparator"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="context.X_tree_egc_merge_Header"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.X_tree_egc_merged_with_ids_Header"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_25jtoNxLEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_7wq1UNafEeeUSdc0eXqAlQ - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_25jtoNxLEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -542,7 +572,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_tree_egc_merged_Encoding"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.X_tree_egc_merged_with_ids_Encoding"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
@@ -606,10 +636,10 @@
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="X_tree_egc_merge"/>
+    <elementParameter field="TEXT" name="LABEL" value="X_tree_egc_merged_with_ids"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_2">
-      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -639,7 +669,7 @@
       <column comment="" key="false" length="30" name="VIGUEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ADR_SECTEUR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="ANNEEDEPLANTATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="ANNEEREALISATIONDIAGNOSTIC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -674,25 +704,25 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_1qvE0NqwEee7O_McRhvMDA" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_a2XoUNxOEeeN964KCT_BNg" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Y_tree_egc_merged_File"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Y_tree_egc_merged_with_ids_File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.Y_tree_egc_merged_RowSeparator"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.Y_tree_egc_merged_with_ids_RowSeparator"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.Y_tree_egc_merged_FieldSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.Y_tree_egc_merged_with_ids_FieldSeparator"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="context.Y_tree_egc_merged_Header"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.Y_tree_egc_merged_with_ids_Header"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_1qvE0NqwEee7O_McRhvMDA - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_a2XoUNxOEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_1qvE0NqwEee7O_McRhvMDA - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_a2XoUNxOEeeN964KCT_BNg - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -716,7 +746,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.Y_tree_egc_merged_Encoding"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.Y_tree_egc_merged_with_ids_Encoding"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
@@ -736,7 +766,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Y_tree_egc_merged"/>
+    <elementParameter field="TEXT" name="LABEL" value="Y_tree_egc_merged_with_ids"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_3">
       <column comment="" key="false" length="20" name="id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -982,15 +1012,15 @@
       <column comment="" key="false" length="1" name="trunk" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out4">
-        <mapperTableEntries name="ID" expression="Integer.parseInt(out3.ID) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ID" expression="out3.ID.toUpperCase().equals(&quot;N/A&quot;)? -999 : Integer.parseInt(out3.ID) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="coord_x" expression="out3.coord_x " type="id_Float" nullable="true"/>
         <mapperTableEntries name="coord_y" expression="out3.coord_y " type="id_Float" nullable="true"/>
         <mapperTableEntries name="sector" expression="out3.sector " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="seedingYear" expression="out3.seedingYear " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="diagnosisYear" expression="Integer.parseInt(out3.diagnosisYear) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="diagnosisYear" expression="out3.diagnosisYear.toUpperCase().equals(&quot;N/A&quot;)? -999 : Integer.parseInt(out3.diagnosisYear) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="stationID" expression="out3.stationID " type="id_String" nullable="true"/>
         <mapperTableEntries name="stumpDiameter" expression="out3.stumpDiameter " type="id_String" nullable="true"/>
         <mapperTableEntries name="species" expression="out3.species " type="id_String" nullable="true"/>

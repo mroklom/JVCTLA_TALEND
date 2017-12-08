@@ -2,52 +2,52 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="valentin_pc_fixe" jobType="Standard">
   <context confirmationNeeded="false" name="johanna_pc_portable">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_geoloc_egc_t2.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_geoloc_egc_t3.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_tree_egc_t1.csv"/>
     <contextParameter comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/Y_tree_egc_t1.csv"/>
     <contextParameter comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t2_RowSeparator" prompt="X_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/X_tree_egc_t2.csv"/>
     <contextParameter comment="" name="X_tree_egc_t2_FieldSeparator" prompt="X_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t2_Encoding" prompt="X_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t2_Header" prompt="X_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_t3_RowSeparator" prompt="X_tree_egc_t3_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset3/X_tree_egc_t3.csv"/>
     <contextParameter comment="" name="X_tree_egc_t3_FieldSeparator" prompt="X_tree_egc_t3_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_t3_Encoding" prompt="X_tree_egc_t3_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_t3_Header" prompt="X_tree_egc_t3_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t2_Encoding" prompt="Y_tree_egc_t2_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="Y_tree_egc_t2_FieldSeparator" prompt="Y_tree_egc_t2_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset2/Y_tree_egc_t2.csv"/>
     <contextParameter comment="" name="Y_tree_egc_t2_Header" prompt="Y_tree_egc_t2_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Y_tree_egc_t2_RowSeparator" prompt="Y_tree_egc_t2_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_RowSeparator" prompt="X_geoloc_egc_merged_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_geoloc_egc_merged.csv"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_FieldSeparator" prompt="X_geoloc_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_Encoding" prompt="X_geoloc_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_geoloc_egc_merged_Header" prompt="X_geoloc_egc_merged_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="X_tree_egc_merge_RowSeparator" prompt="X_tree_egc_merge_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/X_tree_egc_merged.csv"/>
     <contextParameter comment="" name="X_tree_egc_merged_FieldSeparator" prompt="X_tree_egc_merged_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="X_tree_egc_merged_Encoding" prompt="X_tree_egc_merged_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="X_tree_egc_merge_Header" prompt="X_tree_egc_merge_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
@@ -74,7 +74,7 @@
     <contextParameter comment="" name="diseases_Encoding" prompt="diseases_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="diseases_FieldSeparator" prompt="diseases_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="diseases_File" prompt="diseases_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diseases.csv"/>
-    <contextParameter comment="" name="diseases_Header" prompt="diseases_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="1"/>
+    <contextParameter comment="" name="diseases_Header" prompt="diseases_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="diseases_RowSeparator" prompt="diseases_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context confirmationNeeded="false" name="valentin_pc_fixe">
@@ -151,7 +151,7 @@
     <contextParameter comment="" name="diseases_Encoding" prompt="diseases_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="diseases_FieldSeparator" prompt="diseases_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="diseases_File" prompt="diseases_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/temp/merge/diseases.csv"/>
-    <contextParameter comment="" name="diseases_Header" prompt="diseases_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="1"/>
+    <contextParameter comment="" name="diseases_Header" prompt="diseases_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="diseases_RowSeparator" prompt="diseases_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <parameters>
@@ -365,7 +365,7 @@
       <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
@@ -550,7 +550,7 @@
       <column comment="" key="false" length="20" name="vigor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="ID" expression="row2.ID " type="id_Integer" nullable="true"/>
