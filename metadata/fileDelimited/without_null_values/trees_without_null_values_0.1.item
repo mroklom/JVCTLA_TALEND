@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SU3VId8eEee0UfCSUyYjeQ" name="trees_without_null_values" dataPackage="_SU3VIt8eEee0UfCSUyYjeQ" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.trees_without_null_values_File" Format="WINDOWS" Encoding="context.trees_without_null_values_Encoding" FieldSeparatorValue="context.trees_without_null_values_FieldSeparator" RowSeparatorValue="context.trees_without_null_values_RowSeparator" UseHeader="true" HeaderValue="context.trees_without_null_values_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SU3VIt8eEee0UfCSUyYjeQ" name="default" dataManager="_SU3VId8eEee0UfCSUyYjeQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SU3VI98eEee0UfCSUyYjeQ" id="_I4_QkN8eEee0UfCSUyYjeQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcQN8eEee0UfCSUyYjeQ" name="ID" label="ID" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_YTHcQd8eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcQt8eEee0UfCSUyYjeQ" name="species" label="species" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcQ98eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcRN8eEee0UfCSUyYjeQ" name="genus" label="genus" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcRd8eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcRt8eEee0UfCSUyYjeQ" name="seedingYear" label="seedingYear" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_YTHcR98eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcSN8eEee0UfCSUyYjeQ" name="seeding5YearPeriod" label="seeding5YearPeriod" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcSd8eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcSt8eEee0UfCSUyYjeQ" name="sidewalkProximity" label="sidewalkProximity" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcS98eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcTN8eEee0UfCSUyYjeQ" name="environmentBusyness" label="environmentBusyness" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcTd8eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcTt8eEee0UfCSUyYjeQ" name="vigor" label="vigor" length="20" talendType="id_String">
+        <initialValue xmi:id="_YTHcT98eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcUN8eEee0UfCSUyYjeQ" name="stumpDiameter" label="stumpDiameter" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_YTHcUd8eEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YTHcUt8eEee0UfCSUyYjeQ" name="stumpDiameterGroup" label="stumpDiameterGroup" length="20" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_YTHcU98eEee0UfCSUyYjeQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

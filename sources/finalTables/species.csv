@@ -1,4 +1,10 @@
 species;genus
+false;2014
+false;2013
+false;-999
+false;2015
+false;2011
+false;2012
 cordata;Alnus
 acerifolia;Platanus
 grandiflora;Magnolia
@@ -7,11 +13,11 @@ americana;Fraxinus
 abies;Picea
 excelsior;Fraxinus
 nigra;Populus
-N/A;Acer
-N/A;Tilia
+Unknown;Acer
+Unknown;Tilia
 tomentosa;Tilia
 verrucosa;Betula
-N/A;Carpinus
+Unknown;Carpinus
 styraciflua;Liquidambar
 pseudoplatanus;Acer
 retusus;Chionanthus
@@ -58,8 +64,8 @@ americana;Tilia
 alba;Populus
 negundo;Acer
 cerris;Quercus
-N/A;Thuja
-N/A;Fraxinus
+Unknown;Thuja
+Unknown;Fraxinus
 kagayamae;Morus
 regia;Juglans
 carnea;Aesculus
@@ -68,7 +74,7 @@ japonicum;ligustrum
 atlantica;Cedrus
 orientalis;Platanus
 suber;Quercus
-N/A;Prunus
+Unknown;Prunus
 bignonoides;Catalpa
 tartarica;Acer
 castaneifolia;Quercus
@@ -80,7 +86,7 @@ leylandii;Cupressocyparis
 calleryana;Pyrus
 nordmaniana;Abies
 bumalda;Staphylea
-N/A;Pinus
+Unknown;Pinus
 ceracifera;Prunus
 canadensis;Amélanchier
 platanoides;Robinia
@@ -88,7 +94,7 @@ coggygria;Cotinus
 paniculata;Koelreuteria
 campestris;Ulmus
 nigra;Sambuccus
-N/A;Malus
+Unknown;Malus
 danielli;Tetradium
 serrata;Zelkova
 sylvatica;Fagus
@@ -96,9 +102,9 @@ dioicus;Gymnocladus
 biloba;Ginkgo
 minor;Ulmus
 ilex;Quercus
-N/A;Populus
+Unknown;Populus
 giganteum;Sequoiadendron
-N/A;Salix
+Unknown;Salix
 ginnala;Acer
 yedoensis;Prunus
 robusta;Populus
@@ -114,7 +120,7 @@ thyphina;Rhus
 lamarcki;Amélanchier
 tschonoskii;Malus
 aria;Sorbus
-N/A;Pyrus
+Unknown;Pyrus
 chinensis;Cercis
 plicata;Thuja
 oxyacantha;Crataegus
@@ -124,8 +130,8 @@ fragmantissima;Lonicera
 amurense;Syringa
 rubrum;Acer
 angustifolia;Fraxinus
-N/A;Ulmus
-N/A;Metasequoia
+Unknown;Ulmus
+Unknown;Metasequoia
 decurens;Libocedrus
 golden;Malus
 frainetto;Quercus
@@ -148,26 +154,26 @@ distychum;Taxodium
 pungens;Picea
 jullibrissin;Albizia
 velutina;Fraxinus
-N/A;Zelkova
+Unknown;Zelkova
 chinensis;Pistacia
-N/A;Alnus
-N/A;Quercus
+Unknown;Alnus
+Unknown;Quercus
 petraea;Quercus
 saccharum;Acer
 lusitanica;Prunus
-N/A;Magnolia
-N/A;Picea
+Unknown;Magnolia
+Unknown;Picea
 laurocerasus;Prunus
 soulangiana;Magnolia
 salicifolia;Pyrus
 alnifolia fastigiata;Amélanchier
 resista;Ulmus
 lotus;Diospyros
-N/A;Sorbus
+Unknown;Sorbus
 monticola;Halesia
 anagynoides;Laburnum
 tortuosa;Salix
-N/A;Clerodendron
+Unknown;Clerodendron
 simonii;Populus
 magnifica;Sorbus
 sinensis;Celtis
@@ -175,9 +181,9 @@ tremula;Populus
 mongolica;Tilia
 freemani;Acer
 carpinifolia;Ostrya
-N/A;Crataegus
+Unknown;Crataegus
 glutinosa;Alnus
-N/A;Araucaria
+Unknown;Araucaria
 involucrata;Davidia
 occidentalis;Thuja
 papyrifera;Betula
@@ -185,19 +191,19 @@ latifolia;Phillyrea
 nivalis;Pyrus
 nooktensis;Chamaecyparis
 domestica;Prunus
-N/A;Amélanchier
+Unknown;Amélanchier
 aquifolium;Ilex
 cerasus;Prunus
 pendula;Pyrus
 pumila;Malus
-N/A;Betula
+Unknown;Betula
 buergerianum;Acer
 reine claude;Prunier
-N/A;Aesculus
+Unknown;Aesculus
 elegantissima;Gleditsia
 palustris;Quercus
 everest;Malus
-N/A;Lonicera
+Unknown;Lonicera
 vulgaris;Cydonia
 magnificum;Cercidiphyllum
 mandshurica;Fraxinus
@@ -206,13 +212,13 @@ sinense;ligustrum
 glabra;Ulmus
 griseum;Acer
 montana;Ulmus
-N/A;Cedrus
+Unknown;Cedrus
 macrocarpa;Quercus
 aucuparia;Sorbus
 capillipes;Acer
 willosa;Photinia
 nigra;Betula
-N/A;Cupressus
+Unknown;Cupressus
 libani;Cedrus
 armeniaca;Prunus
 pinsapo;Abies
@@ -234,7 +240,7 @@ sempervirens;Buxus
 cuspidata;Sorbus
 falcata;Quercus
 purpurea;Betula
-N/A;Gleditsia
+Unknown;Gleditsia
 saccharinum wieri;Acer
 phillyreoides;Fontanesia
 oblonga;Cydonia
@@ -252,11 +258,11 @@ japonica;Eriobotrya
 euchlora;Tilia
 controversa;Cornus
 harringtonia;Cephalotaxus
-N/A;Chamaecyparis
+Unknown;Chamaecyparis
 ibernica;Taxus
 variabilis;Quercus
 padus;Prunus
-N/A;Poncinos
+Unknown;Poncinos
 alaterne;Nerprun
 mugo mughus;Pinus
 trilobata;Rhus
@@ -278,16 +284,16 @@ virginiana;Juniperus
 kaki;Diospyros
 monogyna;Crataegus
 mughus;Pinus
-N/A;Pterocarya
+Unknown;Pterocarya
 florida;Cornus
 crenata;Zelkova
-N/A;Abies
+Unknown;Abies
 japonicum;Cercidiphyllum
 pendula roth;Betula
 torminalis;Sorbus
 parviflora;Aesculus
 coccinea;Quercus
-N/A;Juniperus
+Unknown;Juniperus
 sinensis;Cedrela
 royalty;Malus
 lavallei;Crataegus
@@ -298,7 +304,7 @@ stellata;Magnolia
 formonensis;Chamaecyparis
 laciniata;Betula
 stenoptea;Pterocarya
-N/A;Sterculia
+Unknown;Sterculia
 nigra austriaca;Pinus
 utilis;Acer
 pisifera;Chamaecyparis
@@ -306,7 +312,7 @@ glyptostroboides;Metasequoia
 sieboldiana;Fraxinus
 auricularis;Sorbopyrus
 zoeschense;Acer
-N/A;Pteroceltis
+Unknown;Pteroceltis
 fortunei;Trachycarpus
 lasiocarpa;Populus
 watereri;Laburnum
@@ -314,7 +320,7 @@ phellos;Quercus
 tomentosa;Tetradium
 europaea;Tilia
 new horizon;Ulmus
-N/A;Eleagnus
+Unknown;Eleagnus
 heptapeta;Magnolia
 tomentosa;Prunus
 palmatum;Acer

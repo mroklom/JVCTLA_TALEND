@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_duOPgd8dEee0UfCSUyYjeQ" name="diagnosis_without_null_values" dataPackage="_duOPgt8dEee0UfCSUyYjeQ" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.diagnosis_withou_null_values_File" Format="WINDOWS" Encoding="context.diagnosis_without_null_values_Encoding" FieldSeparatorValue="context.diagnosis_wihtout_null_values_FieldSeparator" RowSeparatorValue="context.diagnosis_wihtout_null_values_RowSeparator" UseHeader="true" HeaderValue="context.diagnosis_wihtout_null_values_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_duOPgt8dEee0UfCSUyYjeQ" name="default" dataManager="_duOPgd8dEee0UfCSUyYjeQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_duOPg98dEee0UfCSUyYjeQ" id="_UbijMN8dEee0UfCSUyYjeQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnMN8dEee0UfCSUyYjeQ" name="ID" label="ID" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_ioWnMd8dEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnMt8dEee0UfCSUyYjeQ" name="isLast" label="isLast" length="1" talendType="id_Boolean">
+        <initialValue xmi:id="_ioWnM98dEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnNN8dEee0UfCSUyYjeQ" name="diagnosisYear" label="diagnosisYear" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_ioWnNd8dEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnNt8dEee0UfCSUyYjeQ" name="diagnosis5YearPeriod" label="diagnosis5YearPeriod" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_ioWnN98dEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnON8dEee0UfCSUyYjeQ" name="diagnosisNote" label="diagnosisNote" length="20" talendType="id_String">
+        <initialValue xmi:id="_ioWnOd8dEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ioWnOt8dEee0UfCSUyYjeQ" name="developmentStatus" label="developmentStatus" length="20" talendType="id_String">
+        <initialValue xmi:id="_ioWnO98dEee0UfCSUyYjeQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

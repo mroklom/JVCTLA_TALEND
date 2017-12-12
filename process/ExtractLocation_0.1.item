@@ -106,7 +106,7 @@
     <contextParameter comment="" name="species_File" prompt="species_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/valen/Documents/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/species.csv"/>
     <contextParameter comment="" name="species_Header" prompt="species_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="species_RowSeparator" prompt="species_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="location_File" prompt="location_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/valen/Documents/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/species.csv"/>
+    <contextParameter comment="" name="location_File" prompt="location_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/valen/Documents/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/location.csv"/>
     <contextParameter comment="" name="location_Encoding" prompt="location_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="location_FieldSeparator" prompt="location_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="location_RowSeparator" prompt="location_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
@@ -607,7 +607,7 @@
       <column comment="" key="false" length="20" name="IDPollutionStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="20" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="coord_x" expression="row1.coord_x " type="id_Float" nullable="true"/>

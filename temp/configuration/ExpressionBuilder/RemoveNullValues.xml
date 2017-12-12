@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.diagnosisNote.toUpperCase().equals(&quot;N/A&quot;)|| row1.diagnosisNote.equals(&quot;&quot;)? &quot;Unknown&quot; : row1.diagnosisNote">
+  <variables name="row1.ID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.isLast" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row1.diagnosisYear" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.diagnosis5YearPeriod" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.diagnosisNote" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.developmentStatus" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

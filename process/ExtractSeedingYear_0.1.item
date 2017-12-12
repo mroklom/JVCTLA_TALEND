@@ -95,6 +95,11 @@
     <contextParameter comment="" name="seedingYear_File" prompt="seedingYear_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/valen/Documents/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/seedingYear.csv"/>
     <contextParameter comment="" name="seedingYear_RowSeparator" prompt="seedingYear_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="seedingYear_Encoding" prompt="seedingYear_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_FieldSeparator" prompt="trees_without_null_values_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="trees_without_null_values_Header" prompt="trees_without_null_values_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="trees_without_null_values_Encoding" prompt="trees_without_null_values_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_File" prompt="trees_without_null_values_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/valen/Documents/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/without_null_values/trees_without_null_values.csv"/>
+    <contextParameter comment="" name="trees_without_null_values_RowSeparator" prompt="trees_without_null_values_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context confirmationNeeded="false" name="johanna_pc_portable">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
@@ -191,6 +196,11 @@
     <contextParameter comment="" name="seedingYear_File" prompt="seedingYear_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/seedingYear.csv"/>
     <contextParameter comment="" name="seedingYear_RowSeparator" prompt="seedingYear_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="seedingYear_Encoding" prompt="seedingYear_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_FieldSeparator" prompt="trees_without_null_values_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="trees_without_null_values_Header" prompt="trees_without_null_values_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="trees_without_null_values_Encoding" prompt="trees_without_null_values_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_File" prompt="trees_without_null_values_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/wihtout_null_values/trees_without_null_values.csv"/>
+    <contextParameter comment="" name="trees_without_null_values_RowSeparator" prompt="trees_without_null_values_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context confirmationNeeded="false" name="valentin_pc_fixe">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
@@ -287,6 +297,11 @@
     <contextParameter comment="" name="seedingYear_File" prompt="seedingYear_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/seedingYear.csv"/>
     <contextParameter comment="" name="seedingYear_RowSeparator" prompt="seedingYear_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="seedingYear_Encoding" prompt="seedingYear_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_FieldSeparator" prompt="trees_without_null_values_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="trees_without_null_values_Header" prompt="trees_without_null_values_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="trees_without_null_values_Encoding" prompt="trees_without_null_values_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trees_without_null_values_File" prompt="trees_without_null_values_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/without_null_values/trees_without_null_values.csv"/>
+    <contextParameter comment="" name="trees_without_null_values_RowSeparator" prompt="trees_without_null_values_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -395,25 +410,25 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_D5DPINspEeevaPExxVHDjA" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_SU3VIN8eEee0UfCSUyYjeQ" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.trees_File"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.trees_without_null_values_File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.trees_RowSeparator"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.trees_without_null_values_RowSeparator"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.trees_FieldSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.trees_without_null_values_FieldSeparator"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="context.trees_Header"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.trees_without_null_values_Header"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_D5DPINspEeevaPExxVHDjA - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_SU3VIN8eEee0UfCSUyYjeQ - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_D5DPINspEeevaPExxVHDjA - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_SU3VIN8eEee0UfCSUyYjeQ - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -438,10 +453,14 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="vigor"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stumpDiameter"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stumpDiameterGroup"/>
+      <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.trees_Encoding"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.trees_without_null_values_Encoding"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
@@ -462,10 +481,14 @@
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="vigor"/>
       <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stumpDiameter"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stumpDiameterGroup"/>
+      <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="trees"/>
+    <elementParameter field="TEXT" name="LABEL" value="trees without null values"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
       <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -476,6 +499,8 @@
       <column comment="" key="false" length="20" name="sidewalkProximity" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="environmentBusyness" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="vigor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameterGroup" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -486,6 +511,8 @@
       <column comment="" key="false" length="20" name="sidewalkProximity" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="environmentBusyness" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="vigor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameter" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="stumpDiameterGroup" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -522,6 +549,8 @@
         <mapperTableEntries name="sidewalkProximity" type="id_String" nullable="true"/>
         <mapperTableEntries name="environmentBusyness" type="id_String" nullable="true"/>
         <mapperTableEntries name="vigor" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameterGroup" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>

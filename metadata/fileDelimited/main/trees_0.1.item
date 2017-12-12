@@ -11,6 +11,8 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2ONspEeevaPExxVHDjA" name="sidewalkProximity" label="sidewalkProximity" length="20" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2OdspEeevaPExxVHDjA" name="environmentBusyness" label="environmentBusyness" length="20" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D5D2OtspEeevaPExxVHDjA" name="vigor" label="vigor" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bo_3IN8XEee0UfCSUyYjeQ" name="stumpDiameter" label="stumpDiameter" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dbNboN8XEee0UfCSUyYjeQ" name="stumpDiameterGroup" label="stumpDiameterGroup" length="20" talendType="id_Integer"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
