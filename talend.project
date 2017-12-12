@@ -295,7 +295,6 @@
     <ItemsRelations xmi:id="_8v1xoN8WEee0UfCSUyYjeQ">
       <baseItem xmi:id="_8v1xod8WEee0UfCSUyYjeQ" id="_wBnLgN8WEee0UfCSUyYjeQ" version="0.1" type="job"/>
       <relatedItems xmi:id="_8v1xot8WEee0UfCSUyYjeQ" id="_BXGxMNRiEeevt7A7e6Mzcw" version="Latest" type="context"/>
-      <relatedItems xmi:id="_8v1xo98WEee0UfCSUyYjeQ" id="_D5DPINspEeevaPExxVHDjA" version="Latest" type="property"/>
       <relatedItems xmi:id="_8v1xpN8WEee0UfCSUyYjeQ" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8v1xpd8WEee0UfCSUyYjeQ" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8v1xpt8WEee0UfCSUyYjeQ" id="TalendString" version="Latest" type="routine"/>
@@ -305,7 +304,10 @@
       <relatedItems xmi:id="_8v1xqt8WEee0UfCSUyYjeQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8v1xq98WEee0UfCSUyYjeQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8v1xrN8WEee0UfCSUyYjeQ" id="Mathematical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_8v1xrd8WEee0UfCSUyYjeQ" id="_D5DPINspEeevaPExxVHDjA - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_ThmjIN8gEee0UfCSUyYjeQ" id="_SU3VIN8eEee0UfCSUyYjeQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_ThmjId8gEee0UfCSUyYjeQ" id="_SU3VIN8eEee0UfCSUyYjeQ - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_N79-EN8lEee0UfCSUyYjeQ" id="_CIODMN8lEee0UfCSUyYjeQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_N79-Ed8lEee0UfCSUyYjeQ" id="_CIODMN8lEee0UfCSUyYjeQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_hrKOwNRfEeegRtCSnIMgNw" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_hrKOwdRfEeegRtCSnIMgNw" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>

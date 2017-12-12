@@ -381,7 +381,7 @@
       <column comment="" key="false" length="20" name="developmentStatus" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
@@ -590,8 +590,8 @@
         <mapperTableEntries name="seeding5YearPeriod" expression="row2.seeding5YearPeriod " type="id_String" nullable="true"/>
         <mapperTableEntries name="sidewalkProximity" expression="row2.sidewalkProximity " type="id_String" nullable="true"/>
         <mapperTableEntries name="environmentBusyness" expression="row2.environmentBusyness " type="id_String" nullable="true"/>
-        <mapperTableEntries name="vigor" expression="row2.vigor.toUpperCase().equals(&quot;N/A&quot;)? &quot;Unknown&quot; : row2.vigor " type="id_String" nullable="true"/>
-        <mapperTableEntries name="stumpDiameter" expression="&quot;stumpdiameter&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="vigor" expression="row2.vigor.toUpperCase().equals(&quot;N/A&quot;)|| row2.vigor.equals(&quot;&quot;)? &quot;Unknown&quot; : row2.vigor " type="id_String" nullable="true"/>
+        <mapperTableEntries name="stumpDiameter" expression="row2.stumpDiameter.toUpperCase().equals(&quot;N/A&quot;)|| row2.stumpDiameter.equals(&quot;&quot;)? &quot;Unknown&quot; : row2.stumpDiameter " type="id_String" nullable="true"/>
         <mapperTableEntries name="stumpDiameterGroup" expression="row2.stumpDiameterGroup " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
