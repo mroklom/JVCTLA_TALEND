@@ -584,7 +584,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="ID" expression="row2.ID " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="species" expression="row2.species.toUpperCase().equals(&quot;N/A&quot;)? &quot;Unknown&quot; : row2.species " type="id_String" nullable="true"/>
+        <mapperTableEntries name="species" expression="row2.species.toUpperCase().equals(&quot;N/A&quot;)|| row2.species.equals(&quot;&quot;)? &quot;Unknown&quot; : row2.species " type="id_String" nullable="true"/>
         <mapperTableEntries name="genus" expression="row2.genus " type="id_String" nullable="true"/>
         <mapperTableEntries name="seedingYear" expression="row2.seedingYear " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="seeding5YearPeriod" expression="row2.seeding5YearPeriod " type="id_String" nullable="true"/>
