@@ -487,7 +487,7 @@
       <column comment="" key="false" length="20" name="diseases" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
@@ -495,7 +495,7 @@
         <mapperTableEntries name="trunk" expression="row1.trunk " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="collar" expression="row1.collar " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="crown" expression="row1.crown " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="diseases" expression="(row1.root == null ? &quot;&quot; : row1.root == 1 ? &quot;R&quot; : row1.root == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.trunk == null ? &quot;&quot; : row1.trunk == 1 ? &quot;R&quot; : row1.trunk == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.collar == null ? &quot;&quot; : row1.collar == 1 ? &quot;R&quot; : row1.collar == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.crown == null ? &quot;&quot; : row1.crown == 1 ? &quot;R&quot; : row1.crown == 0 ? &quot;x&quot; : &quot;&quot;) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="diseases" expression="(row1.root == null ? &quot;&quot; : row1.root == 1 ? &quot;R&quot; : row1.root == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.trunk == null ? &quot;&quot; : row1.trunk == 1 ? &quot;T&quot; : row1.trunk == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.collar == null ? &quot;&quot; : row1.collar == 1 ? &quot;C&quot; : row1.collar == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.crown == null ? &quot;&quot; : row1.crown == 1 ? &quot;K&quot; : row1.crown == 0 ? &quot;x&quot; : &quot;&quot;) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>

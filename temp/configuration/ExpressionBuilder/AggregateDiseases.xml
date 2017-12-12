@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="(row1.root == null ? &quot;&quot; : row1.root == 1 ? &quot;R&quot; : row1.root == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.trunk == null ? &quot;&quot; : row1.trunk == 1 ? &quot;T&quot; : row1.trunk == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.collar == null ? &quot;&quot; : row1.collar == 1 ? &quot;C&quot; : row1.collar == 0 ? &quot;x&quot; : &quot;&quot;) +&#xD;&#xA;(row1.crown == null ? &quot;&quot; : row1.crown == 1 ? &quot;K&quot; : row1.crown == 0 ? &quot;x&quot; : &quot;&quot;)">
+  <variables name="row1.ID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.root" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.trunk" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.collar" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.crown" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.diseases" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
