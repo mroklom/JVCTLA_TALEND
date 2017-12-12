@@ -233,7 +233,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 232;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 233;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 234;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-235;false;2015;2015;N/A;Arbre adulte
+235;false;2015;2015;;Arbre adulte
 236;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 237;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 238;false;2013;2010;Arbre d'avenir normal;Arbre jeune
@@ -243,13 +243,13 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 242;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 243;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 244;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-245;false;2015;2015;N/A;Arbre adulte
+245;false;2015;2015;;Arbre adulte
 246;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 247;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 248;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 249;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 250;false;2013;2010;Arbre d'avenir normal;Arbre jeune
-251;false;2015;2015;N/A;Arbre adulte
+251;false;2015;2015;;Arbre adulte
 252;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 253;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 254;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
@@ -470,7 +470,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 469;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 470;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 471;false;2013;2010;Arbre d'avenir normal;Arbre jeune
-472;false;2015;2015;Arbre d'avenir normal;N/A
+472;false;2015;2015;Arbre d'avenir normal;Unknown
 473;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 474;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 475;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -1413,7 +1413,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 1412;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 1413;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 1414;false;2015;2015;Arbre d'avenir incertain;Arbre vieillissant
-1415;false;2015;2015;N/A;Arbre adulte
+1415;false;2015;2015;;Arbre adulte
 1416;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 1417;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 1418;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -1643,7 +1643,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 1642;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 1643;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 1644;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-1645;false;2015;2015;N/A;Arbre jeune
+1645;false;2015;2015;;Arbre jeune
 1646;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 1647;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 1648;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -2075,7 +2075,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 2074;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 2075;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 2076;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-2077;false;2015;2015;Arbre à abattre dans les 10 ans;N/A
+2077;false;2015;2015;Arbre à abattre dans les 10 ans;Unknown
 2078;false;2014;2010;Arbre d'avenir incertain;Arbre adulte
 2079;false;2014;2010;Arbre d'avenir incertain;Arbre adulte
 2080;false;2014;2010;Arbre d'avenir normal;Arbre jeune
@@ -2329,7 +2329,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 2328;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 2329;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 2330;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-2331;false;2015;2015;N/A;Arbre adulte
+2331;false;2015;2015;;Arbre adulte
 2332;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 2333;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 2334;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -2380,7 +2380,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 2379;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 2380;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 2381;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-2382;false;2015;2015;N/A;Arbre adulte
+2382;false;2015;2015;;Arbre adulte
 2383;false;2013;2010;Arbre d'avenir incertain;Arbre jeune
 2384;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 2385;false;2013;2010;Arbre d'avenir normal;Arbre jeune
@@ -2955,7 +2955,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 2954;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 2955;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 2956;false;2015;2015;Arbre à abattre dans les 5 ans;Arbre adulte
-2957;false;2015;2015;N/A;Arbre vieillissant
+2957;false;2015;2015;;Arbre vieillissant
 2958;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 2959;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 2960;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -2965,7 +2965,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 2964;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 2965;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 2966;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-2967;false;2015;2015;N/A;Arbre adulte
+2967;false;2015;2015;;Arbre adulte
 2968;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 2969;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 2970;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -3119,7 +3119,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 3118;false;2014;2010;Arbre d'avenir incertain;Arbre jeune
 3119;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 3120;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-3121;false;2015;2015;N/A;Arbre adulte
+3121;false;2015;2015;;Arbre adulte
 3122;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 3123;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 3124;false;2015;2015;Arbre d'avenir normal;Arbre jeune
@@ -3132,7 +3132,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 3131;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 3132;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 3133;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-3134;false;2015;2015;N/A;Arbre adulte
+3134;false;2015;2015;;Arbre adulte
 3135;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 3136;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 3137;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -4250,7 +4250,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 4249;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 4250;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 4251;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-4252;false;-999;-995;Arbre d'avenir incertain;N/A
+4252;false;-999;-995;Arbre d'avenir incertain;Unknown
 4253;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
 4254;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 4255;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -4302,7 +4302,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 4301;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 4302;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 4303;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
-4304;false;2015;2015;N/A;Arbre adulte
+4304;false;2015;2015;;Arbre adulte
 4305;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 4306;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 4307;false;2013;2010;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -5422,7 +5422,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 5421;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 5422;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 5423;false;2013;2010;Arbre d'avenir normal;Arbre jeune
-5424;false;2015;2015;N/A;Arbre adulte
+5424;false;2015;2015;;Arbre adulte
 5425;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 5426;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 5427;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -5621,7 +5621,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 5620;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 5621;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 5622;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-5623;false;2015;2015;N/A;Arbre jeune
+5623;false;2015;2015;;Arbre jeune
 5624;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 5625;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 5626;false;2015;2015;Arbre à abattre dans les 5 ans;Arbre jeune
@@ -6004,7 +6004,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 6003;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 6004;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 6005;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-6006;false;2015;2015;Arbre à abattre dans les 5 ans;N/A
+6006;false;2015;2015;Arbre à abattre dans les 5 ans;Unknown
 6007;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 6008;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre vieillissant
 6009;false;2015;2015;Arbre d'avenir normal;Arbre jeune
@@ -6142,7 +6142,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 6141;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 6142;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 6143;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-6144;false;2015;2015;N/A;N/A
+6144;false;2015;2015;;Unknown
 6145;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 6146;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 6147;false;2014;2010;Arbre d'avenir normal;Arbre jeune
@@ -6168,7 +6168,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 6167;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 6168;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 6169;false;2014;2010;Arbre d'avenir normal;Arbre jeune
-6170;false;2015;2015;N/A;Arbre adulte
+6170;false;2015;2015;;Arbre adulte
 6171;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 6172;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 6173;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -7229,7 +7229,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 7228;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 7229;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
 7230;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-7231;false;2015;2015;N/A;Arbre adulte
+7231;false;2015;2015;;Arbre adulte
 7232;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 7233;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 7234;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -7387,13 +7387,13 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 7386;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 7387;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 7388;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-7389;false;2015;2015;N/A;Arbre adulte
+7389;false;2015;2015;;Arbre adulte
 7390;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 7391;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 7392;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 7393;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 7394;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-7395;false;2015;2015;Arbre à abattre dans les 5 ans;N/A
+7395;false;2015;2015;Arbre à abattre dans les 5 ans;Unknown
 7396;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 7397;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 7398;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -7595,7 +7595,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 7594;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 7595;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 7596;false;2015;2015;Arbre à abattre dans les 5 ans;Arbre vieillissant
-7597;false;2015;2015;N/A;Arbre adulte
+7597;false;2015;2015;;Arbre adulte
 7598;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 7599;false;2014;2010;Arbre à abattre dans les 10 ans;Arbre adulte
 7600;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -8578,14 +8578,14 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 8577;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 8578;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 8579;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-8580;false;2015;2015;N/A;Arbre adulte
+8580;false;2015;2015;;Arbre adulte
 8581;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 8582;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 8583;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 8584;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 8585;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 8586;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-8587;false;2015;2015;N/A;Arbre adulte
+8587;false;2015;2015;;Arbre adulte
 8588;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 8589;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 8590;false;2014;2010;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -8599,7 +8599,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 8598;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 8599;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 8600;false;2015;2015;Arbre d'avenir normal;Arbre jeune
-8601;false;2015;2015;N/A;Arbre adulte
+8601;false;2015;2015;;Arbre adulte
 8602;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 8603;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 8604;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -8653,7 +8653,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 8652;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 8653;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 8654;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-8655;false;2015;2015;N/A;N/A
+8655;false;2015;2015;;Unknown
 8656;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 8657;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 8658;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -8716,7 +8716,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 8715;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 8716;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 8717;false;2014;2010;Arbre d'avenir incertain;Arbre jeune
-8718;false;2015;2015;N/A;Arbre adulte
+8718;false;2015;2015;;Arbre adulte
 8719;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 8720;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 8721;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -9596,7 +9596,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 9595;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 9596;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 9597;false;2014;2010;Arbre d'avenir normal;Arbre jeune
-9598;false;2015;2015;N/A;N/A
+9598;false;2015;2015;;Unknown
 9599;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 9600;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 9601;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -9651,7 +9651,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 9650;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 9651;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 9652;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-9653;false;2015;2015;N/A;Arbre jeune
+9653;false;2015;2015;;Arbre jeune
 9654;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre vieillissant
 9655;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 9656;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -10045,7 +10045,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 10044;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 10045;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 10046;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-10047;false;2015;2015;N/A;Arbre adulte
+10047;false;2015;2015;;Arbre adulte
 10048;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 10049;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 10050;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -10608,7 +10608,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 10607;false;2014;2010;Arbre à abattre dans les 10 ans;Arbre vieillissant
 10608;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 10609;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-10610;false;2015;2015;N/A;Arbre adulte
+10610;false;2015;2015;;Arbre adulte
 10611;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 10612;false;2015;2015;Arbre d'avenir incertain;Arbre vieillissant
 10613;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -10956,7 +10956,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 10955;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 10956;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 10957;false;2014;2010;Arbre d'avenir incertain;Arbre vieillissant
-10958;false;2015;2015;N/A;Arbre adulte
+10958;false;2015;2015;;Arbre adulte
 10959;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 10960;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 10961;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -11037,7 +11037,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 11036;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 11037;false;2015;2015;Arbre d'avenir normal;Arbre vieillissant
 11038;false;2015;2015;Arbre d'avenir normal;Arbre jeune
-11039;false;2015;2015;N/A;Arbre adulte
+11039;false;2015;2015;;Arbre adulte
 11040;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 11041;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 11042;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -11599,7 +11599,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 11598;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 11599;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 11600;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-11601;false;2015;2015;N/A;Arbre adulte
+11601;false;2015;2015;;Arbre adulte
 11602;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 11603;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 11604;false;2013;2010;Arbre d'avenir normal;Arbre jeune
@@ -11930,7 +11930,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 11929;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 11930;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 11931;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-11932;false;2015;2015;N/A;N/A
+11932;false;2015;2015;;Unknown
 11933;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 11934;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 11935;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -11966,7 +11966,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 11965;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 11966;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 11967;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-11968;false;2015;2015;N/A;Arbre adulte
+11968;false;2015;2015;;Arbre adulte
 11969;false;2014;2010;Arbre d'avenir normal;Arbre vieillissant
 11970;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 11971;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -12154,7 +12154,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 12153;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 12154;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 12155;false;2014;2010;Arbre d'avenir normal;Arbre jeune
-12156;false;2015;2015;N/A;N/A
+12156;false;2015;2015;;Unknown
 12157;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
 12158;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 12159;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -12323,7 +12323,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 12322;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 12323;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 12324;false;2014;2010;Arbre d'avenir normal;Arbre jeune
-12325;false;2015;2015;N/A;N/A
+12325;false;2015;2015;;Unknown
 12326;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 12327;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 12328;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -12877,7 +12877,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 12876;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 12877;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 12878;false;2014;2010;Arbre à abattre dans les 5 ans;Arbre vieillissant
-12879;false;2015;2015;N/A;Arbre adulte
+12879;false;2015;2015;;Arbre adulte
 12880;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 12881;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 12882;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -13303,7 +13303,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 13302;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 13303;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 13304;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-13305;false;2015;2015;Arbre d'avenir normal;N/A
+13305;false;2015;2015;Arbre d'avenir normal;Unknown
 13306;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 13307;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 13308;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -13397,7 +13397,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 13396;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 13397;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 13398;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-13399;false;2015;2015;Arbre d'avenir normal;N/A
+13399;false;2015;2015;Arbre d'avenir normal;Unknown
 13400;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 13401;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 13402;false;2014;2010;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -14495,7 +14495,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 14494;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 14495;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 14496;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-14497;false;2015;2015;N/A;Arbre adulte
+14497;false;2015;2015;;Arbre adulte
 14498;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 14499;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 14500;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -14574,7 +14574,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 14573;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 14574;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 14575;false;2015;2015;Arbre d'avenir normal;Arbre adulte
-14576;false;2015;2015;N/A;Arbre adulte
+14576;false;2015;2015;;Arbre adulte
 14577;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 14578;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 14579;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -14702,7 +14702,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 14701;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 14702;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 14703;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-14704;false;2015;2015;N/A;Arbre adulte
+14704;false;2015;2015;;Arbre adulte
 14705;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 14706;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 14707;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -15296,7 +15296,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 15295;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 15296;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 15297;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-15298;false;2015;2015;N/A;Arbre adulte
+15298;false;2015;2015;;Arbre adulte
 15299;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 15300;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 15301;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -15377,7 +15377,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 15376;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 15377;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 15378;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-15379;false;2015;2015;N/A;Arbre adulte
+15379;false;2015;2015;;Arbre adulte
 15380;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 15381;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 15382;false;2015;2015;Arbre d'avenir normal;Arbre jeune
@@ -15461,7 +15461,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 15460;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 15461;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 15462;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-15463;false;2015;2015;Arbre d'avenir normal;N/A
+15463;false;2015;2015;Arbre d'avenir normal;Unknown
 15464;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 15465;false;2013;2010;Arbre d'avenir incertain;Arbre jeune
 15466;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -15533,7 +15533,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 15532;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 15533;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 15534;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-15535;false;2015;2015;N/A;Arbre adulte
+15535;false;2015;2015;;Arbre adulte
 15536;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 15537;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 15538;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
@@ -15580,10 +15580,10 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 15579;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 15580;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 15581;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-15582;false;2015;2015;N/A;Arbre vieillissant
+15582;false;2015;2015;;Arbre vieillissant
 15583;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 15584;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-15585;false;2015;2015;N/A;Arbre adulte
+15585;false;2015;2015;;Arbre adulte
 15586;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 15587;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 15588;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
@@ -16018,7 +16018,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 16017;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 16018;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 16019;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre vieillissant
-16020;false;2015;2015;N/A;Arbre jeune
+16020;false;2015;2015;;Arbre jeune
 16021;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 16022;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 16023;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -16610,7 +16610,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 16609;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 16610;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 16611;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-16612;false;2015;2015;N/A;Arbre adulte
+16612;false;2015;2015;;Arbre adulte
 16613;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 16614;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 16615;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -16854,7 +16854,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 16853;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 16854;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 16855;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
-16856;false;2015;2015;N/A;Arbre adulte
+16856;false;2015;2015;;Arbre adulte
 16857;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 16858;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 16859;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
@@ -16990,7 +16990,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 16989;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 16990;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 16991;false;2014;2010;Arbre d'avenir normal;Arbre jeune
-16992;false;2015;2015;N/A;Arbre adulte
+16992;false;2015;2015;;Arbre adulte
 16993;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 16994;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 16995;false;2014;2010;Arbre d'avenir normal;Arbre adulte
@@ -17014,7 +17014,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 17013;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 17014;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 17015;false;2015;2015;Arbre à abattre dans les 5 ans;Arbre adulte
-17016;false;2015;2015;N/A;Arbre adulte
+17016;false;2015;2015;;Arbre adulte
 17017;false;2015;2015;Arbre d'avenir incertain;Arbre jeune
 17018;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 17019;false;2015;2015;Arbre d'avenir normal;Arbre jeune
@@ -17852,7 +17852,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 17851;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 17852;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 17853;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-17854;false;2015;2015;N/A;N/A
+17854;false;2015;2015;;Unknown
 17855;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 17856;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 17857;false;2014;2010;Arbre d'avenir normal;Arbre jeune
@@ -17929,7 +17929,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 17928;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 17929;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 17930;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-17931;false;2015;2015;N/A;Arbre adulte
+17931;false;2015;2015;;Arbre adulte
 17932;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 17933;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 17934;false;2014;2010;Arbre d'avenir incertain;Arbre vieillissant
@@ -18307,7 +18307,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 18306;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 18307;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 18308;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-18309;false;2015;2015;N/A;Arbre adulte
+18309;false;2015;2015;;Arbre adulte
 18310;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 18311;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 18312;false;2014;2010;Arbre d'avenir incertain;Arbre adulte
@@ -19024,7 +19024,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19023;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 19024;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 19025;false;2011;2010;Arbre d'avenir normal;Arbre adulte
-19026;false;2015;2015;Arbre à abattre dans les 5 ans;N/A
+19026;false;2015;2015;Arbre à abattre dans les 5 ans;Unknown
 19027;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 19028;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 19029;false;2015;2015;Arbre d'avenir normal;Arbre adulte
@@ -19190,7 +19190,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19189;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 19190;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 19191;false;2013;2010;Arbre d'avenir normal;Arbre adulte
-19192;false;2015;2015;Arbre d'avenir normal;N/A
+19192;false;2015;2015;Arbre d'avenir normal;Unknown
 19193;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19194;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre vieillissant
 19195;false;2014;2010;Arbre d'avenir incertain;Arbre adulte
@@ -19272,7 +19272,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19271;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 19272;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19273;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-19274;false;2015;2015;N/A;Arbre adulte
+19274;false;2015;2015;;Arbre adulte
 19275;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19276;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre jeune
 19277;false;2015;2015;Arbre à abattre dans les 10 ans;Arbre adulte
@@ -19497,7 +19497,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19496;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 19497;false;2013;2010;Arbre d'avenir normal;Arbre adulte
 19498;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-19499;false;2015;2015;N/A;Arbre adulte
+19499;false;2015;2015;;Arbre adulte
 19500;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19501;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 19502;false;2014;2010;Arbre d'avenir incertain;Arbre adulte
@@ -19607,7 +19607,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19606;false;2013;2010;Arbre d'avenir incertain;Arbre adulte
 19607;false;2014;2010;Arbre d'avenir normal;Arbre jeune
 19608;false;2015;2015;Arbre d'avenir normal;Arbre jeune
-19609;false;2015;2015;Arbre d'avenir normal;N/A
+19609;false;2015;2015;Arbre d'avenir normal;Unknown
 19610;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19611;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 19612;false;2013;2010;Arbre d'avenir normal;Arbre adulte
@@ -19754,7 +19754,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 19753;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
 19754;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 19755;false;2014;2010;Arbre d'avenir normal;Arbre adulte
-19756;false;2015;2015;N/A;Arbre adulte
+19756;false;2015;2015;;Arbre adulte
 19757;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 19758;false;2015;2015;Arbre à abattre dans les 5 ans;Arbre adulte
 19759;false;2014;2010;Arbre d'avenir normal;Arbre jeune
@@ -20133,7 +20133,7 @@ ID;isLast;diagnosisYear;diagnosis5YearPeriod;diagnosisNote;developmentStatus
 20132;false;2013;2010;Arbre d'avenir normal;Arbre jeune
 20133;false;2015;2015;Arbre d'avenir normal;Arbre adulte
 20134;false;2015;2015;Arbre d'avenir incertain;Arbre adulte
-20135;false;2013;2010;N/A;Arbre adulte
+20135;false;2013;2010;;Arbre adulte
 20136;false;2014;2010;Arbre d'avenir normal;Arbre adulte
 20137;false;2015;2015;Arbre d'avenir normal;Arbre jeune
 20138;false;2015;2015;Arbre d'avenir incertain;Arbre adulte

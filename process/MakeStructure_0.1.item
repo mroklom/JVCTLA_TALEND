@@ -1490,18 +1490,18 @@
       <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="coord_x" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="coord_y" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="stationID" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="stationID" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="sector" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="environmentTypeCode" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="environmentTypeDesc" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestMall" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestRoads" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestMotorways" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestRiver" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestParking" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestIndustrialZone" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestTrainStation" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="closestPollutionStation" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMall" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRoads" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestMotorways" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestRiver" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestParking" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestIndustrialZone" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestTrainStation" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closestPollutionStation" nullable="true" pattern="" precision="0" type="id_Float" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">

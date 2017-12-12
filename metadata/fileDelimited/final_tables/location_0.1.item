@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bC1g8d8VEee0UfCSUyYjeQ" name="location" dataPackage="_bC1g8t8VEee0UfCSUyYjeQ" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.location_File" Format="WINDOWS" Encoding="context.location_Encoding" FieldSeparatorValue="context.location_FieldSeparator" RowSeparatorValue="context.location_RowSeparator" UseHeader="true" HeaderValue="context.location_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bC1g8t8VEee0UfCSUyYjeQ" name="default" dataManager="_bC1g8d8VEee0UfCSUyYjeQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bC1g898VEee0UfCSUyYjeQ" id="_SgSREN8VEee0UfCSUyYjeQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LoN8VEee0UfCSUyYjeQ" name="coord_x" label="coord_x" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lod8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lot8VEee0UfCSUyYjeQ" name="coord_y" label="coord_y" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lo98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LpN8VEee0UfCSUyYjeQ" name="stationID" label="stationID" length="20" talendType="id_String">
+        <initialValue xmi:id="_lc_Lpd8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lpt8VEee0UfCSUyYjeQ" name="sector" label="sector" length="20" talendType="id_Integer">
+        <initialValue xmi:id="_lc_Lp98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LqN8VEee0UfCSUyYjeQ" name="closestTrainStation" label="closestTrainStation" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lqd8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lqt8VEee0UfCSUyYjeQ" name="closestIndustrialZone" label="closestIndustrialZone" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lq98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LrN8VEee0UfCSUyYjeQ" name="closestParking" label="closestParking" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lrd8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lrt8VEee0UfCSUyYjeQ" name="closestRiver" label="closestRiver" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lr98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LsN8VEee0UfCSUyYjeQ" name="closestMotorways" label="closestMotorways" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lsd8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lst8VEee0UfCSUyYjeQ" name="closestMall" label="closestMall" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Ls98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LtN8VEee0UfCSUyYjeQ" name="closestRoads" label="closestRoads" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Ltd8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Ltt8VEee0UfCSUyYjeQ" name="environmentTypeCode" label="environmentTypeCode" length="20" talendType="id_String">
+        <initialValue xmi:id="_lc_Lt98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LuN8VEee0UfCSUyYjeQ" name="environmentTypeDesc" label="environmentTypeDesc" length="20" talendType="id_String">
+        <initialValue xmi:id="_lc_Lud8VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_Lut8VEee0UfCSUyYjeQ" name="distanceToPollutionStation" label="distanceToPollutionStation" length="20" talendType="id_Float">
+        <initialValue xmi:id="_lc_Lu98VEee0UfCSUyYjeQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lc_LvN8VEee0UfCSUyYjeQ" name="IDPollutionStation" label="IDPollutionStation" length="20" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_lc_Lvd8VEee0UfCSUyYjeQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

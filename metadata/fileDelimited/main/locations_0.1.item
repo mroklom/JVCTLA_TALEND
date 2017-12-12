@@ -6,18 +6,18 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzupNspEeevaPExxVHDjA" name="ID" label="ID" length="20" talendType="id_Integer"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzupdspEeevaPExxVHDjA" name="coord_x" label="coord_x" length="20" talendType="id_Float"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuptspEeevaPExxVHDjA" name="coord_y" label="coord_y" length="20" talendType="id_Float"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzup9spEeevaPExxVHDjA" name="stationID" label="stationID" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzup9spEeevaPExxVHDjA" name="stationID" label="stationID" length="-1" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K1Fa4NsuEeevaPExxVHDjA" name="sector" label="sector" length="20" talendType="id_Integer"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqNspEeevaPExxVHDjA" name="environmentTypeCode" label="environmentTypeCode" length="20" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqdspEeevaPExxVHDjA" name="environmentTypeDesc" label="environmentTypeDesc" length="20" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqtspEeevaPExxVHDjA" name="closestMall" label="closestMall" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuq9spEeevaPExxVHDjA" name="closestRoads" label="closestRoads" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurNspEeevaPExxVHDjA" name="closestMotorways" label="closestMotorways" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurdspEeevaPExxVHDjA" name="closestRiver" label="closestRiver" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurtspEeevaPExxVHDjA" name="closestParking" label="closestParking" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzur9spEeevaPExxVHDjA" name="closestIndustrialZone" label="closestIndustrialZone" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzusNspEeevaPExxVHDjA" name="closestTrainStation" label="closestTrainStation" length="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzusdspEeevaPExxVHDjA" name="closestPollutionStation" label="closestPollutionStation" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuqtspEeevaPExxVHDjA" name="closestMall" label="closestMall" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzuq9spEeevaPExxVHDjA" name="closestRoads" label="closestRoads" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurNspEeevaPExxVHDjA" name="closestMotorways" label="closestMotorways" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurdspEeevaPExxVHDjA" name="closestRiver" label="closestRiver" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzurtspEeevaPExxVHDjA" name="closestParking" label="closestParking" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzur9spEeevaPExxVHDjA" name="closestIndustrialZone" label="closestIndustrialZone" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzusNspEeevaPExxVHDjA" name="closestTrainStation" label="closestTrainStation" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xzusdspEeevaPExxVHDjA" name="closestPollutionStation" label="closestPollutionStation" length="-1" talendType="id_Float"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
