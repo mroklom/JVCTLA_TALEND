@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_F_3LwODpEeeAw_jsNxdH4w" name="trainstation_polygon" dataPackage="_F_3LweDpEeeAw_jsNxdH4w" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.trainstation_polygon_File" Format="WINDOWS" Encoding="context.trainstation_polygon_Encoding" FieldSeparatorValue="context.trainstation_polygon_FieldSeparator" RowSeparatorValue="context.trainstation_polygon_RowSeparator" UseHeader="true" HeaderValue="context.trainstation_polygon_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_F_3LweDpEeeAw_jsNxdH4w" name="default" dataManager="_F_3LwODpEeeAw_jsNxdH4w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_F_3LwuDpEeeAw_jsNxdH4w" id="_9g2YEODoEeeAw_jsNxdH4w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_F_3Lw-DpEeeAw_jsNxdH4w" name="id" label="id" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_F_3LxODpEeeAw_jsNxdH4w" name="distance" label="distance" length="-1" talendType="id_Float"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

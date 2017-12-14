@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7uE6cOEKEeeJtcMZIOMTkg" name="pollutionStation" dataPackage="_7uE6ceEKEeeJtcMZIOMTkg" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.pollutionStationFinal_File" Encoding="context.pollutionStationFinal_Encoding" FieldSeparatorValue="context.pollutionStationFinal_FieldSeparator" RowSeparatorValue="context.pollutionStationFinal_RowSeparator" UseHeader="true" HeaderValue="context.pollutionStationFinal_Header" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7uE6ceEKEeeJtcMZIOMTkg" name="default" dataManager="_7uE6cOEKEeeJtcMZIOMTkg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7uE6cuEKEeeJtcMZIOMTkg" id="_qbNrgOEKEeeJtcMZIOMTkg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7uE6c-EKEeeJtcMZIOMTkg" name="idPollutionStation" label="idPollutionStation" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7uE6dOEKEeeJtcMZIOMTkg" name="pollutionStationName" label="pollutionStationName" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
