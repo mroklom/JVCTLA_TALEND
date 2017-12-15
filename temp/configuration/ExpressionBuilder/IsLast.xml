@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row2.diagnosisYear == row3.diagnosisYear ? true : false">
+  <variables name="row2.ID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.coord_x" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row2.coord_y" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row2.quantity" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.root" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.trunk" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.collar" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.crown" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.diseases" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.diseasesCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.species" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.vigor" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.environmentBusyness" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.sidewalkProximity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.seedingYear" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.stumpDiameter" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.isLast" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row2.diagnosisNote" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.developmentStatusWhenDiagnosed" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.diagnosisYear" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.ID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.diagnosisYear" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>
