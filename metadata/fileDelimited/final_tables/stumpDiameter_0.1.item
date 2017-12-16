@@ -3,8 +3,8 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_CIOqQN8lEee0UfCSUyYjeQ" name="stumpDiameter" dataPackage="_CIOqQd8lEee0UfCSUyYjeQ" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.stumpDiameter_File" Format="WINDOWS" Encoding="context.stumpDiameter_Encoding" FieldSeparatorValue="context.stumpDiameter_FieldSeparator" RowSeparatorValue="context.stumpDiameter_RowSeparator" UseHeader="true" HeaderValue="context.stumpDiameter_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_CIOqQd8lEee0UfCSUyYjeQ" name="default" dataManager="_CIOqQN8lEee0UfCSUyYjeQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CIOqQt8lEee0UfCSUyYjeQ" id="_z82JoN8kEee0UfCSUyYjeQ" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIOqQ98lEee0UfCSUyYjeQ" name="stumpDiameter" label="stumpDiameter" length="20" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIOqRN8lEee0UfCSUyYjeQ" name="stumpDiameterGroup" label="stumpDiameterGroup" length="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIOqQ98lEee0UfCSUyYjeQ" name="idStumpDiameter" label="idStumpDiameter" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIOqRN8lEee0UfCSUyYjeQ" name="stumpDiameter" label="stumpDiameter" length="20" talendType="id_Integer"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

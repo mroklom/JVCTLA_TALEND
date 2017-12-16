@@ -475,7 +475,7 @@
     <contextParameter comment="" name="seedingYear_Encoding" prompt="seedingYear_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="seedingYear_FieldSeparator" prompt="seedingYear_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="seedingYear_File" prompt="seedingYear_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Programmation/Workspace/JVCTLA_TALEND/sources/finalTables/seedingYear.csv"/>
-    <contextParameter comment="" name="seedingYear_Header" prompt="seedingYear_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="seedingYear_Header" prompt="seedingYear_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="seedingYear_RowSeparator" prompt="seedingYear_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="diagnosisYear_Encoding" prompt="diagnosisYear_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="diagnosisYear_FieldSeparator" prompt="diagnosisYear_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>

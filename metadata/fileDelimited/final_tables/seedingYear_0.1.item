@@ -3,8 +3,8 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_OJ5xMNxYEeeN964KCT_BNg" name="seedingYear" dataPackage="_OJ5xMdxYEeeN964KCT_BNg" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.seedingYear_File" Format="WINDOWS" Encoding="context.seedingYear_Encoding" FieldSeparatorValue="context.seedingYear_FieldSeparator" RowSeparatorValue="context.seedingYear_RowSeparator" UseHeader="true" HeaderValue="context.seedingYear_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_OJ5xMdxYEeeN964KCT_BNg" name="default" dataManager="_OJ5xMNxYEeeN964KCT_BNg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OJ5xMtxYEeeN964KCT_BNg" id="_EMHSYNxYEeeN964KCT_BNg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJ5xM9xYEeeN964KCT_BNg" name="seedingYear" label="seedingYear" length="20" precision="20" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aoR9cNxYEeeN964KCT_BNg" name="seeding5YearPeriod" label="seeding5YearPeriod" length="20" precision="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJ5xM9xYEeeN964KCT_BNg" name="idSeedingYear" label="idSeedingYear" length="20" precision="20" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aoR9cNxYEeeN964KCT_BNg" name="fiveYearPeriod" label="fiveYearPeriod" length="-1" precision="20" talendType="id_Integer"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

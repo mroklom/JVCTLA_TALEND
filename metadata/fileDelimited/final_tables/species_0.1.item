@@ -3,7 +3,7 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_MoiGwd2lEeef3v8I6mIfNw" name="species" dataPackage="_MoiGwt2lEeef3v8I6mIfNw" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.species_File" Format="WINDOWS" Encoding="context.species_Encoding" FieldSeparatorValue="context.species_FieldSeparator" RowSeparatorValue="context.species_RowSeparator" UseHeader="true" HeaderValue="context.species_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_MoiGwt2lEeef3v8I6mIfNw" name="default" dataManager="_MoiGwd2lEeef3v8I6mIfNw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MoiGw92lEeef3v8I6mIfNw" id="_DYrE8N2lEeef3v8I6mIfNw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MoiGxN2lEeef3v8I6mIfNw" name="species" label="species" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MoiGxN2lEeef3v8I6mIfNw" name="idSpecies" label="idSpecies" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MoiGxd2lEeef3v8I6mIfNw" name="genus" label="genus" talendType="id_String"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>

@@ -3,38 +3,29 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_eMSC4N99EeeNrNYSjHWACw" name="diagnosisFinal" dataPackage="_eMSC4d99EeeNrNYSjHWACw" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.diagnosisFinal_File" Format="WINDOWS" Encoding="context.diagnosisFinal_Encoding" FieldSeparatorValue="context.diagnosisFinal_FieldSeparator" RowSeparatorValue="context.diagnosisFinal_RowSeparator" UseHeader="true" HeaderValue="context.diagnosisFinal_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_eMSC4d99EeeNrNYSjHWACw" name="default" dataManager="_eMSC4N99EeeNrNYSjHWACw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eMSC4t99EeeNrNYSjHWACw" id="_XFUAMN99EeeNrNYSjHWACw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzsN-GEeeGuv_zM-Ohhg" name="ID" label="ID" length="20" talendType="id_Integer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzsN-GEeeGuv_zM-Ohhg" name="id" label="id" length="20" talendType="id_Integer">
         <initialValue xmi:id="_j3uzsd-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzst-GEeeGuv_zM-Ohhg" name="coord_x" label="coord_x" length="20" talendType="id_Float">
-        <initialValue xmi:id="_j3uzs9-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uztN-GEeeGuv_zM-Ohhg" name="coord_y" label="coord_y" length="20" talendType="id_Float">
-        <initialValue xmi:id="_j3uztd-GEeeGuv_zM-Ohhg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uztt-GEeeGuv_zM-Ohhg" name="quantity" label="quantity" length="-1" precision="-1" sourceType="" talendType="id_Integer">
         <initialValue xmi:id="_j3uzt9-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzuN-GEeeGuv_zM-Ohhg" name="root" label="root" length="2" talendType="id_Integer">
-        <initialValue xmi:id="_j3uzud-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzut-GEeeGuv_zM-Ohhg" name="trunk" label="trunk" length="2" talendType="id_Integer">
-        <initialValue xmi:id="_j3uzu9-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzvN-GEeeGuv_zM-Ohhg" name="collar" label="collar" length="2" talendType="id_Integer">
-        <initialValue xmi:id="_j3uzvd-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzvt-GEeeGuv_zM-Ohhg" name="crown" label="crown" length="2" talendType="id_Integer">
-        <initialValue xmi:id="_j3uzv9-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzwN-GEeeGuv_zM-Ohhg" name="diseases" label="diseases" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzwN-GEeeGuv_zM-Ohhg" name="disease" label="disease" length="-1" precision="-1" sourceType="" talendType="id_Integer">
         <initialValue xmi:id="_j3uzwd-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzwt-GEeeGuv_zM-Ohhg" name="diseasesCode" label="diseasesCode" length="20" talendType="id_String">
-        <initialValue xmi:id="_j3uzw9-GEeeGuv_zM-Ohhg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzuN-GEeeGuv_zM-Ohhg" name="diseaseOnRoot" label="diseaseOnRoot" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_j3uzud-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzxN-GEeeGuv_zM-Ohhg" name="species" label="species" length="20" talendType="id_String">
-        <initialValue xmi:id="_j3uzxd-GEeeGuv_zM-Ohhg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzut-GEeeGuv_zM-Ohhg" name="diseaseOnTrunk" label="diseaseOnTrunk" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_j3uzu9-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzvN-GEeeGuv_zM-Ohhg" name="diseaseOnCollar" label="diseaseOnCollar" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_j3uzvd-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzvt-GEeeGuv_zM-Ohhg" name="diseaseOnCrown" label="diseaseOnCrown" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_j3uzv9-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzwt-GEeeGuv_zM-Ohhg" name="idDisease" label="idDisease" length="20" talendType="id_String">
+        <initialValue xmi:id="_j3uzw9-GEeeGuv_zM-Ohhg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzxt-GEeeGuv_zM-Ohhg" name="vigor" label="vigor" length="20" talendType="id_String">
         <initialValue xmi:id="_j3uzx9-GEeeGuv_zM-Ohhg"/>
@@ -45,23 +36,32 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzyt-GEeeGuv_zM-Ohhg" name="sidewalkProximity" label="sidewalkProximity" length="20" talendType="id_String">
         <initialValue xmi:id="_j3uzy9-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzzN-GEeeGuv_zM-Ohhg" name="seedingYear" label="seedingYear" length="-1" precision="-1" sourceType="" talendType="id_Integer">
-        <initialValue xmi:id="_j3uzzd-GEeeGuv_zM-Ohhg"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzzt-GEeeGuv_zM-Ohhg" name="stumpDiameter" label="stumpDiameter" length="20" sourceType="" talendType="id_String">
-        <initialValue xmi:id="_j3uzz9-GEeeGuv_zM-Ohhg"/>
-      </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz0N-GEeeGuv_zM-Ohhg" name="isLast" label="isLast" length="1" talendType="id_Boolean">
         <initialValue xmi:id="_j3uz0d-GEeeGuv_zM-Ohhg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz0t-GEeeGuv_zM-Ohhg" name="diagnosisNote" label="diagnosisNote" length="20" talendType="id_String">
         <initialValue xmi:id="_j3uz09-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz1N-GEeeGuv_zM-Ohhg" name="developmentStatusWhenDiagnosed" label="developmentStatusWhenDiagnosed" length="20" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz1N-GEeeGuv_zM-Ohhg" name="developmentStatus" label="developmentStatus" length="20" talendType="id_String">
         <initialValue xmi:id="_j3uz1d-GEeeGuv_zM-Ohhg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz1t-GEeeGuv_zM-Ohhg" name="diagnosisYear" label="diagnosisYear" length="20" talendType="id_Integer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzst-GEeeGuv_zM-Ohhg" name="coord_x" label="coord_x" length="20" talendType="id_Float">
+        <initialValue xmi:id="_j3uzs9-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uztN-GEeeGuv_zM-Ohhg" name="coord_y" label="coord_y" length="20" talendType="id_Float">
+        <initialValue xmi:id="_j3uztd-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uz1t-GEeeGuv_zM-Ohhg" name="idDiagnosisYear" label="idDiagnosisYear" length="20" talendType="id_Integer">
         <initialValue xmi:id="_j3uz19-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzxN-GEeeGuv_zM-Ohhg" name="idSpecies" label="idSpecies" length="20" talendType="id_String">
+        <initialValue xmi:id="_j3uzxd-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzzN-GEeeGuv_zM-Ohhg" name="idSeedingYear" label="idSeedingYear" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_j3uzzd-GEeeGuv_zM-Ohhg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j3uzzt-GEeeGuv_zM-Ohhg" name="idStumpDiameter" label="idStumpDiameter" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_j3uzz9-GEeeGuv_zM-Ohhg"/>
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>

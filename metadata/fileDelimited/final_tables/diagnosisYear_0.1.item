@@ -3,8 +3,8 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_jA8NUdxfEeeN964KCT_BNg" name="diagnosisYear" dataPackage="_jA8NUtxfEeeN964KCT_BNg" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.diagnosisYear_File" Format="WINDOWS" Encoding="context.diagnosisYear_Encoding" FieldSeparatorValue="context.diagnosisYear_FieldSeparator" RowSeparatorValue="context.diagnosisYear_RowSeparator" UseHeader="true" HeaderValue="context.diagnosisYear_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_jA8NUtxfEeeN964KCT_BNg" name="default" dataManager="_jA8NUdxfEeeN964KCT_BNg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jA8NU9xfEeeN964KCT_BNg" id="_Ub5PgNxfEeeN964KCT_BNg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jA8NVNxfEeeN964KCT_BNg" name="diagnosisYear" label="diagnosisYear" length="20" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jA8NVdxfEeeN964KCT_BNg" name="diagnosis5YearPeriod" label="diagnosis5YearPeriod" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jA8NVNxfEeeN964KCT_BNg" name="iDdiagnosisYear" label="iDdiagnosisYear" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jA8NVdxfEeeN964KCT_BNg" name="fiveYearPeriod" label="fiveYearPeriod" length="-1" talendType="id_Integer"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
