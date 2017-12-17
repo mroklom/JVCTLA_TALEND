@@ -1164,14 +1164,7 @@
     <routinesParameter id="_iWBJqNRfEeegRtCSnIMgNw" name="TalendStringUtil"/>
     <routinesParameter id="_iWBJpNRfEeegRtCSnIMgNw" name="TalendString"/>
   </parameters>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_8" show="false"/>
-    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;spark-assembly-1.6.0-hadoop2.6.0.jar&quot;"/>
-    <elementParameter field="TABLE" name="HOTLIBS"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value=" try {&#xA;            Class.forName(&quot;org.apache.hive.jdbc.HiveDriver&quot;);&#xA;            &#xA;        } catch (ClassNotFoundException e) {&#xA;            e.printStackTrace();&#xA;        }&#xA;    Connection cnct = DriverManager.getConnection(&quot;jdbc:hive2://10.195.25.10:54627/default&quot;, &quot;21402341t&quot;, &quot;&quot;);&#xA;    Statement state = cnct.createStatement();&#xA;    &#xA;    String query = &quot;insert into table diagnosis values&quot;;&#xA;    &#xA;    globalMap.put(&quot;cnct&quot;, cnct);&#xA;    globalMap.put(&quot;query&quot;, query);&#xA;    &#xA;    &#xA;    state.execute(&quot;drop table if exists species&quot;);&#xA;    state.execute(&quot;drop table if exists stumpDiameter&quot;);&#xA;    state.execute(&quot;drop table if exists seedingYear&quot;);&#xA;    state.execute(&quot;drop table if exists pollutionStation&quot;);&#xA;    state.execute(&quot;drop table if exists diagnosisYear&quot;);&#xA;    state.execute(&quot;drop table if exists diagnosis&quot;);&#xA;    state.execute(&quot;drop table if exists location&quot;);&#xA;    &#xA;    state.execute(&quot;create table if not exists species(idSpecies int, genus String) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;    &#xA;    state.execute(&quot;create table if not exists stumpDiameter(idStumpDiameter String, stumpDiameter int) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;&#xA;&#x9;state.execute(&quot;create table if not exists seedingYear(idSeedingYear int, fiveYearPeriod int) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;&#xA;&#x9;state.execute(&quot;create table if not exists pollutionStation(idPollutionStation int, pollutionStationName String) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;&#xA;&#x9;state.execute(&quot;create table if not exists diagnosisYear(idDiagnosisYear int, fiveYearPeriod int) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;&#xA;&#x9;state.execute(&quot;create table if not exists diagnosis(id int, quantity int, disease int, diseaseOnRoot int, diseaseOnTrunk int, diseaseOnCollar int, diseaseOnCrown int, idDisease String, vigor String, environmentBusyness String, sidewalkProximity String, isLast boolean, diagnosisNote String, developmentStatus String, coord_x float, coord_y float, idDiagnosisYear int, idSpecies String, idSeedingYear int, idStumpDiameter String) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;&#xA;&#x9;state.execute(&quot;create table if not exists location(coord_x float, coord_y float, stationId String, sector int, closestTrainStation float, closestIndustrialZone float, closestParking float, closestRiver float, closestMotorways float, closestMall float, closestRoads float, environmentTypeCode String, environmentTypeDesc String, distanceToPollutionStation float, IDPollutionStation int) &quot; +&#xA;    &#x9;&quot;ROW FORMAT DELIMITED &quot; +&#xA;&#x9;&#x9;&quot;FIELDS TERMINATED BY '\073' &quot; +&#xA;&#x9;&#x9;&quot;LINES TERMINATED BY '\n' &quot; +&#xA;&#x9;&#x9;&quot;STORED AS TEXTFILE&quot;);&#xA;&#x9;&#x9;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.sql.Connection;&#xA;import java.sql.DriverManager;&#xA;import java.sql.SQLException;&#xA;import java.sql.ResultSet;&#xA;import java.sql.Statement;&#xA;import java.sql.PreparedStatement;&#xA;import java.util.ArrayList;"/>
@@ -1948,9 +1941,13 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_8"/>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLibraryLoad_8" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_8" target="tJava_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
-  </connection>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;spark-assembly-1.6.0-hadoop2.6.0.jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileInputDelimited_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk13" show="false"/>
   </connection>
@@ -2021,11 +2018,9 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_7" offsetLabelX="0" offsetLabelY="0" source="tJava_7" target="tFileInputDelimited_7">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk15" show="false"/>
   </connection>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_8" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
@@ -2098,6 +2093,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_8" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>

@@ -2,6 +2,8 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -103,4 +105,32 @@
     <routinesParameter id="_iWBJqNRfEeegRtCSnIMgNw" name="TalendStringUtil"/>
     <routinesParameter id="_iWBJpNRfEeegRtCSnIMgNw" name="TalendString"/>
   </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value=" try {&#xA;            Class.forName(&quot;org.apache.hive.jdbc.HiveDriver&quot;);&#xA;            &#xA;        } catch (ClassNotFoundException e) {&#xA;            e.printStackTrace();&#xA;        }&#xA;    Connection cnct = DriverManager.getConnection(&quot;jdbc:hive2://10.195.25.10:54627/default&quot;, &quot;21402341t&quot;, &quot;&quot;);&#xA;    Statement state = cnct.createStatement();&#xA;    &#xA;    &#xA;    state.execute(&quot;create table diagnosis_cube as &quot; +&#xA;    &#x9;&quot;select sum(quantity) as quantity, sum(disease) as disease, sum(diseaseOnRoot) as diseaseOnRoot, sum(diseaseOnTrunk) as diseaseOnTrunk, sum(diseaseOnCollar) as diseaseOnCollar, sum(diseaseOnCrown) as diseaseOnCrown, isLast, diagnosisNote, developmentStatus, sidewalkProximity, environmentBusyness, vigor, idStumpDiameter, StumpDiameter, diseases, diagnosisYear, seedingYear, fiveYearPeriod, species, genus, coord_x, coord_y, idStation, idSector, closestPollutionStation, closestIndustrialZone, closestParking, closestRiver, closestMotorways, closestMall, closestRoads, closestTrainStation, environmentTypeCode, environmentTypeDesc, grouping__id &quot; + &#xA;    &#x9;&quot;from diagnosis join location on diagnosis.coord_x = location.coord_x and diagnosis.coord_y = location.coord_y &quot; +&#xA;    &#x9;&#x9;&quot;join diagnosisYear on diagnosisYear.idDiagnosisYear = diagnosis.idDiagnosisYear &quot; +&#xA;    &#x9;&#x9;&quot;join seedingYear on seedingYear.idSeedingYear = diagnosis.idSeedingYear &quot; +&#xA;    &#x9;&#x9;&quot;join species on species.idSpecies = diagnosis.idSpecies &quot; +&#xA;    &#x9;&#x9;&quot;join stumpDiameter on stumpDiameter.idStumpDiameter = diagnosis.idStumpDiameter &quot; +&#xA;    &#x9;&quot;group by isLast, diagnosisNote, developmentStatus, sidewalkProximity, environmentBusyness, vigor, idStumpDiameter, StumpDiameter, diseases, diagnosisYear, seedingYear, fiveYearPeriod, species, genus, coord_x, coord_y, idStation, idSector, closestPollutionStation, closestIndustrialZone, closestParking, closestRiver, closestMotorways, closestMall, closestRoads, closestTrainStation, environmentTypeCode, environmentTypeDesc &quot; +&#xA;    &#x9;&quot;with cube&quot;);&#xA;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.sql.Connection;&#xA;import java.sql.DriverManager;&#xA;import java.sql.SQLException;&#xA;import java.sql.ResultSet;&#xA;import java.sql.Statement;&#xA;import java.sql.PreparedStatement;&#xA;import java.util.ArrayList;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create tables"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;spark-assembly-1.6.0-hadoop2.6.0.jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
 </talendfile:ProcessType>
