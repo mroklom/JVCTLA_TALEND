@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="false" label="coord_x"
+        length="50" nullable="true" originalDbColumnName="coord_x"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="6"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="coord_y"
+        length="50" nullable="true" originalDbColumnName="coord_y"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="6"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="ADR_SECTEUR"
+        length="-1" nullable="true" originalDbColumnName="ADR_SECTEUR"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="ANNEEDEPLANTATION"
+        length="-1" nullable="true"
+        originalDbColumnName="ANNEEDEPLANTATION"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="ANNEEREALISATIONDIAGNOSTIC" length="50" nullable="true"
+        originalDbColumnName="ANNEEREALISATIONDIAGNOSTIC"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="ANNEETRAVAUXPRECONISESDIAG" length="50" nullable="true"
+        originalDbColumnName="ANNEETRAVAUXPRECONISESDIAG"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="CODE" length="50"
+        nullable="true" originalDbColumnName="CODE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="CODE_PARENT"
+        length="50" nullable="true" originalDbColumnName="CODE_PARENT"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="CODE_PARENT_DESC"
+        length="50" nullable="true"
+        originalDbColumnName="CODE_PARENT_DESC"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="DIAMETREARBREAUNMETRE" length="50" nullable="true"
+        originalDbColumnName="DIAMETREARBREAUNMETRE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="ESPECE" length="50"
+        nullable="true" originalDbColumnName="ESPECE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="FREQUENTATIONCIBLE"
+        length="50" nullable="true"
+        originalDbColumnName="FREQUENTATIONCIBLE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="GENRE_BOTA"
+        length="50" nullable="true" originalDbColumnName="GENRE_BOTA"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="IDENTIFIANTPLU"
+        length="50" nullable="true"
+        originalDbColumnName="IDENTIFIANTPLU"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="INTITULEPROTECTIONPLU" length="50" nullable="true"
+        originalDbColumnName="INTITULEPROTECTIONPLU"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="NOTEDIAGNOSTIC"
+        length="200" nullable="true"
+        originalDbColumnName="NOTEDIAGNOSTIC"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="PRIORITEDERENOUVELLEMENT" length="50" nullable="true"
+        originalDbColumnName="PRIORITEDERENOUVELLEMENT"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="RAISONDEPLANTATION"
+        length="50" nullable="true"
+        originalDbColumnName="RAISONDEPLANTATION"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="REMARQUES"
+        length="200" nullable="true" originalDbColumnName="REMARQUES"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="SOUS_CATEGORIE"
+        length="50" nullable="true"
+        originalDbColumnName="SOUS_CATEGORIE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="SOUS_CATEGORIE_DESC" length="200" nullable="true"
+        originalDbColumnName="SOUS_CATEGORIE_DESC"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="STADEDEDEVELOPPEMENT" length="50" nullable="true"
+        originalDbColumnName="STADEDEDEVELOPPEMENT"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="STADEDEVELOPPEMENTDIAG" length="50" nullable="true"
+        originalDbColumnName="STADEDEVELOPPEMENTDIAG"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TRAITEMENTCHENILLES" length="50" nullable="true"
+        originalDbColumnName="TRAITEMENTCHENILLES"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TRAVAUXPRECONISESDIAG" length="50" nullable="true"
+        originalDbColumnName="TRAVAUXPRECONISESDIAG"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="TROTTOIR"
+        length="50" nullable="true" originalDbColumnName="TROTTOIR"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TYPEIMPLANTATIONPLU" length="50" nullable="true"
+        originalDbColumnName="TYPEIMPLANTATIONPLU"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="VARIETE"
+        length="50" nullable="true" originalDbColumnName="VARIETE"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="VIGUEUR"
+        length="50" nullable="true" originalDbColumnName="VIGUEUR"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="Default_or_not"
+        length="-1" nullable="true"
+        originalDbColumnName="Default_or_not"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Collet" length="-1"
+        nullable="true" originalDbColumnName="Collet"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Houppier"
+        length="-1" nullable="true" originalDbColumnName="Houppier"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Racine" length="-1"
+        nullable="true" originalDbColumnName="Racine"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Tronc" length="-1"
+        nullable="true" originalDbColumnName="Tronc"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+</schema>

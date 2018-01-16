@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_hp978dRfEeegRtCSnIMgNw" label="JVCTLA" description="" language="java" technicalLabel="JVCTLA" local="true" author="_hp978tRfEeegRtCSnIMgNw" productVersion="Talend Open Studio for Data Integration-6.4.1.20170623_1246" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_hp978dRfEeegRtCSnIMgNw" label="JVCTLA_TALEND" description="" language="java" technicalLabel="JVCTLA_TALEND" local="true" author="_hp978tRfEeegRtCSnIMgNw" productVersion="Talend Open Studio for Data Integration-6.4.1.20170623_1246" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_iT7e8NRfEeegRtCSnIMgNw" label="development" code="DEV"/>
     <technicalStatus xmi:id="_iT7e8dRfEeegRtCSnIMgNw" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_iT7e8tRfEeegRtCSnIMgNw" label="production" code="PROD"/>
@@ -659,6 +659,36 @@
       <relatedItems xmi:id="_9G2NRPkREeeKOdMHXXVDzQ" id="_WSpe8Pb8Eee8NNpqy_oZ4g - specie_dim" version="Latest" type="schema"/>
       <relatedItems xmi:id="_9G2NRfkREeeKOdMHXXVDzQ" id="_ELy8YPb-Eee8NNpqy_oZ4g - stump_diameter_dim" version="Latest" type="schema"/>
       <relatedItems xmi:id="_TCU7IPkUEeeKOdMHXXVDzQ" id="_HHTxIOwPEeem669hVG2Afw - diagnosis_fact" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_GKdT4PqgEee9X7_s89Smgg">
+      <baseItem xmi:id="_GKdT4fqgEee9X7_s89Smgg" id="_j2EP4PqaEee9X7_s89Smgg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_GKdT4vqgEee9X7_s89Smgg" id="_s1qbgNRjEeevt7A7e6Mzcw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT4_qgEee9X7_s89Smgg" id="_17MlINU-EeeDs6WN2mYV5Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT5PqgEee9X7_s89Smgg" id="_EscVUNRiEeevt7A7e6Mzcw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT5fqgEee9X7_s89Smgg" id="_jd01cNU_EeeDs6WN2mYV5Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT5vqgEee9X7_s89Smgg" id="_SR0JYNRjEeevt7A7e6Mzcw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT5_qgEee9X7_s89Smgg" id="_b7kccNRkEeevt7A7e6Mzcw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT6PqgEee9X7_s89Smgg" id="_BOs5sNU_EeeDs6WN2mYV5Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT6fqgEee9X7_s89Smgg" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT6vqgEee9X7_s89Smgg" id="_kwVdsNRkEeevt7A7e6Mzcw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_GKdT6_qgEee9X7_s89Smgg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT7PqgEee9X7_s89Smgg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT7fqgEee9X7_s89Smgg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT7vqgEee9X7_s89Smgg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT7_qgEee9X7_s89Smgg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT8PqgEee9X7_s89Smgg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT8fqgEee9X7_s89Smgg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT8vqgEee9X7_s89Smgg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT8_qgEee9X7_s89Smgg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GKdT9PqgEee9X7_s89Smgg" id="_BOs5sNU_EeeDs6WN2mYV5Q - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT9fqgEee9X7_s89Smgg" id="_EscVUNRiEeevt7A7e6Mzcw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT9vqgEee9X7_s89Smgg" id="_jd01cNU_EeeDs6WN2mYV5Q - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT-PqgEee9X7_s89Smgg" id="_SR0JYNRjEeevt7A7e6Mzcw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT-fqgEee9X7_s89Smgg" id="_17MlINU-EeeDs6WN2mYV5Q - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT-vqgEee9X7_s89Smgg" id="_b7kccNRkEeevt7A7e6Mzcw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT-_qgEee9X7_s89Smgg" id="_kwVdsNRkEeevt7A7e6Mzcw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GKdT_PqgEee9X7_s89Smgg" id="_s1qbgNRjEeevt7A7e6Mzcw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_TP9KgPqgEee9X7_s89Smgg" id="_BXGxMNRiEeevt7A7e6Mzcw" version="Latest" type="context"/>
     </ItemsRelations>
     <deletedFolders>process/weather</deletedFolders>
     <migrationTask xmi:id="_hrKOwNRfEeegRtCSnIMgNw" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>

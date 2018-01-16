@@ -3,8 +3,8 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_EsjDANRiEeevt7A7e6Mzcw" name="X_geoloc_egc_t1" dataPackage="_EslfQNRiEeevt7A7e6Mzcw" ContextMode="true" ContextId="_BXGxMNRiEeevt7A7e6Mzcw" contextName="valentin_pc_fixe" Server="Localhost 127.0.0.1" FilePath="context.X_geoloc_egc_t1_File" Format="WINDOWS" Encoding="context.X_geoloc_egc_t1_Encoding" FieldSeparatorValue="context.X_geoloc_egc_t1_FieldSeparator" RowSeparatorValue="context.X_geoloc_egc_t1_RowSeparator" UseHeader="true" HeaderValue="context.X_geoloc_egc_t1_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_EslfQNRiEeevt7A7e6Mzcw" name="default" dataManager="_EsjDANRiEeevt7A7e6Mzcw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_EslfQdRiEeevt7A7e6Mzcw" id="_tLdXQNRhEeevt7A7e6Mzcw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EslfQ9RiEeevt7A7e6Mzcw" label="coord_x" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EslfRNRiEeevt7A7e6Mzcw" label="coord_y" length="20" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EslfQ9RiEeevt7A7e6Mzcw" label="coord_x" length="-1" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EslfRNRiEeevt7A7e6Mzcw" label="coord_y" length="-1" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
