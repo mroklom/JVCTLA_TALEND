@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="month_year"
+        length="-1" nullable="false" originalDbColumnName="month_year"
+        pattern="&quot;MM/yyyy&quot;" precision="0" talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="false" label="maximal_max_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="maximal_max_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="average_max_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="average_max_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="minimal_max_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="minimal_max_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="average_temp"
+        length="-1" nullable="true" originalDbColumnName="average_temp"
+        pattern="" precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="maximal_min_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="maximal_min_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="average_min_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="average_min_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="minimal_min_temp"
+        length="-1" nullable="true"
+        originalDbColumnName="minimal_min_temp" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="heating_degree_day"
+        length="-1" nullable="true"
+        originalDbColumnName="heating_degree_day" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="sun_duration_time"
+        length="-1" nullable="true"
+        originalDbColumnName="sun_duration_time" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="total_precipitation" length="-1" nullable="true"
+        originalDbColumnName="total_precipitation" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="average_precipitation" length="-1" nullable="true"
+        originalDbColumnName="average_precipitation" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="snow" length="-1"
+        nullable="true" originalDbColumnName="snow" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="maximum_wind_gust"
+        length="-1" nullable="true"
+        originalDbColumnName="maximum_wind_gust" pattern=""
+        precision="0" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="maximal_pressure"
+        length="-1" nullable="true"
+        originalDbColumnName="maximal_pressure" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="minimal_pressure"
+        length="-1" nullable="true"
+        originalDbColumnName="minimal_pressure" pattern="" precision="0"
+        talendType="id_Float" type="REAL"/>
+</schema>

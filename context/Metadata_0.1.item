@@ -1,5 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_4vAOoOl4Eee2CufEc0MnEw" confirmationNeeded="false" name="antoine">
+    <contextParameter xmi:id="_4vAOoel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOoul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
+    <contextParameter xmi:id="_4vAOo-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t1_FieldSeparator" prompt="X_geoloc_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOpOl4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t1_Encoding" prompt="X_geoloc_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOpel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t1_Header" prompt="X_geoloc_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOpul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t2_RowSeparator" prompt="X_geoloc_egc_t2_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOp-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t2_File" prompt="X_geoloc_egc_t2_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset2/X_geoloc_egc_t2.csv"/>
+    <contextParameter xmi:id="_4vAOqOl4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t2_FieldSeparator" prompt="X_geoloc_egc_t2_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOqel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t2_Encoding" prompt="X_geoloc_egc_t2_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOqul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t2_Header" prompt="X_geoloc_egc_t2_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOq-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t3_RowSeparator" prompt="X_geoloc_egc_t3_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOrOl4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t3_File" prompt="X_geoloc_egc_t3_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset3/X_geoloc_egc_t3.csv"/>
+    <contextParameter xmi:id="_4vAOrel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t3_FieldSeparator" prompt="X_geoloc_egc_t3_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOrul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t3_Encoding" prompt="X_geoloc_egc_t3_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOr-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_t3_Header" prompt="X_geoloc_egc_t3_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOsOl4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t1_RowSeparator" prompt="X_tree_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOsel4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t1_File" prompt="X_tree_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset1/X_tree_egc_t1.csv"/>
+    <contextParameter xmi:id="_4vAOsul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t1_FieldSeparator" prompt="X_tree_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOs-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t1_Encoding" prompt="X_tree_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOtOl4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t1_Header" prompt="X_tree_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOtel4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t1_RowSeparator" prompt="Y_tree_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOtul4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t1_File" prompt="Y_tree_egc_t1_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset1/Y_tree_egc_t1.csv"/>
+    <contextParameter xmi:id="_4vAOt-l4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t1_FieldSeparator" prompt="Y_tree_egc_t1_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOuOl4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t1_Encoding" prompt="Y_tree_egc_t1_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOuel4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t1_Header" prompt="Y_tree_egc_t1_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOuul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t2_RowSeparator" prompt="X_tree_egc_t2_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOu-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t2_File" prompt="X_tree_egc_t2_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset2/X_tree_egc_t2.csv"/>
+    <contextParameter xmi:id="_4vAOvOl4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t2_FieldSeparator" prompt="X_tree_egc_t2_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOvel4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t2_Encoding" prompt="X_tree_egc_t2_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOvul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t2_Header" prompt="X_tree_egc_t2_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOv-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t3_RowSeparator" prompt="X_tree_egc_t3_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOwOl4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t3_File" prompt="X_tree_egc_t3_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset3/X_tree_egc_t3.csv"/>
+    <contextParameter xmi:id="_4vAOwel4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t3_FieldSeparator" prompt="X_tree_egc_t3_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOwul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t3_Encoding" prompt="X_tree_egc_t3_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOw-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_t3_Header" prompt="X_tree_egc_t3_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOxOl4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t2_Encoding" prompt="Y_tree_egc_t2_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOxel4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t2_FieldSeparator" prompt="Y_tree_egc_t2_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOxul4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t2_File" prompt="Y_tree_egc_t2_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/rawCSV/Dataset2/Y_tree_egc_t2.csv"/>
+    <contextParameter xmi:id="_4vAOx-l4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t2_Header" prompt="Y_tree_egc_t2_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOyOl4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_t2_RowSeparator" prompt="Y_tree_egc_t2_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOyel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_RowSeparator" prompt="X_geoloc_egc_merged_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOyul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_File" prompt="X_geoloc_egc_merged_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/X_geoloc_egc_merged.csv"/>
+    <contextParameter xmi:id="_4vAOy-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_FieldSeparator" prompt="X_geoloc_egc_merged_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAOzOl4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_Encoding" prompt="X_geoloc_egc_merged_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAOzel4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_Header" prompt="X_geoloc_egc_merged_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAOzul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merge_RowSeparator" prompt="X_tree_egc_merge_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAOz-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_File" prompt="X_tree_egc_merged_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/X_tree_egc_merged.csv"/>
+    <contextParameter xmi:id="_4vAO0Ol4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_FieldSeparator" prompt="X_tree_egc_merged_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO0el4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_Encoding" prompt="X_tree_egc_merged_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO0ul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merge_Header" prompt="X_tree_egc_merge_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO0-l4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_Encoding" prompt="Y_tree_egc_merged_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO1Ol4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_FieldSeparator" prompt="Y_tree_egc_merged_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO1el4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_File" prompt="Y_tree_egc_merged_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/Y_tree_egc_merged.csv"/>
+    <contextParameter xmi:id="_4vAO1ul4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_Header" prompt="Y_tree_egc_merged_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO1-l4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_RowSeparator" prompt="Y_tree_egc_merged_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO2Ol4Eee2CufEc0MnEw" comment="" name="diagnosis_Encoding" prompt="diagnosis_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO2el4Eee2CufEc0MnEw" comment="" name="diagnosis_FieldSeparator" prompt="diagnosis_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO2ul4Eee2CufEc0MnEw" comment="" name="diagnosis_File" prompt="diagnosis_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/diagnosis.csv"/>
+    <contextParameter xmi:id="_4vAO2-l4Eee2CufEc0MnEw" comment="" name="diagnosis_Header" prompt="diagnosis_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO3Ol4Eee2CufEc0MnEw" comment="" name="diagnosis_RowSeparator" prompt="diagnosis_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO3el4Eee2CufEc0MnEw" comment="" name="trees_Encoding" prompt="trees_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO3ul4Eee2CufEc0MnEw" comment="" name="trees_FieldSeparator" prompt="trees_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO3-l4Eee2CufEc0MnEw" comment="" name="trees_File" prompt="trees_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/trees.csv"/>
+    <contextParameter xmi:id="_4vAO4Ol4Eee2CufEc0MnEw" comment="" name="trees_Header" prompt="trees_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO4el4Eee2CufEc0MnEw" comment="" name="trees_RowSeparator" prompt="trees_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO4ul4Eee2CufEc0MnEw" comment="" name="locations_Encoding" prompt="locations_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO4-l4Eee2CufEc0MnEw" comment="" name="locations_FieldSeparator" prompt="locations_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO5Ol4Eee2CufEc0MnEw" comment="" name="locations_File" prompt="locations_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/locations.csv"/>
+    <contextParameter xmi:id="_4vAO5el4Eee2CufEc0MnEw" comment="" name="locations_Header" prompt="locations_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO5ul4Eee2CufEc0MnEw" comment="" name="locations_RowSeparator" prompt="locations_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO5-l4Eee2CufEc0MnEw" comment="" name="diseases_Encoding" prompt="diseases_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO6Ol4Eee2CufEc0MnEw" comment="" name="diseases_FieldSeparator" prompt="diseases_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO6el4Eee2CufEc0MnEw" comment="" name="diseases_File" prompt="diseases_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/diseases.csv"/>
+    <contextParameter xmi:id="_4vAO6ul4Eee2CufEc0MnEw" comment="" name="diseases_Header" prompt="diseases_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO6-l4Eee2CufEc0MnEw" comment="" name="diseases_RowSeparator" prompt="diseases_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO7Ol4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_with_ids_Encoding" prompt="X_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO7el4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_with_ids_FieldSeparator" prompt="X_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO7ul4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_with_ids_File" prompt="X_tree_egc_merged_with_ids_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/X_tree_egc_merged_with_ids.csv"/>
+    <contextParameter xmi:id="_4vAO7-l4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_with_ids_Header" prompt="X_tree_egc_merged_with_ids_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO8Ol4Eee2CufEc0MnEw" comment="" name="X_tree_egc_merged_with_ids_RowSeparator" prompt="X_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO8el4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_with_ids_Encoding" prompt="X_geoloc_egc_merged_with_ids_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO8ul4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_with_ids_FieldSeparator" prompt="X_geoloc_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO8-l4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_with_ids_File" prompt="X_geoloc_egc_merged_with_ids_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/X_geoloc_egc_merged_with_ids.csv"/>
+    <contextParameter xmi:id="_4vAO9Ol4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_with_ids_Header" prompt="X_geoloc_egc_merged_with_ids_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO9el4Eee2CufEc0MnEw" comment="" name="X_geoloc_egc_merged_with_ids_RowSeparator" prompt="X_geoloc_egc_merged_with_ids_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO9ul4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_with_ids_Encoding" prompt="Y_tree_egc_merged_with_ids_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO9-l4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_with_ids_FieldSeparator" prompt="Y_tree_egc_merged_with_ids_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO-Ol4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_with_ids_File" prompt="Y_tree_egc_merged_with_ids_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/temp/merge/Y_tree_egc_merged_with_ids.csv"/>
+    <contextParameter xmi:id="_4vAO-el4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_with_ids_Header" prompt="Y_tree_egc_merged_with_ids_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAO-ul4Eee2CufEc0MnEw" comment="" name="Y_tree_egc_merged_with_ids_RowSeparator" prompt="Y_tree_egc_merged_with_ids_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAO--l4Eee2CufEc0MnEw" comment="" name="seedingYear_Encoding" prompt="seedingYear_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAO_Ol4Eee2CufEc0MnEw" comment="" name="seedingYear_FieldSeparator" prompt="seedingYear_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAO_el4Eee2CufEc0MnEw" comment="" name="seedingYear_File" prompt="seedingYear_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/seedingYear.csv"/>
+    <contextParameter xmi:id="_4vAO_ul4Eee2CufEc0MnEw" comment="" name="seedingYear_Header" prompt="seedingYear_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAO_-l4Eee2CufEc0MnEw" comment="" name="seedingYear_RowSeparator" prompt="seedingYear_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPAOl4Eee2CufEc0MnEw" comment="" name="diagnosisYear_Encoding" prompt="diagnosisYear_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPAel4Eee2CufEc0MnEw" comment="" name="diagnosisYear_FieldSeparator" prompt="diagnosisYear_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPAul4Eee2CufEc0MnEw" comment="" name="diagnosisYear_File" prompt="diagnosisYear_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/diagnosisYear.csv"/>
+    <contextParameter xmi:id="_4vAPA-l4Eee2CufEc0MnEw" comment="" name="diagnosisYear_Header" prompt="diagnosisYear_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPBOl4Eee2CufEc0MnEw" comment="" name="diagnosisYear_RowSeparator" prompt="diagnosisYear_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPBel4Eee2CufEc0MnEw" comment="" name="species_Encoding" prompt="species_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPBul4Eee2CufEc0MnEw" comment="" name="species_FieldSeparator" prompt="species_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPB-l4Eee2CufEc0MnEw" comment="" name="species_File" prompt="species_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/species.csv"/>
+    <contextParameter xmi:id="_4vAPCOl4Eee2CufEc0MnEw" comment="" name="species_Header" prompt="species_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPCel4Eee2CufEc0MnEw" comment="" name="species_RowSeparator" prompt="species_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPCul4Eee2CufEc0MnEw" comment="" name="location_Encoding" prompt="location_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPC-l4Eee2CufEc0MnEw" comment="" name="location_FieldSeparator" prompt="location_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPDOl4Eee2CufEc0MnEw" comment="" name="location_File" prompt="location_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/location.csv"/>
+    <contextParameter xmi:id="_4vAPDel4Eee2CufEc0MnEw" comment="" name="location_Header" prompt="location_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPDul4Eee2CufEc0MnEw" comment="" name="location_RowSeparator" prompt="location_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPD-l4Eee2CufEc0MnEw" comment="" name="diagnosis_without_null_values_Encoding" prompt="diagnosis_without_null_values_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPEOl4Eee2CufEc0MnEw" comment="" name="diagnosis_wihtout_null_values_FieldSeparator" prompt="diagnosis_wihtout_null_values_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPEel4Eee2CufEc0MnEw" comment="" name="diagnosis_withou_null_values_File" prompt="diagnosis_withou_null_values_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/without_null_values/diagnosis_without_null_values.csv"/>
+    <contextParameter xmi:id="_4vAPEul4Eee2CufEc0MnEw" comment="" name="diagnosis_wihtout_null_values_Header" prompt="diagnosis_wihtout_null_values_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPE-l4Eee2CufEc0MnEw" comment="" name="diagnosis_wihtout_null_values_RowSeparator" prompt="diagnosis_wihtout_null_values_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPFOl4Eee2CufEc0MnEw" comment="" name="trees_without_null_values_Encoding" prompt="trees_without_null_values_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPFel4Eee2CufEc0MnEw" comment="" name="trees_without_null_values_FieldSeparator" prompt="trees_without_null_values_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPFul4Eee2CufEc0MnEw" comment="" name="trees_without_null_values_File" prompt="trees_without_null_values_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/without_null_values/trees_without_null_values.csv"/>
+    <contextParameter xmi:id="_4vAPF-l4Eee2CufEc0MnEw" comment="" name="trees_without_null_values_Header" prompt="trees_without_null_values_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPGOl4Eee2CufEc0MnEw" comment="" name="trees_without_null_values_RowSeparator" prompt="trees_without_null_values_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPGel4Eee2CufEc0MnEw" comment="" name="stumpDiameter_Encoding" prompt="stumpDiameter_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPGul4Eee2CufEc0MnEw" comment="" name="stumpDiameter_FieldSeparator" prompt="stumpDiameter_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPG-l4Eee2CufEc0MnEw" comment="" name="stumpDiameter_File" prompt="stumpDiameter_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/stumpDiameter.csv"/>
+    <contextParameter xmi:id="_4vAPHOl4Eee2CufEc0MnEw" comment="" name="stumpDiameter_Header" prompt="stumpDiameter_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPHel4Eee2CufEc0MnEw" comment="" name="stumpDiameter_RowSeparator" prompt="stumpDiameter_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPHul4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_Encoding" prompt="diagnosisFinal_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPH-l4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_FieldSeparator" prompt="diagnosisFinal_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPIOl4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_File" prompt="diagnosisFinal_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/finalTables/diagnosis.csv"/>
+    <contextParameter xmi:id="_4vAPIel4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_Header" prompt="diagnosisFinal_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPIul4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_RowSeparator" prompt="diagnosisFinal_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPI-l4Eee2CufEc0MnEw" comment="" name="parking_point_Encoding" prompt="parking_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPJOl4Eee2CufEc0MnEw" comment="" name="parking_point_FieldSeparator" prompt="parking_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPJel4Eee2CufEc0MnEw" comment="" name="parking_point_File" prompt="parking_point_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPJul4Eee2CufEc0MnEw" comment="" name="parking_point_Header" prompt="parking_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPJ-l4Eee2CufEc0MnEw" comment="" name="parking_point_RowSeparator" prompt="parking_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPKOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_Encoding" prompt="parking_linestring_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPKel4Eee2CufEc0MnEw" comment="" name="parking_linestring_FieldSeparator" prompt="parking_linestring_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPKul4Eee2CufEc0MnEw" comment="" name="parking_linestring_File" prompt="parking_linestring_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPK-l4Eee2CufEc0MnEw" comment="" name="parking_linestring_Header" prompt="parking_linestring_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPLOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_RowSeparator" prompt="parking_linestring_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPLel4Eee2CufEc0MnEw" comment="" name="parking_polygon_Encoding" prompt="parking_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPLul4Eee2CufEc0MnEw" comment="" name="parking_polygon_FieldSeparator" prompt="parking_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPL-l4Eee2CufEc0MnEw" comment="" name="parking_polygon_File" prompt="parking_polygon_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPMOl4Eee2CufEc0MnEw" comment="" name="parking_polygon_Header" prompt="parking_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPMel4Eee2CufEc0MnEw" comment="" name="parking_polygon_RowSeparator" prompt="parking_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPMul4Eee2CufEc0MnEw" comment="" name="malls_point_Encoding" prompt="malls_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPM-l4Eee2CufEc0MnEw" comment="" name="malls_point_FieldSeparator" prompt="malls_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPNOl4Eee2CufEc0MnEw" comment="" name="malls_point_File" prompt="malls_point_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPNel4Eee2CufEc0MnEw" comment="" name="malls_point_Header" prompt="malls_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPNul4Eee2CufEc0MnEw" comment="" name="malls_point_RowSeparator" prompt="malls_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPN-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_Encoding" prompt="malls_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPOOl4Eee2CufEc0MnEw" comment="" name="malls_polygon_FieldSeparator" prompt="malls_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPOel4Eee2CufEc0MnEw" comment="" name="malls_polygon_File" prompt="malls_polygon_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPOul4Eee2CufEc0MnEw" comment="" name="malls_polygon_Header" prompt="malls_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPO-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_RowSeparator" prompt="malls_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPPOl4Eee2CufEc0MnEw" comment="" name="trainstation_point_Encoding" prompt="trainstation_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPPel4Eee2CufEc0MnEw" comment="" name="trainstation_point_FieldSeparator" prompt="trainstation_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPPul4Eee2CufEc0MnEw" comment="" name="trainstation_point_File" prompt="trainstation_point_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPP-l4Eee2CufEc0MnEw" comment="" name="trainstation_point_Header" prompt="trainstation_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPQOl4Eee2CufEc0MnEw" comment="" name="trainstation_point_RowSeparator" prompt="trainstation_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPQel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Encoding" prompt="trainstation_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPQul4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_FieldSeparator" prompt="trainstation_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPQ-l4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_File" prompt="trainstation_polygon_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPROl4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Header" prompt="trainstation_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPRel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_RowSeparator" prompt="trainstation_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPRul4Eee2CufEc0MnEw" comment="" name="river_Encoding" prompt="river_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPR-l4Eee2CufEc0MnEw" comment="" name="river_FieldSeparator" prompt="river_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPSOl4Eee2CufEc0MnEw" comment="" name="river_File" prompt="river_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPSel4Eee2CufEc0MnEw" comment="" name="river_Header" prompt="river_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPSul4Eee2CufEc0MnEw" comment="" name="river_RowSeparator" prompt="river_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPS-l4Eee2CufEc0MnEw" comment="" name="road_Encoding" prompt="road_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPTOl4Eee2CufEc0MnEw" comment="" name="road_FieldSeparator" prompt="road_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPTel4Eee2CufEc0MnEw" comment="" name="road_File" prompt="road_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPTul4Eee2CufEc0MnEw" comment="" name="road_Header" prompt="road_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPT-l4Eee2CufEc0MnEw" comment="" name="road_RowSeparator" prompt="road_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPUOl4Eee2CufEc0MnEw" comment="" name="motorways_Encoding" prompt="motorways_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPUel4Eee2CufEc0MnEw" comment="" name="motorways_FieldSeparator" prompt="motorways_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPUul4Eee2CufEc0MnEw" comment="" name="motorways_File" prompt="motorways_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPU-l4Eee2CufEc0MnEw" comment="" name="motorways_Header" prompt="motorways_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPVOl4Eee2CufEc0MnEw" comment="" name="motorways_RowSeparator" prompt="motorways_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPVel4Eee2CufEc0MnEw" comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPVul4Eee2CufEc0MnEw" comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPV-l4Eee2CufEc0MnEw" comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPWOl4Eee2CufEc0MnEw" comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPWel4Eee2CufEc0MnEw" comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPWul4Eee2CufEc0MnEw" comment="" name="industrialzone_Encoding" prompt="industrialzone_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPW-l4Eee2CufEc0MnEw" comment="" name="industrialzone_FieldSeparator" prompt="industrialzone_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPXOl4Eee2CufEc0MnEw" comment="" name="industrialzone_File" prompt="industrialzone_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPXel4Eee2CufEc0MnEw" comment="" name="industrialzone_Header" prompt="industrialzone_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPXul4Eee2CufEc0MnEw" comment="" name="industrialzone_RowSeparator" prompt="industrialzone_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPX-l4Eee2CufEc0MnEw" comment="" name="parking_Encoding" prompt="parking_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPYOl4Eee2CufEc0MnEw" comment="" name="parking_FieldSeparator" prompt="parking_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPYel4Eee2CufEc0MnEw" comment="" name="parking_File" prompt="parking_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPYul4Eee2CufEc0MnEw" comment="" name="parking_Header" prompt="parking_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPY-l4Eee2CufEc0MnEw" comment="" name="parking_RowSeparator" prompt="parking_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPZOl4Eee2CufEc0MnEw" comment="" name="malls_Encoding" prompt="malls_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPZel4Eee2CufEc0MnEw" comment="" name="malls_FieldSeparator" prompt="malls_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPZul4Eee2CufEc0MnEw" comment="" name="malls_File" prompt="malls_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPZ-l4Eee2CufEc0MnEw" comment="" name="malls_Header" prompt="malls_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPaOl4Eee2CufEc0MnEw" comment="" name="malls_RowSeparator" prompt="malls_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPael4Eee2CufEc0MnEw" comment="" name="trainstation_Endoding" prompt="trainstation_Endoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPaul4Eee2CufEc0MnEw" comment="" name="trainstation_FieldSeparator" prompt="trainstation_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPa-l4Eee2CufEc0MnEw" comment="" name="trainstation_File" prompt="trainstation_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPbOl4Eee2CufEc0MnEw" comment="" name="trainstation_Header" prompt="trainstation_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPbel4Eee2CufEc0MnEw" comment="" name="trainstation_RowSeparator" prompt="trainstation_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPbul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPb-l4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPcOl4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_4vAPcel4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPcul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4NFzkOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/weather/wether_month.csv"/>
+  </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jLecOEKEeeJtcMZIOMTkg" confirmationNeeded="false" name="johanna_pc_portable">
     <contextParameter xmi:id="_1jLeceEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter xmi:id="_1jLecuEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_File" prompt="X_geoloc_egc_t1_File?" promptNeeded="false" type="id_File" value="C:/Users/Jojo/Desktop/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/rawCSV/Dataset1/X_geoloc_egc_t1.csv"/>
@@ -211,6 +424,7 @@
     <contextParameter xmi:id="_1jLfQOEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
     <contextParameter xmi:id="_1jLfQeEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter xmi:id="_1jLfQuEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4NGaoOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jLfQ-EKEeeJtcMZIOMTkg" confirmationNeeded="false" name="leo_pc_fixe">
     <contextParameter xmi:id="_1jLfROEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
@@ -423,6 +637,7 @@
     <contextParameter xmi:id="_1jMF8OEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value="D:/Programmation/Workspace/JVCTLA_TALEND/sources/finalTables/pollutionStation.csv"/>
     <contextParameter xmi:id="_1jMF8eEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_1jMF8uEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4NHBsOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jMF8-EKEeeJtcMZIOMTkg" confirmationNeeded="false" name="tracy_pc_fac">
     <contextParameter xmi:id="_1jMF9OEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
@@ -635,6 +850,7 @@
     <contextParameter xmi:id="_1jMGw-EKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
     <contextParameter xmi:id="_1jMGxOEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter xmi:id="_1jMGxeEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4NHBsemoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jMGxuEKEeeJtcMZIOMTkg" confirmationNeeded="false" name="valentin_pc_fixe">
     <contextParameter xmi:id="_1jMGx-EKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
@@ -847,6 +1063,7 @@
     <contextParameter xmi:id="_1jMHluEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
     <contextParameter xmi:id="_1jMHl-EKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter xmi:id="_1jMHmOEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4NHowOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jMHmeEKEeeJtcMZIOMTkg" confirmationNeeded="false" name="valentin_pc_portable">
     <contextParameter xmi:id="_1jMHmuEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
@@ -1059,5 +1276,6 @@
     <contextParameter xmi:id="_1jMIaeEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
     <contextParameter xmi:id="_1jMIauEKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter xmi:id="_1jMIa-EKEeeJtcMZIOMTkg" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4NHowemoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
 </xmi:XMI>

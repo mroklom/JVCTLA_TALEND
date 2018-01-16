@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="false" label="quantity"
+        length="-1" nullable="false" originalDbColumnName="quantity"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="has_disease"
+        length="-1" nullable="false" originalDbColumnName="has_disease"
+        pattern="" precision="-1" talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="false"
+        label="has_disease_on_root" length="-1" nullable="false"
+        originalDbColumnName="has_disease_on_root" pattern=""
+        precision="-1" talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="false"
+        label="has_disease_on_trunk" length="-1" nullable="false"
+        originalDbColumnName="has_disease_on_trunk" pattern=""
+        precision="-1" talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="false"
+        label="has_disease_on_collar" length="-1" nullable="false"
+        originalDbColumnName="has_disease_on_collar" pattern=""
+        precision="-1" talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="false"
+        label="has_disease_on_crown" length="-1" nullable="false"
+        originalDbColumnName="has_disease_on_crown" pattern=""
+        precision="-1" talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="true" label="seeding_year"
+        length="-1" nullable="false" originalDbColumnName="seeding_year"
+        pattern="&quot;yyyy&quot;" precision="-1" talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="true" label="diagnosis_year"
+        length="-1" nullable="false"
+        originalDbColumnName="diagnosis_year" pattern="&quot;yyyy&quot;"
+        precision="-1" talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="true" label="id_specie"
+        length="-1" nullable="false" originalDbColumnName="id_specie"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="id_location"
+        length="-1" nullable="false" originalDbColumnName="id_location"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="id_viguor"
+        length="-1" nullable="false" originalDbColumnName="id_viguor"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="id_stump_diameter"
+        length="-1" nullable="false"
+        originalDbColumnName="id_stump_diameter" pattern=""
+        precision="-1" talendType="id_Integer" type="INT"/>
+</schema>

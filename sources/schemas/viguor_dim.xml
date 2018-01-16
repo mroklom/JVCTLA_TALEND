@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="id_viguor"
+        length="-1" nullable="false" originalDbColumnName="id_viguor"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="viguor" length="30"
+        nullable="true" originalDbColumnName="viguor" pattern=""
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+</schema>

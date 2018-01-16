@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="month_year"
+        length="-1" nullable="false" originalDbColumnName="month_year"
+        pattern="MM/yyyy&quot;" precision="0" talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="false" label="year" length="-1"
+        nullable="false" originalDbColumnName="year"
+        pattern="&quot;yyyy&quot;" precision="0" talendType="id_Date" type="DATE"/>
+</schema>

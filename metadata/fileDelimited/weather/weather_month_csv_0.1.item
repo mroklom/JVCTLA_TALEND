@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_X-tVoOmqEeefy95o-C_paw" name="weather_month.csv" dataPackage="_X-tVoemqEeefy95o-C_paw" Server="Localhost 127.0.0.1" FilePath="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/weather/weather_month.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_X-tVoemqEeefy95o-C_paw" name="default" dataManager="_X-tVoOmqEeefy95o-C_paw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X-tVoumqEeefy95o-C_paw" id="_3L9RQOmpEeefy95o-C_paw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLQOmsEeefy95o-C_paw" label="_Date_" length="-1" talendType="id_Date" pattern="&quot;MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLQemsEeefy95o-C_paw" label="_Temp_max_extreme_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLQumsEeefy95o-C_paw" label="_Temp_max_moyenne_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLQ-msEeefy95o-C_paw" label="_Temp_moyenne_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLROmsEeefy95o-C_paw" label="_Temp_mini_moyenne_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLRemsEeefy95o-C_paw" label="_Temp_mini_extreme_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLRumsEeefy95o-C_paw" label="_Temp_maxi_minimale_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLR-msEeefy95o-C_paw" label="_Temp_mini_maximale_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLSOmsEeefy95o-C_paw" label="_DJU_chauffagiste_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLSemsEeefy95o-C_paw" label="_DJU_climaticien_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLSumsEeefy95o-C_paw" label="_Ensoleillement__h__" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLS-msEeefy95o-C_paw" label="_Precipitations_cumul_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLTOmsEeefy95o-C_paw" label="_Precipitation_max_en_1j_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLTemsEeefy95o-C_paw" label="_Precipitation_max_en_5j_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLTumsEeefy95o-C_paw" label="_Precipitation_moyenne_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLT-msEeefy95o-C_paw" label="_Neige_au_sol_max_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLUOmsEeefy95o-C_paw" label="_Rafale_maximale_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLUemsEeefy95o-C_paw" label="_Pression_min_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_otWLUumsEeefy95o-C_paw" label="_Pression_max_" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

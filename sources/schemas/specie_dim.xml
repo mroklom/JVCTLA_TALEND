@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="id_specie"
+        length="-1" nullable="false" originalDbColumnName="id_specie"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="specie" length="30"
+        nullable="true" originalDbColumnName="specie" pattern=""
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="genus" length="30"
+        nullable="true" originalDbColumnName="genus" pattern=""
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+</schema>

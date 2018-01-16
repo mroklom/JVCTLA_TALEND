@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="id_stump_diameter"
+        length="-1" nullable="false"
+        originalDbColumnName="id_stump_diameter" pattern=""
+        precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="stump_diameter"
+        length="30" nullable="true"
+        originalDbColumnName="stump_diameter" pattern="" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="stump_diameter_group" length="30" nullable="true"
+        originalDbColumnName="stump_diameter_group" pattern=""
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+</schema>

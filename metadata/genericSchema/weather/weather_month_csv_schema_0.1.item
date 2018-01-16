@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_0Szn8emrEeefy95o-C_paw" name="repository.metadataGenericSchema" dataPackage="_0Szn8umrEeefy95o-C_paw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_0Szn8umrEeefy95o-C_paw" name="repository.metadataGenericSchema" dataManager="_0Szn8emrEeefy95o-C_paw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0Szn8-mrEeefy95o-C_paw" id="_xu4IEOmqEeefy95o-C_paw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn9OmrEeefy95o-C_paw" name="month_year" label="month_year" length="-1" sourceType="DATETIME" talendType="id_Date" key="true" nullable="false" pattern="&quot;MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn9emrEeefy95o-C_paw" name="maximal_max_temp" label="maximal_max_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn9umrEeefy95o-C_paw" name="average_max_temp" label="average_max_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn9-mrEeefy95o-C_paw" name="minimal_max_temp" label="minimal_max_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn-OmrEeefy95o-C_paw" name="average_temp" label="average_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn-emrEeefy95o-C_paw" name="maximal_min_temp" label="maximal_min_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn-umrEeefy95o-C_paw" name="average_min_temp" label="average_min_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn--mrEeefy95o-C_paw" name="minimal_min_temp" label="minimal_min_temp" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn_OmrEeefy95o-C_paw" name="heating_degree_day" label="heating_degree_day" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn_emrEeefy95o-C_paw" name="sun_duration_time" label="sun_duration_time" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn_umrEeefy95o-C_paw" name="total_precipitation" label="total_precipitation" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Szn_-mrEeefy95o-C_paw" name="average_precipitation" label="average_precipitation" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0SzoAOmrEeefy95o-C_paw" name="snow" label="snow" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0SzoAemrEeefy95o-C_paw" name="maximum_wind_gust" label="maximum_wind_gust" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0SzoAumrEeefy95o-C_paw" name="maximal_pressure" label="maximal_pressure" length="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0SzoA-mrEeefy95o-C_paw" name="minimal_pressure" label="minimal_pressure" length="-1" sourceType="REAL" talendType="id_Float"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
