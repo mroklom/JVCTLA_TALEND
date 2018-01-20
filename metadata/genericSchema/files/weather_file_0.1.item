@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_GhO5oP4YEeefhtkL1s2Nuw" name="repository.metadataGenericSchema" dataPackage="_GhO5of4YEeefhtkL1s2Nuw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_GhO5of4YEeefhtkL1s2Nuw" name="repository.metadataGenericSchema" dataManager="_GhO5oP4YEeefhtkL1s2Nuw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GhO5ov4YEeefhtkL1s2Nuw" id="_e7tg8P4XEeefhtkL1s2Nuw" label="weather_file">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5o_4YEeefhtkL1s2Nuw" name="Date" label="Date" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;MM/yyyy&quot;">
+        <initialValue xmi:id="_GhO5pP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5pf4YEeefhtkL1s2Nuw" name="Temp_max_extreme" label="Temp_max_extreme" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5pv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5p_4YEeefhtkL1s2Nuw" name="Temp_max_moyenne" label="Temp_max_moyenne" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5qP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5qf4YEeefhtkL1s2Nuw" name="Temp_moyenne" label="Temp_moyenne" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5qv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5q_4YEeefhtkL1s2Nuw" name="Temp_mini_moyenne" label="Temp_mini_moyenne" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5rP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5rf4YEeefhtkL1s2Nuw" name="Temp_mini_extreme" label="Temp_mini_extreme" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5rv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5r_4YEeefhtkL1s2Nuw" name="Temp_maxi_minimale" label="Temp_maxi_minimale" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5sP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5sf4YEeefhtkL1s2Nuw" name="Temp_mini_maximale" label="Temp_mini_maximale" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5sv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5s_4YEeefhtkL1s2Nuw" name="DJU_chauffagiste" label="DJU_chauffagiste" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5tP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5tf4YEeefhtkL1s2Nuw" name="DJU_climaticien" label="DJU_climaticien" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5tv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5t_4YEeefhtkL1s2Nuw" name="Ensoleillement__h" label="Ensoleillement__h" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5uP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5uf4YEeefhtkL1s2Nuw" name="Precipitations_cumul" label="Precipitations_cumul" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5uv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5u_4YEeefhtkL1s2Nuw" name="Precipitation_max_en_1j" label="Precipitation_max_en_1j" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5vP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5vf4YEeefhtkL1s2Nuw" name="Precipitation_max_en_5j" label="Precipitation_max_en_5j" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5vv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5v_4YEeefhtkL1s2Nuw" name="Precipitation_moyenne" label="Precipitation_moyenne" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5wP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5wf4YEeefhtkL1s2Nuw" name="Neige_au_sol_max" label="Neige_au_sol_max" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5wv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5w_4YEeefhtkL1s2Nuw" name="Rafale_maximale" label="Rafale_maximale" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5xP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5xf4YEeefhtkL1s2Nuw" name="Pression_min" label="Pression_min" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5xv4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhO5x_4YEeefhtkL1s2Nuw" name="Pression_max" label="Pression_max" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_GhO5yP4YEeefhtkL1s2Nuw" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

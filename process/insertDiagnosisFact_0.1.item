@@ -211,7 +211,7 @@
     <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
     <contextParameter comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
     <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/weather/wether_month.csv"/>
+    <contextParameter comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/weather/wether_month.csv"/>
   </context>
   <context confirmationNeeded="false" name="leo_pc_fixe">
     <contextParameter comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>

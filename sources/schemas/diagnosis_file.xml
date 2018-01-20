@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema dbmsId="id_MSSQL">
     <column comment="" default="" key="false" label="coord_x"
-        length="50" nullable="true" originalDbColumnName="coord_x"
+        length="-1" nullable="true" originalDbColumnName="coord_x"
         pattern="&quot;dd-MM-yyyy&quot;" precision="6"
         talendType="id_Float" type="REAL"/>
     <column comment="" default="" key="false" label="coord_y"
-        length="50" nullable="true" originalDbColumnName="coord_y"
+        length="-1" nullable="true" originalDbColumnName="coord_y"
         pattern="&quot;dd-MM-yyyy&quot;" precision="6"
         talendType="id_Float" type="REAL"/>
     <column comment="" default="" key="false" label="ADR_SECTEUR"
@@ -27,7 +27,7 @@
         originalDbColumnName="ANNEETRAVAUXPRECONISESDIAG"
         pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
         talendType="id_String" type="VARCHAR"/>
-    <column comment="" default="" key="false" label="CODE" length="50"
+    <column comment="" default="" key="true" label="CODE" length="50"
         nullable="true" originalDbColumnName="CODE"
         pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
         talendType="id_String" type="VARCHAR"/>

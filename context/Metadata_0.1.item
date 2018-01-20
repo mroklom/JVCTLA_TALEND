@@ -211,7 +211,7 @@
     <contextParameter xmi:id="_4vAPcOl4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
     <contextParameter xmi:id="_4vAPcel4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter xmi:id="_4vAPcul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4NFzkOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA/sources/weather/wether_month.csv"/>
+    <contextParameter xmi:id="_4NFzkOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/weather/wether_month.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jLecOEKEeeJtcMZIOMTkg" confirmationNeeded="false" name="johanna_pc_portable">
     <contextParameter xmi:id="_1jLeceEKEeeJtcMZIOMTkg" comment="" name="X_geoloc_egc_t1_RowSeparator" prompt="X_geoloc_egc_t1_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>

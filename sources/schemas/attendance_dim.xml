@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="attendance_id"
+        length="-1" nullable="true" originalDbColumnName="attendance_id"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="attendance"
+        length="50" nullable="true" originalDbColumnName="attendance"
+        pattern="" precision="-1" talendType="id_String" type="VARCHAR"/>
+</schema>

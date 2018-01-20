@@ -1382,7 +1382,7 @@
     <routinesParameter id="_iWBJqNRfEeegRtCSnIMgNw" name="TalendStringUtil"/>
     <routinesParameter id="_iWBJpNRfEeegRtCSnIMgNw" name="TalendString"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_X-sukOmqEeefy95o-C_paw" show="false"/>
@@ -1499,7 +1499,6 @@
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Load weather csv file"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
       <column comment="" key="false" length="-1" name="_Date_" nullable="true" pattern="&quot;MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
@@ -1542,61 +1541,66 @@
       <column comment="" key="false" length="-1" name="_Rafale_maximale_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="_Pression_min_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="_Pression_max_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_rqsU4OmmEeefy95o-C_paw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_3MWPwP4WEeefhtkL1s2Nuw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Apply schema"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="out1">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="heating_degree_day" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="sun_duration_time" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="total_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="snow" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximum_wind_gust" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="FLOW" name="weather_file">
+      <column comment="" key="true" length="-1" name="Date" nullable="true" pattern="&quot;MM/yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_maxi_minimale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_chauffagiste" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_climaticien" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Ensoleillement__h" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitations_cumul" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_1j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_5j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Neige_au_sol_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Rafale_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_min" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="month_year" expression="row1._Date_ " type="id_Date"/>
-        <mapperTableEntries name="maximal_max_temp" expression="&quot;N/A&quot;.equals(row1._Temp_max_extreme_) ? null : Float.parseFloat(row1._Temp_max_extreme_) " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_max_temp" expression="&quot;N/A&quot;.equals(row1._Temp_max_moyenne_) ? null : Float.parseFloat(row1._Temp_max_moyenne_)" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_max_temp" expression="&quot;N/A&quot;.equals(row1._Temp_maxi_minimale_) ? null : Float.parseFloat(row1._Temp_maxi_minimale_)" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_temp" expression="&quot;N/A&quot;.equals(row1._Temp_moyenne_) ? null : Float.parseFloat(row1._Temp_moyenne_) " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_min_temp" expression="&quot;N/A&quot;.equals(row1._Temp_mini_maximale_ ) ? null : Float.parseFloat(row1._Temp_mini_maximale_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_min_temp" expression="&quot;N/A&quot;.equals(row1._Temp_mini_moyenne_ ) ? null : Float.parseFloat(row1._Temp_mini_moyenne_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_min_temp" expression="&quot;N/A&quot;.equals(row1._Temp_mini_extreme_ ) ? null : Float.parseFloat(row1._Temp_mini_extreme_)" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="heating_degree_day" expression="&quot;N/A&quot;.equals(row1._DJU_chauffagiste_ ) ? null : Float.parseFloat(row1._DJU_chauffagiste_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="sun_duration_time" expression="&quot;N/A&quot;.equals(row1._Ensoleillement__h__ ) ? null : Float.parseFloat(row1._Ensoleillement__h__ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="total_precipitation" expression="&quot;N/A&quot;.equals(row1._Precipitations_cumul_ ) ? null : Float.parseFloat(row1._Precipitations_cumul_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_precipitation" expression="&quot;N/A&quot;.equals(row1._Precipitation_moyenne_ ) ? null : Float.parseFloat(row1._Precipitation_moyenne_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="snow" expression="&quot;N/A&quot;.equals(row1._Neige_au_sol_max_ ) ? null : Float.parseFloat(row1._Neige_au_sol_max_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximum_wind_gust" expression="&quot;N/A&quot;.equals(row1._Rafale_maximale_ ) ? null : Float.parseFloat(row1._Rafale_maximale_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_pressure" expression="&quot;N/A&quot;.equals(row1._Pression_max_ ) ? null : Float.parseFloat(row1._Pression_max_ )" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_pressure" expression="&quot;N/A&quot;.equals(row1._Pression_min_ ) ? null : Float.parseFloat(row1._Pression_min_ )" type="id_Float" nullable="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="weather_file">
+        <mapperTableEntries name="Date" expression="row1._Date_ " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="Temp_max_extreme" expression="&quot;N/A&quot;.equals(row1._Temp_max_extreme_) ? null : Float.parseFloat(row1._Temp_max_extreme_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_max_moyenne" expression="&quot;N/A&quot;.equals(row1._Temp_max_moyenne_) ? null : Float.parseFloat(row1._Temp_max_moyenne_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_moyenne" expression="&quot;N/A&quot;.equals(row1._Temp_moyenne_) ? null : Float.parseFloat(row1._Temp_moyenne_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_mini_moyenne" expression="&quot;N/A&quot;.equals(row1._Temp_mini_moyenne_) ? null : Float.parseFloat(row1._Temp_mini_moyenne_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_mini_extreme" expression="&quot;N/A&quot;.equals(row1._Temp_mini_extreme_) ? null : Float.parseFloat(row1._Temp_mini_extreme_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_maxi_minimale" expression="&quot;N/A&quot;.equals(row1._Temp_maxi_minimale_) ? null : Float.parseFloat(row1._Temp_maxi_minimale_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Temp_mini_maximale" expression="&quot;N/A&quot;.equals(row1._Temp_mini_maximale_) ? null : Float.parseFloat(row1._Temp_mini_maximale_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="DJU_chauffagiste" expression="&quot;N/A&quot;.equals(row1._DJU_chauffagiste_) ? null : Float.parseFloat(row1._DJU_chauffagiste_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="DJU_climaticien" expression="&quot;N/A&quot;.equals(row1._DJU_climaticien_) ? null : Float.parseFloat(row1._DJU_climaticien_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Ensoleillement__h" expression="&quot;N/A&quot;.equals(row1._Ensoleillement__h__) ? null : Float.parseFloat(row1._Ensoleillement__h__) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Precipitations_cumul" expression="&quot;N/A&quot;.equals(row1._Precipitations_cumul_) ? null : Float.parseFloat(row1._Precipitations_cumul_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Precipitation_max_en_1j" expression="&quot;N/A&quot;.equals(row1._Precipitation_max_en_1j_) ? null : Float.parseFloat(row1._Precipitation_max_en_1j_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Precipitation_max_en_5j" expression="&quot;N/A&quot;.equals(row1._Precipitation_max_en_5j_) ? null : Float.parseFloat(row1._Precipitation_max_en_5j_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Precipitation_moyenne" expression="&quot;N/A&quot;.equals(row1._Precipitation_moyenne_) ? null : Float.parseFloat(row1._Precipitation_moyenne_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Neige_au_sol_max" expression="&quot;N/A&quot;.equals(row1._Neige_au_sol_max_) ? null : Float.parseFloat(row1._Neige_au_sol_max_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Rafale_maximale" expression="&quot;N/A&quot;.equals(row1._Rafale_maximale_) ? null : Float.parseFloat(row1._Rafale_maximale_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Pression_min" expression="&quot;N/A&quot;.equals(row1._Pression_min_) ? null : Float.parseFloat(row1._Pression_min_) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Pression_max" expression="&quot;N/A&quot;.equals(row1._Pression_max_) ? null : Float.parseFloat(row1._Pression_max_) " type="id_Float" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="_Date_" type="id_Date" nullable="true"/>
@@ -1621,196 +1625,132 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_rqsU4OmmEeefy95o-C_paw-tMap_3-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="weather_fact">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="heating_degree_day" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="sun_duration_time" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="total_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="snow" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximum_wind_gust" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="FLOW" name="month_dimension">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="year" nullable="false" pattern="&quot;yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="weather_fact">
-        <mapperTableEntries name="month_year" expression="out1.month_year " type="id_Date"/>
-        <mapperTableEntries name="maximal_max_temp" expression="out1.maximal_max_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_max_temp" expression="out1.average_max_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_max_temp" expression="out1.minimal_max_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_temp" expression="out1.average_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_min_temp" expression="out1.maximal_min_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_min_temp" expression="out1.average_min_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_min_temp" expression="out1.minimal_min_temp " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="heating_degree_day" expression="out1.heating_degree_day " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="sun_duration_time" expression="out1.sun_duration_time " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="total_precipitation" expression="out1.total_precipitation " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_precipitation" expression="out1.average_precipitation " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="snow" expression="out1.snow " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximum_wind_gust" expression="out1.maximum_wind_gust " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_pressure" expression="out1.maximal_pressure " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_pressure" expression="out1.minimal_pressure " type="id_Float" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="month_dimension">
-        <mapperTableEntries name="month_year" expression="out1.month_year " type="id_Date"/>
-        <mapperTableEntries name="year" expression="TalendDate.parseDate(&quot;yyyy&quot;, String.valueOf(TalendDate.getPartOfDate(&quot;YEAR&quot;, out1.month_year))) " type="id_Date"/>
-      </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="out1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="month_year" type="id_Date"/>
-        <mapperTableEntries name="maximal_max_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_max_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_max_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_min_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_min_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_min_temp" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="heating_degree_day" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="sun_duration_time" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="total_precipitation" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="average_precipitation" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="snow" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximum_wind_gust" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maximal_pressure" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minimal_pressure" type="id_Float" nullable="true"/>
-      </inputTables>
-    </nodeData>
-  </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="64">
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlOutput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ufCv0Ol6Eee2CufEc0MnEw" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;10.195.25.10&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;weather_fact&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;weather_file&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="month_year" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="Date" show="false"/>
     <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
     <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_GhFIoP4YEeefhtkL1s2Nuw - weather_file" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="month_year"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maximal_max_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_max_extreme"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="average_max_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_max_moyenne"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minimal_max_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_moyenne"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="average_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_mini_moyenne"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maximal_min_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_mini_extreme"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="average_min_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_maxi_minimale"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minimal_min_temp"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp_mini_maximale"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="heating_degree_day"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DJU_chauffagiste"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="sun_duration_time"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DJU_climaticien"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="total_precipitation"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Ensoleillement__h"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="average_precipitation"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Precipitations_cumul"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="snow"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Precipitation_max_en_1j"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maximum_wind_gust"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Precipitation_max_en_5j"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maximal_pressure"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Precipitation_moyenne"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minimal_pressure"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Neige_au_sol_max"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Rafale_maximale"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pression_min"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pression_max"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -1822,126 +1762,123 @@
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tMSSqlOutput_1">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="heating_degree_day" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="sun_duration_time" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="total_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="snow" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximum_wind_gust" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="FLOW" label="weather_file" name="tMSSqlOutput_1">
+      <column comment="" defaultValue="" key="true" length="-1" name="Date" nullable="true" pattern="&quot;MM/yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_maxi_minimale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_chauffagiste" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_climaticien" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Ensoleillement__h" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitations_cumul" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_1j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_5j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Neige_au_sol_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Rafale_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_min" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_max_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_min_temp" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="heating_degree_day" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="sun_duration_time" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="total_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="average_precipitation" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="snow" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximum_wind_gust" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="maximal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="minimal_pressure" nullable="true" pattern="" precision="0" sourceType="REAL" type="id_Float" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="REJECT" label="weather_file" name="REJECT">
+      <column comment="" defaultValue="" key="true" length="-1" name="Date" nullable="true" pattern="&quot;MM/yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_max_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_extreme" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_maxi_minimale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Temp_mini_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_chauffagiste" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DJU_climaticien" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Ensoleillement__h" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitations_cumul" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_1j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_max_en_5j" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Precipitation_moyenne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Neige_au_sol_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Rafale_maximale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_min" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Pression_max" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlOutput_2" show="false"/>
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ufCv0Ol6Eee2CufEc0MnEw" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Kl3eoP4WEeefhtkL1s2Nuw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;10.195.25.10&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;files&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;month_dimension&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
-    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="month_year" show="false"/>
-    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
-    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
-    <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="month_year"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="year"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
-    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
-    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tMSSqlOutput_2">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="year" nullable="false" pattern="&quot;yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="-1" name="month_year" nullable="false" pattern="&quot;MM/yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="year" nullable="false" pattern="&quot;yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
+  </node>
+  <node componentName="tMSSqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlCommit_1"/>
+  </node>
+  <node componentName="tMSSqlRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRollback_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlRollback_1"/>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_3">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMSSqlCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="weather_fact" lineStyle="0" metaname="weather_fact" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tMSSqlOutput_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="weather_fact" show="false"/>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMSSqlRollback_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="month_dimension" lineStyle="0" metaname="month_dimension" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tMSSqlOutput_2">
+  <connection connectorName="FLOW" label="weather_file" lineStyle="0" metaname="weather_file" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMSSqlOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="month_dimension" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="weather_file" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlConnection_1" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRollback_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>

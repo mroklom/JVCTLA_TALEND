@@ -15,6 +15,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9rOwPEeem669hVG2Afw" name="id_location" label="id_location" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9rewPEeem669hVG2Afw" name="id_viguor" label="id_viguor" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hE8X0OwPEeem669hVG2Afw" name="id_stump_diameter" label="id_stump_diameter" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B-ELQP4qEeefhtkL1s2Nuw" name="id_attendance" label="id_attendance" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

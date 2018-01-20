@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="id_MSSQL">
+    <column comment="" default="" key="true" label="Date" length="-1"
+        nullable="true" originalDbColumnName="Date"
+        pattern="&quot;MM/yyyy&quot;" precision="-1"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="Temp_max_extreme"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_max_extreme"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_max_moyenne"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_max_moyenne"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_moyenne"
+        length="-1" nullable="true" originalDbColumnName="Temp_moyenne"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_mini_moyenne"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_mini_moyenne"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_mini_extreme"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_mini_extreme"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_maxi_minimale"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_maxi_minimale"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Temp_mini_maximale"
+        length="-1" nullable="true"
+        originalDbColumnName="Temp_mini_maximale"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="DJU_chauffagiste"
+        length="-1" nullable="true"
+        originalDbColumnName="DJU_chauffagiste"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="DJU_climaticien"
+        length="-1" nullable="true"
+        originalDbColumnName="DJU_climaticien"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Ensoleillement__h"
+        length="-1" nullable="true"
+        originalDbColumnName="Ensoleillement__h"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="Precipitations_cumul" length="-1" nullable="true"
+        originalDbColumnName="Precipitations_cumul"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="Precipitation_max_en_1j" length="-1" nullable="true"
+        originalDbColumnName="Precipitation_max_en_1j"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="Precipitation_max_en_5j" length="-1" nullable="true"
+        originalDbColumnName="Precipitation_max_en_5j"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="Precipitation_moyenne" length="-1" nullable="true"
+        originalDbColumnName="Precipitation_moyenne"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Neige_au_sol_max"
+        length="-1" nullable="true"
+        originalDbColumnName="Neige_au_sol_max"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Rafale_maximale"
+        length="-1" nullable="true"
+        originalDbColumnName="Rafale_maximale"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Pression_min"
+        length="-1" nullable="true" originalDbColumnName="Pression_min"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="Pression_max"
+        length="-1" nullable="true" originalDbColumnName="Pression_max"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Float" type="REAL"/>
+</schema>
