@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_d82_cAQfEei4c-S5LSWU-g" name="repository.metadataGenericSchema" dataPackage="_d82_cQQfEei4c-S5LSWU-g" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_d82_cQQfEei4c-S5LSWU-g" name="repository.metadataGenericSchema" dataManager="_d82_cAQfEei4c-S5LSWU-g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d82_cgQfEei4c-S5LSWU-g" id="_8w6_AAQeEei4c-S5LSWU-g" label="closest_dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d82_cwQfEei4c-S5LSWU-g" name="distance" label="distance" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d82_dAQfEei4c-S5LSWU-g" name="distance_sub_group" label="distance_sub_group" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d82_dQQfEei4c-S5LSWU-g" name="distance_group" label="distance_group" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

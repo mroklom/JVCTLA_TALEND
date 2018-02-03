@@ -1191,86 +1191,86 @@
     <contextParameter comment="" name="diagnosisFinal_File" prompt="diagnosisFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/diagnosis.csv"/>
     <contextParameter comment="" name="diagnosisFinal_Header" prompt="diagnosisFinal_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="diagnosisFinal_RowSeparator" prompt="diagnosisFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="parking_point_Encoding" prompt="parking_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_point_FieldSeparator" prompt="parking_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_point_File" prompt="parking_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="parking_point_Header" prompt="parking_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parking_point_RowSeparator" prompt="parking_point_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_linestring_Encoding" prompt="parking_linestring_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_linestring_FieldSeparator" prompt="parking_linestring_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_linestring_File" prompt="parking_linestring_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="parking_linestring_Header" prompt="parking_linestring_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parking_linestring_RowSeparator" prompt="parking_linestring_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_polygon_Encoding" prompt="parking_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_polygon_FieldSeparator" prompt="parking_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_polygon_File" prompt="parking_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="parking_polygon_Header" prompt="parking_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parking_polygon_RowSeparator" prompt="parking_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_point_Encoding" prompt="malls_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_point_FieldSeparator" prompt="malls_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_point_File" prompt="malls_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="malls_point_Header" prompt="malls_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="malls_point_RowSeparator" prompt="malls_point_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_polygon_Encoding" prompt="malls_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_polygon_FieldSeparator" prompt="malls_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_polygon_File" prompt="malls_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="malls_polygon_Header" prompt="malls_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="malls_polygon_RowSeparator" prompt="malls_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_point_Encoding" prompt="trainstation_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_point_FieldSeparator" prompt="trainstation_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_point_File" prompt="trainstation_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="trainstation_point_Header" prompt="trainstation_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="parking_point_Encoding" prompt="parking_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="parking_point_FieldSeparator" prompt="parking_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="parking_point_File" prompt="parking_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking point.csv"/>
+    <contextParameter comment="" name="parking_point_Header" prompt="parking_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="parking_point_RowSeparator" prompt="parking_point_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="parking_linestring_Encoding" prompt="parking_linestring_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="parking_linestring_FieldSeparator" prompt="parking_linestring_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="parking_linestring_File" prompt="parking_linestring_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking linestring.csv"/>
+    <contextParameter comment="" name="parking_linestring_Header" prompt="parking_linestring_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="parking_linestring_RowSeparator" prompt="parking_linestring_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="parking_polygon_Encoding" prompt="parking_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="parking_polygon_FieldSeparator" prompt="parking_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="parking_polygon_File" prompt="parking_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking polygon.csv"/>
+    <contextParameter comment="" name="parking_polygon_Header" prompt="parking_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="parking_polygon_RowSeparator" prompt="parking_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="malls_point_Encoding" prompt="malls_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="malls_point_FieldSeparator" prompt="malls_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="malls_point_File" prompt="malls_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/malls/malls point.csv"/>
+    <contextParameter comment="" name="malls_point_Header" prompt="malls_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="malls_point_RowSeparator" prompt="malls_point_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="malls_polygon_Encoding" prompt="malls_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="malls_polygon_FieldSeparator" prompt="malls_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="malls_polygon_File" prompt="malls_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/malls/malls polygon.csv"/>
+    <contextParameter comment="" name="malls_polygon_Header" prompt="malls_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="malls_polygon_RowSeparator" prompt="malls_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="trainstation_point_Encoding" prompt="trainstation_point_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trainstation_point_FieldSeparator" prompt="trainstation_point_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="trainstation_point_File" prompt="trainstation_point_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/train station/train station point.csv"/>
+    <contextParameter comment="" name="trainstation_point_Header" prompt="trainstation_point_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="trainstation_point_RowSeparator" prompt="trainstation_point_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_polygon_Encoding" prompt="trainstation_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_polygon_FieldSeparator" prompt="trainstation_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_polygon_File" prompt="trainstation_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="trainstation_polygon_Header" prompt="trainstation_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="trainstation_polygon_RowSeparator" prompt="trainstation_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="river_Encoding" prompt="river_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="river_FieldSeparator" prompt="river_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="river_File" prompt="river_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="river_Header" prompt="river_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="river_RowSeparator" prompt="river_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="road_Encoding" prompt="road_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="road_FieldSeparator" prompt="road_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="road_File" prompt="road_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="road_Header" prompt="road_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="trainstation_polygon_Encoding" prompt="trainstation_polygon_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trainstation_polygon_FieldSeparator" prompt="trainstation_polygon_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="trainstation_polygon_File" prompt="trainstation_polygon_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/train station/train station polygon.csv"/>
+    <contextParameter comment="" name="trainstation_polygon_Header" prompt="trainstation_polygon_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="trainstation_polygon_RowSeparator" prompt="trainstation_polygon_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="river_Encoding" prompt="river_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="river_FieldSeparator" prompt="river_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="river_File" prompt="river_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/rivers.csv"/>
+    <contextParameter comment="" name="river_Header" prompt="river_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="river_RowSeparator" prompt="river_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="road_Encoding" prompt="road_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="road_FieldSeparator" prompt="road_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="road_File" prompt="road_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/roads.csv"/>
+    <contextParameter comment="" name="road_Header" prompt="road_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
     <contextParameter comment="" name="road_RowSeparator" prompt="road_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="motorways_Encoding" prompt="motorways_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="motorways_FieldSeparator" prompt="motorways_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="motorways_File" prompt="motorways_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="motorways_Header" prompt="motorways_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="motorways_RowSeparator" prompt="motorways_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="industrialzone_Encoding" prompt="industrialzone_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="motorways_Encoding" prompt="motorways_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="motorways_FieldSeparator" prompt="motorways_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="motorways_File" prompt="motorways_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/motorways.csv"/>
+    <contextParameter comment="" name="motorways_Header" prompt="motorways_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="motorways_RowSeparator" prompt="motorways_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/infostations.csv"/>
+    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="industrialzone_Encoding" prompt="industrialzone_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="industrialzone_FieldSeparator" prompt="industrialzone_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="industrialzone_File" prompt="industrialzone_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="industrialzone_Header" prompt="industrialzone_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="industrialzone_RowSeparator" prompt="industrialzone_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_Encoding" prompt="parking_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_FieldSeparator" prompt="parking_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="parking_File" prompt="parking_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="parking_Header" prompt="parking_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parking_RowSeparator" prompt="parking_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_Encoding" prompt="malls_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_FieldSeparator" prompt="malls_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="malls_File" prompt="malls_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="malls_Header" prompt="malls_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="malls_RowSeparator" prompt="malls_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_Endoding" prompt="trainstation_Endoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_FieldSeparator" prompt="trainstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="trainstation_File" prompt="trainstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="trainstation_Header" prompt="trainstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="trainstation_RowSeparator" prompt="trainstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="industrialzone_File" prompt="industrialzone_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/industrial zone.csv"/>
+    <contextParameter comment="" name="industrialzone_Header" prompt="industrialzone_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="industrialzone_RowSeparator" prompt="industrialzone_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="parking_Encoding" prompt="parking_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="parking_FieldSeparator" prompt="parking_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="parking_File" prompt="parking_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/parking.csv"/>
+    <contextParameter comment="" name="parking_Header" prompt="parking_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="parking_RowSeparator" prompt="parking_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="malls_Encoding" prompt="malls_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="malls_FieldSeparator" prompt="malls_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="malls_File" prompt="malls_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/malls.csv"/>
+    <contextParameter comment="" name="malls_Header" prompt="malls_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="malls_RowSeparator" prompt="malls_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="trainstation_Endoding" prompt="trainstation_Endoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="trainstation_FieldSeparator" prompt="trainstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="trainstation_File" prompt="trainstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/trainstation.csv"/>
+    <contextParameter comment="" name="trainstation_Header" prompt="trainstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="trainstation_RowSeparator" prompt="trainstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/pollutionStation.csv"/>
+    <contextParameter comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -1716,7 +1716,7 @@
       <column comment="" key="false" length="20" name="IDPollutionStation" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="coord_x" expression="location.coord_x " type="id_Float" nullable="true"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ELzjcPb-Eee8NNpqy_oZ4g" name="repository.metadataGenericSchema" dataPackage="_ELzjcfb-Eee8NNpqy_oZ4g" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_ELzjcfb-Eee8NNpqy_oZ4g" name="repository.metadataGenericSchema" dataManager="_ELzjcPb-Eee8NNpqy_oZ4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ELzjcvb-Eee8NNpqy_oZ4g" id="_tAkL4Pb9Eee8NNpqy_oZ4g" label="stump_diameter_dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ELzjc_b-Eee8NNpqy_oZ4g" name="id_stump_diameter" label="id_stump_diameter" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ELzjdPb-Eee8NNpqy_oZ4g" name="stump_diameter" label="stump_diameter" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YI91cPb-Eee8NNpqy_oZ4g" name="stump_diameter_group" label="stump_diameter_group" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

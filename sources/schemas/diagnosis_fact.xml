@@ -5,23 +5,23 @@
         pattern="" precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false" label="has_disease"
         length="-1" nullable="false" originalDbColumnName="has_disease"
-        pattern="" precision="-1" talendType="id_Boolean" type="BIT"/>
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false"
         label="has_disease_on_root" length="-1" nullable="false"
         originalDbColumnName="has_disease_on_root" pattern=""
-        precision="-1" talendType="id_Boolean" type="BIT"/>
+        precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false"
         label="has_disease_on_trunk" length="-1" nullable="false"
         originalDbColumnName="has_disease_on_trunk" pattern=""
-        precision="-1" talendType="id_Boolean" type="BIT"/>
+        precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false"
         label="has_disease_on_collar" length="-1" nullable="false"
         originalDbColumnName="has_disease_on_collar" pattern=""
-        precision="-1" talendType="id_Boolean" type="BIT"/>
+        precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false"
         label="has_disease_on_crown" length="-1" nullable="false"
         originalDbColumnName="has_disease_on_crown" pattern=""
-        precision="-1" talendType="id_Boolean" type="BIT"/>
+        precision="-1" talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="true" label="seeding_year"
         length="-1" nullable="false" originalDbColumnName="seeding_year"
         pattern="&quot;yyyy&quot;" precision="-1" talendType="id_Date" type="DATE"/>
@@ -42,4 +42,11 @@
         length="-1" nullable="false"
         originalDbColumnName="id_stump_diameter" pattern=""
         precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="id_attendance"
+        length="-1" nullable="false"
+        originalDbColumnName="id_attendance" pattern="" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="id_station"
+        length="-1" nullable="false" originalDbColumnName="id_station"
+        pattern="" precision="-1" talendType="id_Integer" type="INT"/>
 </schema>

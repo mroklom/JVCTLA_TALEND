@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_WTTmQPb8Eee8NNpqy_oZ4g" name="repository.metadataGenericSchema" dataPackage="_WTTmQfb8Eee8NNpqy_oZ4g" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_WTTmQfb8Eee8NNpqy_oZ4g" name="repository.metadataGenericSchema" dataManager="_WTTmQPb8Eee8NNpqy_oZ4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WTTmQvb8Eee8NNpqy_oZ4g" id="_GAKH4Pb8Eee8NNpqy_oZ4g" label="specie_dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTTmQ_b8Eee8NNpqy_oZ4g" name="id_specie" label="id_specie" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTTmRPb8Eee8NNpqy_oZ4g" name="specie" label="specie" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ozCcPb8Eee8NNpqy_oZ4g" name="genus" label="genus" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-01-08T22:32:11.995+0100">
-  <deletedItems id="_yGTQAOGbEeeUp_lE45eoZQ" path="" type="ROUTINES"/>
-  <deletedItems id="_wo9qgOH3EeeUp_lE45eoZQ" path="workflow" type="PROCESS"/>
-  <deletedItems id="_rqZ1QOmLEee2CufEc0MnEw" path="" type="PROCESS"/>
-  <deletedItems id="_rqsU4OmmEeefy95o-C_paw" path="" type="PROCESS"/>
-  <deletedItems id="_RCP7gPS7EeeZxNG4C7MT-A" path="" type="BUSINESS_PROCESS"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-02-03T01:25:35.296+0100">
+  <deletedItems id="_TGGAcAAdEeiz8Zjf5Mo2yA" path="" type="PROCESS"/>
+  <deletedItems id="_9FzrYPkREeeKOdMHXXVDzQ" path="" type="PROCESS"/>
+  <deletedItems id="_tVwrsAWWEeiDw_jMqQhfhw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_ufCv0Ol6Eee2CufEc0MnEw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_ltfCAAgjEeiMKsAiPwfgJw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_iE6V0ANiEeiN15h-nIptZQ" path="" type="PROCESS"/>
+  <deletedItems id="_8uAU0Om6EeehJsOLQJy-pA" path="DataWarehouse" type="PROCESS"/>
+  <deletedItems id="_JpgBQOnDEeehJsOLQJy-pA" path="" type="PROCESS"/>
+  <deletedItems id="_oSEboANiEeiN15h-nIptZQ" path="" type="PROCESS"/>
+  <deletedItems id="_zt3EQOIKEeeUp_lE45eoZQ" path="hive" type="PROCESS"/>
+  <deletedItems id="_GGJbUOEoEeeY95e8zsIfOw" path="hive" type="PROCESS"/>
 </recyclebin:RecycleBin>

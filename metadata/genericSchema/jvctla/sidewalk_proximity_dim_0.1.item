@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_WuQfEQgiEeiMKsAiPwfgJw" name="repository.metadataGenericSchema" dataPackage="_WuQfEggiEeiMKsAiPwfgJw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_WuQfEggiEeiMKsAiPwfgJw" name="repository.metadataGenericSchema" dataManager="_WuQfEQgiEeiMKsAiPwfgJw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WuQfEwgiEeiMKsAiPwfgJw" id="_MnOksAgiEeiMKsAiPwfgJw" label="sidewalk_proximity_dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WuQfFAgiEeiMKsAiPwfgJw" name="id_sidewalk_proximity" label="id_sidewalk_proximity" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WuQfFQgiEeiMKsAiPwfgJw" name="sidewalk_proximity" label="sidewalk_proximity" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

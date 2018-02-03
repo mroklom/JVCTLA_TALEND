@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_l705UOnBEeehJsOLQJy-pA" name="repository.metadataGenericSchema" dataPackage="_l705UenBEeehJsOLQJy-pA" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_l705UenBEeehJsOLQJy-pA" name="repository.metadataGenericSchema" dataManager="_l705UOnBEeehJsOLQJy-pA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_l705UunBEeehJsOLQJy-pA" id="_XuR1gOnBEeehJsOLQJy-pA" label="month_Dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l705U-nBEeehJsOLQJy-pA" name="month_year" label="month_year" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" key="true" nullable="false" pattern="MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l705VOnBEeehJsOLQJy-pA" name="year" label="year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;yyyy&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

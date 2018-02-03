@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_aWmpUAgjEeiMKsAiPwfgJw" name="repository.metadataGenericSchema" dataPackage="_aWmpUQgjEeiMKsAiPwfgJw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_aWmpUQgjEeiMKsAiPwfgJw" name="repository.metadataGenericSchema" dataManager="_aWmpUAgjEeiMKsAiPwfgJw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aWmpUggjEeiMKsAiPwfgJw" id="_UXXDsAgjEeiMKsAiPwfgJw" label="development_status_dim">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aWmpUwgjEeiMKsAiPwfgJw" name="id_development_status" label="id_development_status" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aWmpVAgjEeiMKsAiPwfgJw" name="development_status" label="development_status" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

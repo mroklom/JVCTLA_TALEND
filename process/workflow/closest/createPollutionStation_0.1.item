@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/infostations.csv"/>
+    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/pollutionStation.csv"/>
+    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context confirmationNeeded="false" name="leo_pc_fixe">
     <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
@@ -67,15 +67,15 @@
     <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="antoine">
-    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value=""/>
-    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value=""/>
+    <contextParameter comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/infostations.csv"/>
+    <contextParameter comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/pollutionStation.csv"/>
+    <contextParameter comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" repositoryContextId="_BXGxMNRiEeevt7A7e6Mzcw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>

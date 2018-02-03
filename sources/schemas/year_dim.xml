@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema dbmsId="id_MSSQL">
     <column comment="" default="" key="true" label="year" length="-1"
-        nullable="true" originalDbColumnName="year"
-        pattern="&quot;yyyy&quot;" precision="0" talendType="id_Date" type="DATE"/>
+        nullable="false" originalDbColumnName="year"
+        pattern="&quot;yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
     <column comment="" default="" key="false" label="five_year_period"
         length="-1" nullable="true"
         originalDbColumnName="five_year_period"
-        pattern="&quot;yyyy&quot;" precision="0" talendType="id_Date" type="DATE"/>
+        pattern="&quot;yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
 </schema>

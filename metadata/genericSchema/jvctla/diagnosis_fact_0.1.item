@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_HKb9oOwPEeem669hVG2Afw" name="repository.metadataGenericSchema" dataPackage="_HKb9oewPEeem669hVG2Afw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_HKb9oewPEeem669hVG2Afw" name="repository.metadataGenericSchema" dataManager="_HKb9oOwPEeem669hVG2Afw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HKb9ouwPEeem669hVG2Afw" id="_vXJZgOwMEeem669hVG2Afw" label="diagnosis_fact">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nDjl0AhfEeiEYr-ESCXnjA" name="tree_code" label="tree_code" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9o-wPEeem669hVG2Afw" name="quantity" label="quantity" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9pOwPEeem669hVG2Afw" name="has_disease" label="has_disease" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9pewPEeem669hVG2Afw" name="has_disease_on_root" label="has_disease_on_root" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9puwPEeem669hVG2Afw" name="has_disease_on_trunk" label="has_disease_on_trunk" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9p-wPEeem669hVG2Afw" name="has_disease_on_collar" label="has_disease_on_collar" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9qOwPEeem669hVG2Afw" name="has_disease_on_crown" label="has_disease_on_crown" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6sRUwAQgEei4c-S5LSWU-g" name="closest_industrial_zone" label="closest_industrial_zone" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xCgAAQgEei4c-S5LSWU-g" name="closest_mall" label="closest_mall" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6yX8wAQgEei4c-S5LSWU-g" name="closest_motorway" label="closest_motorway" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6zkPkAQgEei4c-S5LSWU-g" name="closest_parking" label="closest_parking" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_60-k0AQgEei4c-S5LSWU-g" name="closest_river" label="closest_river" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_62K3oAQgEei4c-S5LSWU-g" name="closest_road" label="closest_road" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Eit1cAQhEei4c-S5LSWU-g" name="closest_train_station" label="closest_train_station" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JteT4AgjEeiMKsAiPwfgJw" name="id_development_status" label="id_development_status" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oXA68AghEeiMKsAiPwfgJw" name="id_diagnosis_note" label="id_diagnosis_note" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x4u9UAAUEeiz8Zjf5Mo2yA" name="id_environment_busyness" label="id_environment_busyness" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m04kYAgiEeiMKsAiPwfgJw" name="id_sidewalk_proximity" label="id_sidewalk_proximity" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9q-wPEeem669hVG2Afw" name="id_specie" label="id_specie" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U6oIAAhTEeiEYr-ESCXnjA" name="id_station" label="id_station" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hE8X0OwPEeem669hVG2Afw" name="id_stump_diameter" label="id_stump_diameter" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9rewPEeem669hVG2Afw" name="id_vigor" label="id_vigor" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cSDTQANKEeiN15h-nIptZQ" name="diagnosis_year" label="diagnosis_year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" pattern="&quot;yyyy&quot;">
+        <initialValue xmi:id="_TN2d8AgjEeiMKsAiPwfgJw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cDLw0ANKEeiN15h-nIptZQ" name="seeding_year" label="seeding_year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" pattern="&quot;yyyy&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

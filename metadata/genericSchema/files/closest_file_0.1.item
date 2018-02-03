@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_khn0wAOiEeik5_XV-0AaAg" name="repository.metadataGenericSchema" dataPackage="_khob0AOiEeik5_XV-0AaAg" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_khob0AOiEeik5_XV-0AaAg" name="repository.metadataGenericSchema" dataManager="_khn0wAOiEeik5_XV-0AaAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_khob0QOiEeik5_XV-0AaAg" id="_YmsT0AOiEeik5_XV-0AaAg" label="closest_file">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob0gOiEeik5_XV-0AaAg" name="tree_code" label="tree_code" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true" originalLength="50">
+        <initialValue xmi:id="_khob0wOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob1AOiEeik5_XV-0AaAg" name="closest_industrial_zone" label="closest_industrial_zone" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob1QOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob1gOiEeik5_XV-0AaAg" name="closest_mall" label="closest_mall" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob1wOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob2AOiEeik5_XV-0AaAg" name="closest_motorway" label="closest_motorway" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob2QOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob2gOiEeik5_XV-0AaAg" name="closest_parking" label="closest_parking" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob2wOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob3AOiEeik5_XV-0AaAg" name="closest_river" label="closest_river" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob3QOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob3gOiEeik5_XV-0AaAg" name="closest_road" label="closest_road" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob3wOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_khob4AOiEeik5_XV-0AaAg" name="closest_train_station" label="closest_train_station" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+        <initialValue xmi:id="_khob4QOiEeik5_XV-0AaAg" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

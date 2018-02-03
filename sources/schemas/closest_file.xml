@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="tree_code"
+        length="50" nullable="true" originalDbColumnName="tree_code"
+        originalLength="50" pattern="" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="closest_industrial_zone" length="-1" nullable="true"
+        originalDbColumnName="closest_industrial_zone"
+        originalLength="0" pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false" label="closest_mall"
+        length="-1" nullable="true" originalDbColumnName="closest_mall"
+        originalLength="0" pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false" label="closest_motorway"
+        length="-1" nullable="true"
+        originalDbColumnName="closest_motorway" originalLength="0"
+        pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false" label="closest_parking"
+        length="-1" nullable="true"
+        originalDbColumnName="closest_parking" originalLength="0"
+        pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false" label="closest_river"
+        length="-1" nullable="true" originalDbColumnName="closest_river"
+        originalLength="0" pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false" label="closest_road"
+        length="-1" nullable="true" originalDbColumnName="closest_road"
+        originalLength="0" pattern="" precision="0" talendType="id_Float"/>
+    <column comment="" default="" key="false"
+        label="closest_train_station" length="-1" nullable="true"
+        originalDbColumnName="closest_train_station" originalLength="0"
+        pattern="" precision="0" talendType="id_Float"/>
+</schema>

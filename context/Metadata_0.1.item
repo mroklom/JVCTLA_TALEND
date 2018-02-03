@@ -131,86 +131,86 @@
     <contextParameter xmi:id="_4vAPIOl4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_File" prompt="diagnosisFinal_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/diagnosis.csv"/>
     <contextParameter xmi:id="_4vAPIel4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_Header" prompt="diagnosisFinal_Header?" promptNeeded="false" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_4vAPIul4Eee2CufEc0MnEw" comment="" name="diagnosisFinal_RowSeparator" prompt="diagnosisFinal_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter xmi:id="_4vAPI-l4Eee2CufEc0MnEw" comment="" name="parking_point_Encoding" prompt="parking_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPJOl4Eee2CufEc0MnEw" comment="" name="parking_point_FieldSeparator" prompt="parking_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPJel4Eee2CufEc0MnEw" comment="" name="parking_point_File" prompt="parking_point_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPJul4Eee2CufEc0MnEw" comment="" name="parking_point_Header" prompt="parking_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPJ-l4Eee2CufEc0MnEw" comment="" name="parking_point_RowSeparator" prompt="parking_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPKOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_Encoding" prompt="parking_linestring_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPKel4Eee2CufEc0MnEw" comment="" name="parking_linestring_FieldSeparator" prompt="parking_linestring_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPKul4Eee2CufEc0MnEw" comment="" name="parking_linestring_File" prompt="parking_linestring_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPK-l4Eee2CufEc0MnEw" comment="" name="parking_linestring_Header" prompt="parking_linestring_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPLOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_RowSeparator" prompt="parking_linestring_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPLel4Eee2CufEc0MnEw" comment="" name="parking_polygon_Encoding" prompt="parking_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPLul4Eee2CufEc0MnEw" comment="" name="parking_polygon_FieldSeparator" prompt="parking_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPL-l4Eee2CufEc0MnEw" comment="" name="parking_polygon_File" prompt="parking_polygon_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPMOl4Eee2CufEc0MnEw" comment="" name="parking_polygon_Header" prompt="parking_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPMel4Eee2CufEc0MnEw" comment="" name="parking_polygon_RowSeparator" prompt="parking_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPMul4Eee2CufEc0MnEw" comment="" name="malls_point_Encoding" prompt="malls_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPM-l4Eee2CufEc0MnEw" comment="" name="malls_point_FieldSeparator" prompt="malls_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPNOl4Eee2CufEc0MnEw" comment="" name="malls_point_File" prompt="malls_point_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPNel4Eee2CufEc0MnEw" comment="" name="malls_point_Header" prompt="malls_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPNul4Eee2CufEc0MnEw" comment="" name="malls_point_RowSeparator" prompt="malls_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPN-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_Encoding" prompt="malls_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPOOl4Eee2CufEc0MnEw" comment="" name="malls_polygon_FieldSeparator" prompt="malls_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPOel4Eee2CufEc0MnEw" comment="" name="malls_polygon_File" prompt="malls_polygon_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPOul4Eee2CufEc0MnEw" comment="" name="malls_polygon_Header" prompt="malls_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPO-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_RowSeparator" prompt="malls_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPPOl4Eee2CufEc0MnEw" comment="" name="trainstation_point_Encoding" prompt="trainstation_point_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPPel4Eee2CufEc0MnEw" comment="" name="trainstation_point_FieldSeparator" prompt="trainstation_point_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPPul4Eee2CufEc0MnEw" comment="" name="trainstation_point_File" prompt="trainstation_point_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPP-l4Eee2CufEc0MnEw" comment="" name="trainstation_point_Header" prompt="trainstation_point_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPI-l4Eee2CufEc0MnEw" comment="" name="parking_point_Encoding" prompt="parking_point_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPJOl4Eee2CufEc0MnEw" comment="" name="parking_point_FieldSeparator" prompt="parking_point_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPJel4Eee2CufEc0MnEw" comment="" name="parking_point_File" prompt="parking_point_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking point.csv"/>
+    <contextParameter xmi:id="_4vAPJul4Eee2CufEc0MnEw" comment="" name="parking_point_Header" prompt="parking_point_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPJ-l4Eee2CufEc0MnEw" comment="" name="parking_point_RowSeparator" prompt="parking_point_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPKOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_Encoding" prompt="parking_linestring_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPKel4Eee2CufEc0MnEw" comment="" name="parking_linestring_FieldSeparator" prompt="parking_linestring_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPKul4Eee2CufEc0MnEw" comment="" name="parking_linestring_File" prompt="parking_linestring_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking linestring.csv"/>
+    <contextParameter xmi:id="_4vAPK-l4Eee2CufEc0MnEw" comment="" name="parking_linestring_Header" prompt="parking_linestring_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPLOl4Eee2CufEc0MnEw" comment="" name="parking_linestring_RowSeparator" prompt="parking_linestring_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPLel4Eee2CufEc0MnEw" comment="" name="parking_polygon_Encoding" prompt="parking_polygon_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPLul4Eee2CufEc0MnEw" comment="" name="parking_polygon_FieldSeparator" prompt="parking_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPL-l4Eee2CufEc0MnEw" comment="" name="parking_polygon_File" prompt="parking_polygon_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/parking/exported csv/parking polygon.csv"/>
+    <contextParameter xmi:id="_4vAPMOl4Eee2CufEc0MnEw" comment="" name="parking_polygon_Header" prompt="parking_polygon_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPMel4Eee2CufEc0MnEw" comment="" name="parking_polygon_RowSeparator" prompt="parking_polygon_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPMul4Eee2CufEc0MnEw" comment="" name="malls_point_Encoding" prompt="malls_point_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPM-l4Eee2CufEc0MnEw" comment="" name="malls_point_FieldSeparator" prompt="malls_point_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPNOl4Eee2CufEc0MnEw" comment="" name="malls_point_File" prompt="malls_point_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/malls/malls point.csv"/>
+    <contextParameter xmi:id="_4vAPNel4Eee2CufEc0MnEw" comment="" name="malls_point_Header" prompt="malls_point_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPNul4Eee2CufEc0MnEw" comment="" name="malls_point_RowSeparator" prompt="malls_point_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPN-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_Encoding" prompt="malls_polygon_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPOOl4Eee2CufEc0MnEw" comment="" name="malls_polygon_FieldSeparator" prompt="malls_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPOel4Eee2CufEc0MnEw" comment="" name="malls_polygon_File" prompt="malls_polygon_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/malls/malls polygon.csv"/>
+    <contextParameter xmi:id="_4vAPOul4Eee2CufEc0MnEw" comment="" name="malls_polygon_Header" prompt="malls_polygon_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPO-l4Eee2CufEc0MnEw" comment="" name="malls_polygon_RowSeparator" prompt="malls_polygon_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPPOl4Eee2CufEc0MnEw" comment="" name="trainstation_point_Encoding" prompt="trainstation_point_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPPel4Eee2CufEc0MnEw" comment="" name="trainstation_point_FieldSeparator" prompt="trainstation_point_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPPul4Eee2CufEc0MnEw" comment="" name="trainstation_point_File" prompt="trainstation_point_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/train station/train station point.csv"/>
+    <contextParameter xmi:id="_4vAPP-l4Eee2CufEc0MnEw" comment="" name="trainstation_point_Header" prompt="trainstation_point_Header?" promptNeeded="false" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_4vAPQOl4Eee2CufEc0MnEw" comment="" name="trainstation_point_RowSeparator" prompt="trainstation_point_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPQel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Encoding" prompt="trainstation_polygon_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPQul4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_FieldSeparator" prompt="trainstation_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPQ-l4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_File" prompt="trainstation_polygon_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPROl4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Header" prompt="trainstation_polygon_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPRel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_RowSeparator" prompt="trainstation_polygon_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPRul4Eee2CufEc0MnEw" comment="" name="river_Encoding" prompt="river_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPR-l4Eee2CufEc0MnEw" comment="" name="river_FieldSeparator" prompt="river_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPSOl4Eee2CufEc0MnEw" comment="" name="river_File" prompt="river_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPSel4Eee2CufEc0MnEw" comment="" name="river_Header" prompt="river_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPSul4Eee2CufEc0MnEw" comment="" name="river_RowSeparator" prompt="river_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPS-l4Eee2CufEc0MnEw" comment="" name="road_Encoding" prompt="road_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPTOl4Eee2CufEc0MnEw" comment="" name="road_FieldSeparator" prompt="road_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPTel4Eee2CufEc0MnEw" comment="" name="road_File" prompt="road_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPTul4Eee2CufEc0MnEw" comment="" name="road_Header" prompt="road_Header?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_4vAPQel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Encoding" prompt="trainstation_polygon_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPQul4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_FieldSeparator" prompt="trainstation_polygon_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPQ-l4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_File" prompt="trainstation_polygon_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/train station/train station polygon.csv"/>
+    <contextParameter xmi:id="_4vAPROl4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_Header" prompt="trainstation_polygon_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPRel4Eee2CufEc0MnEw" comment="" name="trainstation_polygon_RowSeparator" prompt="trainstation_polygon_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPRul4Eee2CufEc0MnEw" comment="" name="river_Encoding" prompt="river_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPR-l4Eee2CufEc0MnEw" comment="" name="river_FieldSeparator" prompt="river_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPSOl4Eee2CufEc0MnEw" comment="" name="river_File" prompt="river_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/rivers.csv"/>
+    <contextParameter xmi:id="_4vAPSel4Eee2CufEc0MnEw" comment="" name="river_Header" prompt="river_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPSul4Eee2CufEc0MnEw" comment="" name="river_RowSeparator" prompt="river_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPS-l4Eee2CufEc0MnEw" comment="" name="road_Encoding" prompt="road_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPTOl4Eee2CufEc0MnEw" comment="" name="road_FieldSeparator" prompt="road_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPTel4Eee2CufEc0MnEw" comment="" name="road_File" prompt="road_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/roads.csv"/>
+    <contextParameter xmi:id="_4vAPTul4Eee2CufEc0MnEw" comment="" name="road_Header" prompt="road_Header?" promptNeeded="false" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_4vAPT-l4Eee2CufEc0MnEw" comment="" name="road_RowSeparator" prompt="road_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPUOl4Eee2CufEc0MnEw" comment="" name="motorways_Encoding" prompt="motorways_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPUel4Eee2CufEc0MnEw" comment="" name="motorways_FieldSeparator" prompt="motorways_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPUul4Eee2CufEc0MnEw" comment="" name="motorways_File" prompt="motorways_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPU-l4Eee2CufEc0MnEw" comment="" name="motorways_Header" prompt="motorways_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPVOl4Eee2CufEc0MnEw" comment="" name="motorways_RowSeparator" prompt="motorways_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPVel4Eee2CufEc0MnEw" comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPVul4Eee2CufEc0MnEw" comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPV-l4Eee2CufEc0MnEw" comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPWOl4Eee2CufEc0MnEw" comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPWel4Eee2CufEc0MnEw" comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPWul4Eee2CufEc0MnEw" comment="" name="industrialzone_Encoding" prompt="industrialzone_Encoding?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPUOl4Eee2CufEc0MnEw" comment="" name="motorways_Encoding" prompt="motorways_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPUel4Eee2CufEc0MnEw" comment="" name="motorways_FieldSeparator" prompt="motorways_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPUul4Eee2CufEc0MnEw" comment="" name="motorways_File" prompt="motorways_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/motorways.csv"/>
+    <contextParameter xmi:id="_4vAPU-l4Eee2CufEc0MnEw" comment="" name="motorways_Header" prompt="motorways_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPVOl4Eee2CufEc0MnEw" comment="" name="motorways_RowSeparator" prompt="motorways_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPVel4Eee2CufEc0MnEw" comment="" name="pollutionstation_Encoding" prompt="pollutionstation_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPVul4Eee2CufEc0MnEw" comment="" name="pollutionstation_FieldSeparator" prompt="pollutionstation_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter xmi:id="_4vAPV-l4Eee2CufEc0MnEw" comment="" name="pollutionstation_File" prompt="pollutionstation_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/infostations.csv"/>
+    <contextParameter xmi:id="_4vAPWOl4Eee2CufEc0MnEw" comment="" name="pollutionstation_Header" prompt="pollutionstation_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPWel4Eee2CufEc0MnEw" comment="" name="pollutionstation_RowSeparator" prompt="pollutionstation_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPWul4Eee2CufEc0MnEw" comment="" name="industrialzone_Encoding" prompt="industrialzone_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
     <contextParameter xmi:id="_4vAPW-l4Eee2CufEc0MnEw" comment="" name="industrialzone_FieldSeparator" prompt="industrialzone_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPXOl4Eee2CufEc0MnEw" comment="" name="industrialzone_File" prompt="industrialzone_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPXel4Eee2CufEc0MnEw" comment="" name="industrialzone_Header" prompt="industrialzone_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPXul4Eee2CufEc0MnEw" comment="" name="industrialzone_RowSeparator" prompt="industrialzone_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPX-l4Eee2CufEc0MnEw" comment="" name="parking_Encoding" prompt="parking_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPYOl4Eee2CufEc0MnEw" comment="" name="parking_FieldSeparator" prompt="parking_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPYel4Eee2CufEc0MnEw" comment="" name="parking_File" prompt="parking_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPYul4Eee2CufEc0MnEw" comment="" name="parking_Header" prompt="parking_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPY-l4Eee2CufEc0MnEw" comment="" name="parking_RowSeparator" prompt="parking_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPZOl4Eee2CufEc0MnEw" comment="" name="malls_Encoding" prompt="malls_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPZel4Eee2CufEc0MnEw" comment="" name="malls_FieldSeparator" prompt="malls_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPZul4Eee2CufEc0MnEw" comment="" name="malls_File" prompt="malls_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPZ-l4Eee2CufEc0MnEw" comment="" name="malls_Header" prompt="malls_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPaOl4Eee2CufEc0MnEw" comment="" name="malls_RowSeparator" prompt="malls_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPael4Eee2CufEc0MnEw" comment="" name="trainstation_Endoding" prompt="trainstation_Endoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPaul4Eee2CufEc0MnEw" comment="" name="trainstation_FieldSeparator" prompt="trainstation_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPa-l4Eee2CufEc0MnEw" comment="" name="trainstation_File" prompt="trainstation_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPbOl4Eee2CufEc0MnEw" comment="" name="trainstation_Header" prompt="trainstation_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPbel4Eee2CufEc0MnEw" comment="" name="trainstation_RowSeparator" prompt="trainstation_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPbul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPb-l4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter xmi:id="_4vAPcOl4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value=""/>
-    <contextParameter xmi:id="_4vAPcel4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter xmi:id="_4vAPcul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_4vAPXOl4Eee2CufEc0MnEw" comment="" name="industrialzone_File" prompt="industrialzone_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/csv/industrial zone.csv"/>
+    <contextParameter xmi:id="_4vAPXel4Eee2CufEc0MnEw" comment="" name="industrialzone_Header" prompt="industrialzone_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPXul4Eee2CufEc0MnEw" comment="" name="industrialzone_RowSeparator" prompt="industrialzone_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPX-l4Eee2CufEc0MnEw" comment="" name="parking_Encoding" prompt="parking_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPYOl4Eee2CufEc0MnEw" comment="" name="parking_FieldSeparator" prompt="parking_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPYel4Eee2CufEc0MnEw" comment="" name="parking_File" prompt="parking_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/parking.csv"/>
+    <contextParameter xmi:id="_4vAPYul4Eee2CufEc0MnEw" comment="" name="parking_Header" prompt="parking_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPY-l4Eee2CufEc0MnEw" comment="" name="parking_RowSeparator" prompt="parking_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPZOl4Eee2CufEc0MnEw" comment="" name="malls_Encoding" prompt="malls_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPZel4Eee2CufEc0MnEw" comment="" name="malls_FieldSeparator" prompt="malls_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPZul4Eee2CufEc0MnEw" comment="" name="malls_File" prompt="malls_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/malls.csv"/>
+    <contextParameter xmi:id="_4vAPZ-l4Eee2CufEc0MnEw" comment="" name="malls_Header" prompt="malls_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPaOl4Eee2CufEc0MnEw" comment="" name="malls_RowSeparator" prompt="malls_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPael4Eee2CufEc0MnEw" comment="" name="trainstation_Endoding" prompt="trainstation_Endoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPaul4Eee2CufEc0MnEw" comment="" name="trainstation_FieldSeparator" prompt="trainstation_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPa-l4Eee2CufEc0MnEw" comment="" name="trainstation_File" prompt="trainstation_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/geographical data/finalCSV/trainstation.csv"/>
+    <contextParameter xmi:id="_4vAPbOl4Eee2CufEc0MnEw" comment="" name="trainstation_Header" prompt="trainstation_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPbel4Eee2CufEc0MnEw" comment="" name="trainstation_RowSeparator" prompt="trainstation_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_4vAPbul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Encoding" prompt="pollutionStationFinal_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4vAPb-l4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_FieldSeparator" prompt="pollutionStationFinal_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_4vAPcOl4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_File" prompt="pollutionStationFinal_File?" promptNeeded="false" type="id_File" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/finalTables/pollutionStation.csv"/>
+    <contextParameter xmi:id="_4vAPcel4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_Header" prompt="pollutionStationFinal_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4vAPcul4Eee2CufEc0MnEw" comment="" name="pollutionStationFinal_RowSeparator" prompt="pollutionStationFinal_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter xmi:id="_4NFzkOmoEeefy95o-C_paw" comment="" name="weatherMonth_file" prompt="weatherMonth_file?" promptNeeded="true" type="id_String" value="D:/Softwares/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/weather/wether_month.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1jLecOEKEeeJtcMZIOMTkg" confirmationNeeded="false" name="johanna_pc_portable">

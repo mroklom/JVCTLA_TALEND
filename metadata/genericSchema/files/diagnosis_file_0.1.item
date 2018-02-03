@@ -12,13 +12,13 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwCPqfEee9X7_s89Smgg" name="ADR_SECTEUR" label="ADR_SECTEUR" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_42HwCfqfEee9X7_s89Smgg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwCvqfEee9X7_s89Smgg" name="ANNEEDEPLANTATION" label="ANNEEDEPLANTATION" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwCvqfEee9X7_s89Smgg" name="ANNEEDEPLANTATION" label="ANNEEDEPLANTATION" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;yyyy&quot;">
         <initialValue xmi:id="_42HwC_qfEee9X7_s89Smgg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwDPqfEee9X7_s89Smgg" name="ANNEEREALISATIONDIAGNOSTIC" label="ANNEEREALISATIONDIAGNOSTIC" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwDPqfEee9X7_s89Smgg" name="ANNEEREALISATIONDIAGNOSTIC" label="ANNEEREALISATIONDIAGNOSTIC" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;yyyy&quot;">
         <initialValue xmi:id="_42HwDfqfEee9X7_s89Smgg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwDvqfEee9X7_s89Smgg" name="ANNEETRAVAUXPRECONISESDIAG" label="ANNEETRAVAUXPRECONISESDIAG" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwDvqfEee9X7_s89Smgg" name="ANNEETRAVAUXPRECONISESDIAG" label="ANNEETRAVAUXPRECONISESDIAG" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;yyyy&quot;">
         <initialValue xmi:id="_42HwD_qfEee9X7_s89Smgg" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwEPqfEee9X7_s89Smgg" name="CODE" label="CODE" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
@@ -48,7 +48,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwIPqfEee9X7_s89Smgg" name="INTITULEPROTECTIONPLU" label="INTITULEPROTECTIONPLU" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_42HwIfqfEee9X7_s89Smgg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwIvqfEee9X7_s89Smgg" name="NOTEDIAGNOSTIC" label="NOTEDIAGNOSTIC" length="200" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwIvqfEee9X7_s89Smgg" name="NOTEDIAGNOSTIC" label="NOTEDIAGNOSTIC" length="500" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_42HwI_qfEee9X7_s89Smgg" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwJPqfEee9X7_s89Smgg" name="PRIORITEDERENOUVELLEMENT" label="PRIORITEDERENOUVELLEMENT" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
@@ -57,7 +57,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwJvqfEee9X7_s89Smgg" name="RAISONDEPLANTATION" label="RAISONDEPLANTATION" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_42HwJ_qfEee9X7_s89Smgg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwKPqfEee9X7_s89Smgg" name="REMARQUES" label="REMARQUES" length="200" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwKPqfEee9X7_s89Smgg" name="REMARQUES" label="REMARQUES" length="500" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_42HwKfqfEee9X7_s89Smgg" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_42HwKvqfEee9X7_s89Smgg" name="SOUS_CATEGORIE" label="SOUS_CATEGORIE" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
