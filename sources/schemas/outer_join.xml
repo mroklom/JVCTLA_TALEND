@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="coord_x"
+        length="-1" nullable="true" originalDbColumnName="coord_x"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="coord_y"
+        length="-1" nullable="true" originalDbColumnName="coord_y"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="ADR_SECTEUR"
+        length="-1" nullable="true" originalDbColumnName="ADR_SECTEUR"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="ANNEEDEPLANTATION"
+        length="-1" nullable="true"
+        originalDbColumnName="ANNEEDEPLANTATION" originalLength="0"
+        pattern="&quot;yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="ANNEEREALISATIONDIAGNOSTIC" length="-1" nullable="true"
+        originalDbColumnName="ANNEEREALISATIONDIAGNOSTIC"
+        originalLength="0" pattern="&quot;yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="ANNEETRAVAUXPRECONISESDIAG" length="-1" nullable="true"
+        originalDbColumnName="ANNEETRAVAUXPRECONISESDIAG"
+        originalLength="0" pattern="&quot;yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="CODE" length="50"
+        nullable="true" originalDbColumnName="CODE" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="CODE_PARENT"
+        length="50" nullable="true" originalDbColumnName="CODE_PARENT"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="CODE_PARENT_DESC"
+        length="50" nullable="true"
+        originalDbColumnName="CODE_PARENT_DESC" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="DIAMETREARBREAUNMETRE" length="50" nullable="true"
+        originalDbColumnName="DIAMETREARBREAUNMETRE" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="ESPECE" length="50"
+        nullable="true" originalDbColumnName="ESPECE" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="FREQUENTATIONCIBLE"
+        length="50" nullable="true"
+        originalDbColumnName="FREQUENTATIONCIBLE" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="GENRE_BOTA"
+        length="50" nullable="true" originalDbColumnName="GENRE_BOTA"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="IDENTIFIANTPLU"
+        length="50" nullable="true"
+        originalDbColumnName="IDENTIFIANTPLU" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="INTITULEPROTECTIONPLU" length="50" nullable="true"
+        originalDbColumnName="INTITULEPROTECTIONPLU" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="NOTEDIAGNOSTIC"
+        length="500" nullable="true"
+        originalDbColumnName="NOTEDIAGNOSTIC" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="PRIORITEDERENOUVELLEMENT" length="50" nullable="true"
+        originalDbColumnName="PRIORITEDERENOUVELLEMENT"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="RAISONDEPLANTATION"
+        length="50" nullable="true"
+        originalDbColumnName="RAISONDEPLANTATION" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="REMARQUES"
+        length="500" nullable="true" originalDbColumnName="REMARQUES"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="SOUS_CATEGORIE"
+        length="50" nullable="true"
+        originalDbColumnName="SOUS_CATEGORIE" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="SOUS_CATEGORIE_DESC" length="200" nullable="true"
+        originalDbColumnName="SOUS_CATEGORIE_DESC" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="STADEDEDEVELOPPEMENT" length="50" nullable="true"
+        originalDbColumnName="STADEDEDEVELOPPEMENT" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="STADEDEVELOPPEMENTDIAG" length="50" nullable="true"
+        originalDbColumnName="STADEDEVELOPPEMENTDIAG" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TRAITEMENTCHENILLES" length="50" nullable="true"
+        originalDbColumnName="TRAITEMENTCHENILLES" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TRAVAUXPRECONISESDIAG" length="50" nullable="true"
+        originalDbColumnName="TRAVAUXPRECONISESDIAG" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="TROTTOIR"
+        length="50" nullable="true" originalDbColumnName="TROTTOIR"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="TYPEIMPLANTATIONPLU" length="50" nullable="true"
+        originalDbColumnName="TYPEIMPLANTATIONPLU" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="VARIETE"
+        length="50" nullable="true" originalDbColumnName="VARIETE"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="VIGUEUR"
+        length="50" nullable="true" originalDbColumnName="VIGUEUR"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="Default_or_not"
+        length="-1" nullable="true"
+        originalDbColumnName="Default_or_not" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Collet" length="-1"
+        nullable="true" originalDbColumnName="Collet" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Houppier"
+        length="-1" nullable="true" originalDbColumnName="Houppier"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="-1" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Racine" length="-1"
+        nullable="true" originalDbColumnName="Racine" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="Tronc" length="-1"
+        nullable="true" originalDbColumnName="Tronc" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="-1"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="closest_industrial_zone" length="-1" nullable="true"
+        originalDbColumnName="closest_industrial_zone"
+        originalLength="0" pattern="" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="closest_mall"
+        length="-1" nullable="true" originalDbColumnName="closest_mall"
+        originalLength="0" pattern="" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="closest_motorway"
+        length="-1" nullable="true"
+        originalDbColumnName="closest_motorway" originalLength="0"
+        pattern="" precision="-1" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="closest_parking"
+        length="-1" nullable="true"
+        originalDbColumnName="closest_parking" originalLength="0"
+        pattern="" precision="-1" talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="closest_river"
+        length="-1" nullable="true" originalDbColumnName="closest_river"
+        originalLength="0" pattern="" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false" label="closest_road"
+        length="-1" nullable="true" originalDbColumnName="closest_road"
+        originalLength="0" pattern="" precision="-1"
+        talendType="id_Float" type="REAL"/>
+    <column comment="" default="" key="false"
+        label="closest_train_station" length="-1" nullable="true"
+        originalDbColumnName="closest_train_station" originalLength="0"
+        pattern="" precision="-1" talendType="id_Float" type="REAL"/>
+</schema>

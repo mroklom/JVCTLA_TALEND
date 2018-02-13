@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;D:/Programs/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_iVkdsNRfEeegRtCSnIMgNw" name="DataOperation"/>
+    <routinesParameter id="_iVuOsNRfEeegRtCSnIMgNw" name="Mathematical"/>
+    <routinesParameter id="_iV3YoNRfEeegRtCSnIMgNw" name="Numeric"/>
+    <routinesParameter id="_iV3YpNRfEeegRtCSnIMgNw" name="Relational"/>
+    <routinesParameter id="_iV3YqNRfEeegRtCSnIMgNw" name="StringHandling"/>
+    <routinesParameter id="_iV3YrNRfEeegRtCSnIMgNw" name="TalendDataGenerator"/>
+    <routinesParameter id="_iWBJoNRfEeegRtCSnIMgNw" name="TalendDate"/>
+    <routinesParameter id="_iWBJqNRfEeegRtCSnIMgNw" name="TalendStringUtil"/>
+    <routinesParameter id="_iWBJpNRfEeegRtCSnIMgNw" name="TalendString"/>
+  </parameters>
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Kl3eoP4WEeefhtkL1s2Nuw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.195.25.10&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;files&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="file_connection"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ufCv0Ol6Eee2CufEc0MnEw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.195.25.10&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="jvctla_connection"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlInput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_khWvAAOiEeik5_XV-0AaAg - closest_file" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;closest_file&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_Kl3eoP4WEeefhtkL1s2Nuw - Select closest_file closest_version" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.closest_file.tree_code,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_industrial_zone,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_mall,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_motorway,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_parking,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_river,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_road,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_train_station&#xD;&#xA;FROM&#x9;dbo.closest_file, cube_version&#xD;&#xA;WHERE row_version > closest_dim_version&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tree_code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_industrial_zone"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_mall"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_motorway"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_parking"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_river"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_road"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="closest_train_station"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="closest_file" name="tMSSqlInput_1">
+      <column comment="" defaultValue="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="50" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_QpUxkAvaEeiabtQquS7mgw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata comment="" connector="FLOW" label="closest_dim" name="closest">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="closest" expressionFilter="row1.closest_industrial_zone != null" activateExpressionFilter="true" id="_d8kEgAQfEei4c-S5LSWU-g - closest_dim">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_industrial_zone) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="distance2" expressionFilter="row1.closest_mall != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_mall)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="disatnce3" expressionFilter="row1.closest_motorway != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_motorway)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="distance4" expressionFilter="row1.closest_parking != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_parking)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="distance5" expressionFilter="row1.closest_river != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_river)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="distance6" expressionFilter="row1.closest_road != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_road)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="distance7" expressionFilter="row1.closest_train_station != null" activateExpressionFilter="true" isJoinTableOf="closest">
+        <mapperTableEntries name="distance" expression="Math.round(row1.closest_train_station)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="tree_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="closest_industrial_zone" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_mall" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_motorway" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_parking" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_river" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_road" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="closest_train_station" type="id_Float" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUniqRow_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_d8kEgAQfEei4c-S5LSWU-g - closest_dim" show="false"/>
+    <elementParameter field="TABLE" name="UNIQUE_KEY">
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_sub_group"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_group"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="OPENED_LIST" name="BUFFER_SIZE" value="M" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIRECTORY" value="" show="false"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="closest_dim" name="tUniqRow_1">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="UNIQUE" label="closest_dim" name="UNIQUE">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="DUPLICATE" label="closest_dim" name="DUPLICATE">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tIntervalMatch" componentVersion="0.103" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIntervalMatch_1" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="MAIN_COLUMN" value="distance"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_MIN" value="min"/>
+    <elementParameter field="CHECK" name="LOOKUP_MIN_BOUNDS" value="true"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_MAX" value="max"/>
+    <elementParameter field="CHECK" name="LOOKUP_MAX_BOUNDS" value="false"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_COLUMN" value="sub_group"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="closest_dim" name="tIntervalMatch_1">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="LOOKUP" nullable="true" precision="0" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_QpUxkAvaEeiabtQquS7mgw-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata comment="" connector="FLOW" label="closest_dim" name="out1">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1" id="_d8kEgAQfEei4c-S5LSWU-g - closest_dim">
+        <mapperTableEntries name="distance" expression="row5.distance " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" expression="row5.LOOKUP " type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row5" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="distance" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="LOOKUP" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tIntervalMatch" componentVersion="0.103" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIntervalMatch_2" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="MAIN_COLUMN" value="distance"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_MIN" value="min"/>
+    <elementParameter field="CHECK" name="LOOKUP_MIN_BOUNDS" value="true"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_MAX" value="max"/>
+    <elementParameter field="CHECK" name="LOOKUP_MAX_BOUNDS" value="false"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_COLUMN" value="group"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tIntervalMatch_2">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="LOOKUP" nullable="true" precision="0" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="928" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_QpUxkAvaEeiabtQquS7mgw-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out2">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out2" id="_d8kEgAQfEei4c-S5LSWU-g - closest_dim">
+        <mapperTableEntries name="distance" expression="row6.distance " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" expression="row6.distance_sub_group " type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" expression="row6.LOOKUP " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="distance" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="LOOKUP" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_2" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="min"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="max"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sub_group"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="group"/>
+      <elementValue elementRef="VALUE" value=""/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
+    <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="min" value="0"/>
+      <elementValue elementRef="max" value="100"/>
+      <elementValue elementRef="sub_group" value="&quot;0000 to 0100&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="100"/>
+      <elementValue elementRef="max" value="200"/>
+      <elementValue elementRef="sub_group" value="&quot;0100 to 0200&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="200"/>
+      <elementValue elementRef="max" value="300"/>
+      <elementValue elementRef="sub_group" value="&quot;0200 to 0300&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="300"/>
+      <elementValue elementRef="max" value="400"/>
+      <elementValue elementRef="sub_group" value="&quot;0300 to 0400&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="400"/>
+      <elementValue elementRef="max" value="500"/>
+      <elementValue elementRef="sub_group" value="&quot;0400 to 0500&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="500"/>
+      <elementValue elementRef="max" value="600"/>
+      <elementValue elementRef="sub_group" value="&quot;0500 to 0600&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="600"/>
+      <elementValue elementRef="max" value="700"/>
+      <elementValue elementRef="sub_group" value="&quot;0600 to 0700&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="700"/>
+      <elementValue elementRef="max" value="800"/>
+      <elementValue elementRef="sub_group" value="&quot;0700 to 0800&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="800"/>
+      <elementValue elementRef="max" value="900"/>
+      <elementValue elementRef="sub_group" value="&quot;0800 to 0900&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="900"/>
+      <elementValue elementRef="max" value="1000"/>
+      <elementValue elementRef="sub_group" value="&quot;0900 to 1000&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="1000"/>
+      <elementValue elementRef="max" value="1100"/>
+      <elementValue elementRef="sub_group" value="&quot;1000 to 1100&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1100"/>
+      <elementValue elementRef="max" value="1200"/>
+      <elementValue elementRef="sub_group" value="&quot;1100 to 1200&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1200"/>
+      <elementValue elementRef="max" value="1300"/>
+      <elementValue elementRef="sub_group" value="&quot;1200 to 1300&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1300"/>
+      <elementValue elementRef="max" value="1400"/>
+      <elementValue elementRef="sub_group" value="&quot;1300 to 1400&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1400"/>
+      <elementValue elementRef="max" value="1500"/>
+      <elementValue elementRef="sub_group" value="&quot;1400 to 1500&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1500"/>
+      <elementValue elementRef="max" value="1600"/>
+      <elementValue elementRef="sub_group" value="&quot;1500 to 1600&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1600"/>
+      <elementValue elementRef="max" value="1700"/>
+      <elementValue elementRef="sub_group" value="&quot;1600 to 1700&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1700"/>
+      <elementValue elementRef="max" value="1800"/>
+      <elementValue elementRef="sub_group" value="&quot;1700 to 1800&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1800"/>
+      <elementValue elementRef="max" value="1900"/>
+      <elementValue elementRef="sub_group" value="&quot;1800 to 1900&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1900"/>
+      <elementValue elementRef="max" value="2000"/>
+      <elementValue elementRef="sub_group" value="&quot;1900 to 2000&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="2000"/>
+      <elementValue elementRef="max" value="2100"/>
+      <elementValue elementRef="sub_group" value="&quot;2000 to 2100&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2100"/>
+      <elementValue elementRef="max" value="2200"/>
+      <elementValue elementRef="sub_group" value="&quot;2100 to 2200&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2200"/>
+      <elementValue elementRef="max" value="2300"/>
+      <elementValue elementRef="sub_group" value="&quot;2200 to 2300&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2300"/>
+      <elementValue elementRef="max" value="2400"/>
+      <elementValue elementRef="sub_group" value="&quot;2300 to 2400&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2400"/>
+      <elementValue elementRef="max" value="2500"/>
+      <elementValue elementRef="sub_group" value="&quot;2400 to 2500&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2500"/>
+      <elementValue elementRef="max" value="2600"/>
+      <elementValue elementRef="sub_group" value="&quot;2500 to 2600&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2600"/>
+      <elementValue elementRef="max" value="2700"/>
+      <elementValue elementRef="sub_group" value="&quot;2600 to 2700&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2700"/>
+      <elementValue elementRef="max" value="2800"/>
+      <elementValue elementRef="sub_group" value="&quot;2700 to 2800&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2800"/>
+      <elementValue elementRef="max" value="2900"/>
+      <elementValue elementRef="sub_group" value="&quot;2800 to 2900&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2900"/>
+      <elementValue elementRef="max" value="3000"/>
+      <elementValue elementRef="sub_group" value="&quot;2900 to 3000&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="3000"/>
+      <elementValue elementRef="max" value="3100"/>
+      <elementValue elementRef="sub_group" value="&quot;3000 to 3100&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3100"/>
+      <elementValue elementRef="max" value="3200"/>
+      <elementValue elementRef="sub_group" value="&quot;3100 to 3200&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3200"/>
+      <elementValue elementRef="max" value="3300"/>
+      <elementValue elementRef="sub_group" value="&quot;3200 to 3300&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3300"/>
+      <elementValue elementRef="max" value="3400"/>
+      <elementValue elementRef="sub_group" value="&quot;3300 to 3400&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3400"/>
+      <elementValue elementRef="max" value="3500"/>
+      <elementValue elementRef="sub_group" value="&quot;3400 to 3500&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3500"/>
+      <elementValue elementRef="max" value="3600"/>
+      <elementValue elementRef="sub_group" value="&quot;3500 to 3600&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3600"/>
+      <elementValue elementRef="max" value="3700"/>
+      <elementValue elementRef="sub_group" value="&quot;3600 to 3700&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3700"/>
+      <elementValue elementRef="max" value="3800"/>
+      <elementValue elementRef="sub_group" value="&quot;3700 to 3800&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3800"/>
+      <elementValue elementRef="max" value="3900"/>
+      <elementValue elementRef="sub_group" value="&quot;3800 to 3900&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3900"/>
+      <elementValue elementRef="max" value="4000"/>
+      <elementValue elementRef="sub_group" value="&quot;3900 to 4000&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="4000"/>
+      <elementValue elementRef="max" value="4100"/>
+      <elementValue elementRef="sub_group" value="&quot;4000 to 4100&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4100"/>
+      <elementValue elementRef="max" value="4200"/>
+      <elementValue elementRef="sub_group" value="&quot;4100 to 4200&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4200"/>
+      <elementValue elementRef="max" value="4300"/>
+      <elementValue elementRef="sub_group" value="&quot;4200 to 4300&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4300"/>
+      <elementValue elementRef="max" value="4400"/>
+      <elementValue elementRef="sub_group" value="&quot;4300 to 4400&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4400"/>
+      <elementValue elementRef="max" value="4500"/>
+      <elementValue elementRef="sub_group" value="&quot;4400 to 4500&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4500"/>
+      <elementValue elementRef="max" value="4600"/>
+      <elementValue elementRef="sub_group" value="&quot;4500 to 4600&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4600"/>
+      <elementValue elementRef="max" value="4700"/>
+      <elementValue elementRef="sub_group" value="&quot;4600 to 4700&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4700"/>
+      <elementValue elementRef="max" value="4800"/>
+      <elementValue elementRef="sub_group" value="&quot;4700 to 4800&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4800"/>
+      <elementValue elementRef="max" value="4900"/>
+      <elementValue elementRef="sub_group" value="&quot;4800 to 4900&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4900"/>
+      <elementValue elementRef="max" value="5000"/>
+      <elementValue elementRef="sub_group" value="&quot;4900 to 5000&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="5000"/>
+      <elementValue elementRef="max" value="5100"/>
+      <elementValue elementRef="sub_group" value="&quot;5000 to 5100&quot;"/>
+      <elementValue elementRef="group" value="&quot;5000 to 5500&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_2">
+      <column comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sub_group" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="group" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="min"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="max"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sub_group"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="group"/>
+      <elementValue elementRef="VALUE" value=""/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
+    <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="min" value="0"/>
+      <elementValue elementRef="max" value="100"/>
+      <elementValue elementRef="sub_group" value="&quot;0000 to 0100&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="100"/>
+      <elementValue elementRef="max" value="200"/>
+      <elementValue elementRef="sub_group" value="&quot;0100 to 0200&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="200"/>
+      <elementValue elementRef="max" value="300"/>
+      <elementValue elementRef="sub_group" value="&quot;0200 to 0300&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="300"/>
+      <elementValue elementRef="max" value="400"/>
+      <elementValue elementRef="sub_group" value="&quot;0300 to 0400&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="400"/>
+      <elementValue elementRef="max" value="500"/>
+      <elementValue elementRef="sub_group" value="&quot;0400 to 0500&quot;"/>
+      <elementValue elementRef="group" value="&quot;0000 to 0500&quot;"/>
+      <elementValue elementRef="min" value="500"/>
+      <elementValue elementRef="max" value="600"/>
+      <elementValue elementRef="sub_group" value="&quot;0500 to 0600&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="600"/>
+      <elementValue elementRef="max" value="700"/>
+      <elementValue elementRef="sub_group" value="&quot;0600 to 0700&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="700"/>
+      <elementValue elementRef="max" value="800"/>
+      <elementValue elementRef="sub_group" value="&quot;0700 to 0800&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="800"/>
+      <elementValue elementRef="max" value="900"/>
+      <elementValue elementRef="sub_group" value="&quot;0800 to 0900&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="900"/>
+      <elementValue elementRef="max" value="1000"/>
+      <elementValue elementRef="sub_group" value="&quot;0900 to 1000&quot;"/>
+      <elementValue elementRef="group" value="&quot;0500 to 1000&quot;"/>
+      <elementValue elementRef="min" value="1000"/>
+      <elementValue elementRef="max" value="1100"/>
+      <elementValue elementRef="sub_group" value="&quot;1000 to 1100&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1100"/>
+      <elementValue elementRef="max" value="1200"/>
+      <elementValue elementRef="sub_group" value="&quot;1100 to 1200&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1200"/>
+      <elementValue elementRef="max" value="1300"/>
+      <elementValue elementRef="sub_group" value="&quot;1200 to 1300&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1300"/>
+      <elementValue elementRef="max" value="1400"/>
+      <elementValue elementRef="sub_group" value="&quot;1300 to 1400&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1400"/>
+      <elementValue elementRef="max" value="1500"/>
+      <elementValue elementRef="sub_group" value="&quot;1400 to 1500&quot;"/>
+      <elementValue elementRef="group" value="&quot;1000 to 1500&quot;"/>
+      <elementValue elementRef="min" value="1500"/>
+      <elementValue elementRef="max" value="1600"/>
+      <elementValue elementRef="sub_group" value="&quot;1500 to 1600&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1600"/>
+      <elementValue elementRef="max" value="1700"/>
+      <elementValue elementRef="sub_group" value="&quot;1600 to 1700&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1700"/>
+      <elementValue elementRef="max" value="1800"/>
+      <elementValue elementRef="sub_group" value="&quot;1700 to 1800&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1800"/>
+      <elementValue elementRef="max" value="1900"/>
+      <elementValue elementRef="sub_group" value="&quot;1800 to 1900&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="1900"/>
+      <elementValue elementRef="max" value="2000"/>
+      <elementValue elementRef="sub_group" value="&quot;1900 to 2000&quot;"/>
+      <elementValue elementRef="group" value="&quot;1500 to 2000&quot;"/>
+      <elementValue elementRef="min" value="2000"/>
+      <elementValue elementRef="max" value="2100"/>
+      <elementValue elementRef="sub_group" value="&quot;2000 to 2100&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2100"/>
+      <elementValue elementRef="max" value="2200"/>
+      <elementValue elementRef="sub_group" value="&quot;2100 to 2200&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2200"/>
+      <elementValue elementRef="max" value="2300"/>
+      <elementValue elementRef="sub_group" value="&quot;2200 to 2300&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2300"/>
+      <elementValue elementRef="max" value="2400"/>
+      <elementValue elementRef="sub_group" value="&quot;2300 to 2400&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2400"/>
+      <elementValue elementRef="max" value="2500"/>
+      <elementValue elementRef="sub_group" value="&quot;2400 to 2500&quot;"/>
+      <elementValue elementRef="group" value="&quot;2000 to 2500&quot;"/>
+      <elementValue elementRef="min" value="2500"/>
+      <elementValue elementRef="max" value="2600"/>
+      <elementValue elementRef="sub_group" value="&quot;2500 to 2600&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2600"/>
+      <elementValue elementRef="max" value="2700"/>
+      <elementValue elementRef="sub_group" value="&quot;2600 to 2700&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2700"/>
+      <elementValue elementRef="max" value="2800"/>
+      <elementValue elementRef="sub_group" value="&quot;2700 to 2800&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2800"/>
+      <elementValue elementRef="max" value="2900"/>
+      <elementValue elementRef="sub_group" value="&quot;2800 to 2900&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="2900"/>
+      <elementValue elementRef="max" value="3000"/>
+      <elementValue elementRef="sub_group" value="&quot;2900 to 3000&quot;"/>
+      <elementValue elementRef="group" value="&quot;2500 to 3000&quot;"/>
+      <elementValue elementRef="min" value="3000"/>
+      <elementValue elementRef="max" value="3100"/>
+      <elementValue elementRef="sub_group" value="&quot;3000 to 3100&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3100"/>
+      <elementValue elementRef="max" value="3200"/>
+      <elementValue elementRef="sub_group" value="&quot;3100 to 3200&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3200"/>
+      <elementValue elementRef="max" value="3300"/>
+      <elementValue elementRef="sub_group" value="&quot;3200 to 3300&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3300"/>
+      <elementValue elementRef="max" value="3400"/>
+      <elementValue elementRef="sub_group" value="&quot;3300 to 3400&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3400"/>
+      <elementValue elementRef="max" value="3500"/>
+      <elementValue elementRef="sub_group" value="&quot;3400 to 3500&quot;"/>
+      <elementValue elementRef="group" value="&quot;3000 to 3500&quot;"/>
+      <elementValue elementRef="min" value="3500"/>
+      <elementValue elementRef="max" value="3600"/>
+      <elementValue elementRef="sub_group" value="&quot;3500 to 3600&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3600"/>
+      <elementValue elementRef="max" value="3700"/>
+      <elementValue elementRef="sub_group" value="&quot;3600 to 3700&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3700"/>
+      <elementValue elementRef="max" value="3800"/>
+      <elementValue elementRef="sub_group" value="&quot;3700 to 3800&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3800"/>
+      <elementValue elementRef="max" value="3900"/>
+      <elementValue elementRef="sub_group" value="&quot;3800 to 3900&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="3900"/>
+      <elementValue elementRef="max" value="4000"/>
+      <elementValue elementRef="sub_group" value="&quot;3900 to 4000&quot;"/>
+      <elementValue elementRef="group" value="&quot;3500 to 4000&quot;"/>
+      <elementValue elementRef="min" value="4000"/>
+      <elementValue elementRef="max" value="4100"/>
+      <elementValue elementRef="sub_group" value="&quot;4000 to 4100&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4100"/>
+      <elementValue elementRef="max" value="4200"/>
+      <elementValue elementRef="sub_group" value="&quot;4100 to 4200&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4200"/>
+      <elementValue elementRef="max" value="4300"/>
+      <elementValue elementRef="sub_group" value="&quot;4200 to 4300&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4300"/>
+      <elementValue elementRef="max" value="4400"/>
+      <elementValue elementRef="sub_group" value="&quot;4300 to 4400&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4400"/>
+      <elementValue elementRef="max" value="4500"/>
+      <elementValue elementRef="sub_group" value="&quot;4400 to 4500&quot;"/>
+      <elementValue elementRef="group" value="&quot;4000 to 4500&quot;"/>
+      <elementValue elementRef="min" value="4500"/>
+      <elementValue elementRef="max" value="4600"/>
+      <elementValue elementRef="sub_group" value="&quot;4500 to 4600&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4600"/>
+      <elementValue elementRef="max" value="4700"/>
+      <elementValue elementRef="sub_group" value="&quot;4600 to 4700&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4700"/>
+      <elementValue elementRef="max" value="4800"/>
+      <elementValue elementRef="sub_group" value="&quot;4700 to 4800&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4800"/>
+      <elementValue elementRef="max" value="4900"/>
+      <elementValue elementRef="sub_group" value="&quot;4800 to 4900&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="4900"/>
+      <elementValue elementRef="max" value="5000"/>
+      <elementValue elementRef="sub_group" value="&quot;4900 to 5000&quot;"/>
+      <elementValue elementRef="group" value="&quot;4500 to 5000&quot;"/>
+      <elementValue elementRef="min" value="5000"/>
+      <elementValue elementRef="max" value="5100"/>
+      <elementValue elementRef="sub_group" value="&quot;5000 to 5100&quot;"/>
+      <elementValue elementRef="group" value="&quot;5000 to 5500&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sub_group" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="group" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_4" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_QpUxkAvaEeiabtQquS7mgw-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata comment="" connector="FLOW" label="closest_dim" name="closest_update">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata comment="" connector="FLOW" label="closest_dim" name="closest_insert">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="closest_update" expressionFilter="!out2.distance_sub_group.equals(row7.distance_sub_group) &#xD;&#xA;|| !out2.distance_group.equals(row7.distance_group)" activateExpressionFilter="true" activateCondensedTool="true" id="_d8kEgAQfEei4c-S5LSWU-g - closest_dim">
+        <mapperTableEntries name="distance" expression="row7.distance " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" expression="out2.distance_sub_group " type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" expression="out2.distance_group " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="closest_insert" activateCondensedTool="true" id="_d8kEgAQfEei4c-S5LSWU-g - closest_dim" rejectInnerJoin="true">
+        <mapperTableEntries name="distance" expression="out2.distance " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" expression="out2.distance_sub_group " type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" expression="out2.distance_group " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="out2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="distance" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row7" activateCondensedTool="true" columnNameFilter="" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+        <mapperTableEntries name="distance" expression="out2.distance " type="id_Integer" nullable="true" operator="="/>
+        <mapperTableEntries name="distance_sub_group" type="id_String" nullable="true"/>
+        <mapperTableEntries name="distance_group" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlInput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_d8kEgAQfEei4c-S5LSWU-g - closest_dim" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;closest_dim&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.closest_dim.distance,&#xA;&#x9;&#x9;dbo.closest_dim.distance_sub_group,&#xA;&#x9;&#x9;dbo.closest_dim.distance_group&#xA;FROM&#x9;dbo.closest_dim&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_sub_group"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_group"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="closest_dim" name="tMSSqlInput_2">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;closest_dim&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="distance" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_d8kEgAQfEei4c-S5LSWU-g - closest_dim" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_sub_group"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_group"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="closest_dim" name="tMSSqlOutput_2">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="closest_dim" name="REJECT">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;closest_dim&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="distance" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_d8kEgAQfEei4c-S5LSWU-g - closest_dim" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_sub_group"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="distance_group"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="500"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlOutput_1">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="closest_dim" name="REJECT">
+      <column comment="" key="true" length="-1" name="distance" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_sub_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="distance_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlCommit_1"/>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_ufCv0Ol6Eee2CufEc0MnEw - Drop FK_diagnosis_fact_id_closest" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;ALTER TABLE diagnosis_fact   &#xD;&#xA;DROP CONSTRAINT FK_diagnosis_fact_closest_industrial_zone,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_mall,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_motorway,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_parking,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_river,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_road,&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_train_station&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Drop FK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_closest" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;ALTER TABLE diagnosis_fact   &#xD;&#xA;ADD CONSTRAINT FK_diagnosis_fact_closest_industrial_zone FOREIGN KEY (closest_industrial_zone)&#xD;&#xA;&#x9;REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_mall FOREIGN KEY (closest_mall)     &#xD;&#xA;    REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_motorway FOREIGN KEY (closest_motorway)     &#xD;&#xA;    REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_parking FOREIGN KEY (closest_parking)     &#xD;&#xA;    REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_river FOREIGN KEY (closest_river)     &#xD;&#xA;    REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_road FOREIGN KEY (closest_road)     &#xD;&#xA;    REFERENCES closest_dim (distance),&#xD;&#xA;CONSTRAINT FK_diagnosis_fact_closest_train_station FOREIGN KEY (closest_train_station)     &#xD;&#xA;    REFERENCES closest_dim (distance)&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Add FK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_3" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_Kl3eoP4WEeefhtkL1s2Nuw - Update cube_version closest_dim" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE cube_version&#xD;&#xA;SET closest_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM closest_file)&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Update row_version"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlRow_3"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_2" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMSSqlCommit_2"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlConnection_1" target="tMSSqlConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlConnection_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlConnection_2" target="tMSSqlRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="tMSSqlRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="closest" lineStyle="0" metaname="closest" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUniqRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="closest" show="false"/>
+  </connection>
+  <connection connectorName="UNIQUE" label="row2" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tIntervalMatch_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tIntervalMatch_1" offsetLabelX="-1" offsetLabelY="2" source="tIntervalMatch_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tIntervalMatch_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tIntervalMatch_2" offsetLabelX="0" offsetLabelY="0" source="tIntervalMatch_2" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="8" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tIntervalMatch_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tIntervalMatch_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="closest_update" lineStyle="0" metaname="closest_update" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_4" target="tMSSqlOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="closest_update" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="closest_insert" lineStyle="0" metaname="closest_insert" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_4" target="tMSSqlOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="closest_insert" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tMSSqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_2" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlCommit_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlCommit_1" target="tMSSqlCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_1" target="tMSSqlInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_2" target="tMSSqlRow_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_3" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_3" target="tMSSqlCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlRow_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlCommit_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

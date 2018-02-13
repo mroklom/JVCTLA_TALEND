@@ -6,6 +6,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4bfVIwATEeiz8Zjf5Mo2yA" name="id_station" label="id_station" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2dY0QAAUEeiz8Zjf5Mo2yA" name="station_code" label="station_code" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4bfVJAATEeiz8Zjf5Mo2yA" name="station_desc" label="station_desc" length="200" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dNJMwAwBEeiAlKbILEfj2g" name="station_sector" label="station_sector" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

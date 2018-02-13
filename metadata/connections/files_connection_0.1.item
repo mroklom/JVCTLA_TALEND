@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_SnOtAP4WEeefhtkL1s2Nuw" name="files_connection" id="_Kl3eoP4WEeefhtkL1s2Nuw" label="files_connection" dataPackage="_U7PQMAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=files;" dbVersionString="MSSQL_PROP" Port="54627" Username="sa" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="files" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
     <taggedValue xmi:id="_SnOtAf4WEeefhtkL1s2Nuw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_SnYeAP4WEeefhtkL1s2Nuw" tag="package filter" value=""/>
@@ -12,10 +12,432 @@
     <taggedValue xmi:id="_SpnSoP4WEeefhtkL1s2Nuw" tag="DB ProductName" value="Microsoft SQL Server"/>
     <taggedValue xmi:id="_SpnSof4WEeefhtkL1s2Nuw" tag="DB ProductVersion" value="14.00.1000"/>
     <taggedValue xmi:id="_SpnSov4WEeefhtkL1s2Nuw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_dk7FwAjvEeiXZrK3tFCF3A">
+      <query xmi:id="_1OuooQjvEeiXZrK3tFCF3A" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_1OuooAjvEeiXZrK3tFCF3A" label="Select diagnosis_file closest_dim_version" value="SELECT dbo.closest_file.tree_code,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_industrial_zone,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_mall,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_motorway,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_parking,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_river,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_road,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_train_station&#xD;&#xA;FROM&#x9;dbo.closest_file, cube_version&#xD;&#xA;WHERE row_version > closest_dim_version"/>
+      <query xmi:id="_5mlZsQjvEeiXZrK3tFCF3A" id="_5mlZsAjvEeiXZrK3tFCF3A" label="Select diagnosis_file" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file"/>
+      <query xmi:id="_EQbGMQjwEeiXZrK3tFCF3A" id="_EQbGMAjwEeiXZrK3tFCF3A" label="Select diagnosis_file development_status_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > development_status_dim_version"/>
+      <query xmi:id="_Is7twQjwEeiXZrK3tFCF3A" id="_Is7twAjwEeiXZrK3tFCF3A" label="Select diagnosis_file diagnosis_fact_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > diagnosis_fact_version"/>
+      <query xmi:id="_Lj3eoQjwEeiXZrK3tFCF3A" id="_Lj3eoAjwEeiXZrK3tFCF3A" label="Select diagnosis_file diagnosis_note_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > diagnosis_note_dim_version"/>
+      <query xmi:id="_QPncEQjwEeiXZrK3tFCF3A" id="_QPncEAjwEeiXZrK3tFCF3A" label="Select diagnosis_file environment_busyness_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > environment_busyness_dim_version"/>
+      <query xmi:id="_Vy2bIQjwEeiXZrK3tFCF3A" id="_Vy2bIAjwEeiXZrK3tFCF3A" label="Select diagnosis_file sidewalk_proximity_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > sidewalk_proximity_dim_version"/>
+      <query xmi:id="_bSnPcQjwEeiXZrK3tFCF3A" id="_bSnPcAjwEeiXZrK3tFCF3A" label="Select diagnosis_file specie_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > specie_dim_version"/>
+      <query xmi:id="_er11EQjwEeiXZrK3tFCF3A" id="_er11EAjwEeiXZrK3tFCF3A" label="Select diagnosis_file station_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > station_dim_version"/>
+      <query xmi:id="_hs9csQjwEeiXZrK3tFCF3A" id="_hs9csAjwEeiXZrK3tFCF3A" label="Select diagnosis_file stump_diameter_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > stump_diameter_dim_version"/>
+      <query xmi:id="_kvpxoQjwEeiXZrK3tFCF3A" id="_kvpxoAjwEeiXZrK3tFCF3A" label="Select diagnosis_file vigor_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > vigor_dim_version"/>
+      <query xmi:id="_oaj9IQjwEeiXZrK3tFCF3A" id="_oaj9IAjwEeiXZrK3tFCF3A" label="Select diagnosis_file year_dim_version" value="SELECT dbo.diagnosis_file.coord_x,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.coord_y,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ADR_SECTEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEEREALISATIONDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ANNEETRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.CODE_PARENT_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.DIAMETREARBREAUNMETRE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.ESPECE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.FREQUENTATIONCIBLE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.GENRE_BOTA,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.IDENTIFIANTPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.INTITULEPROTECTIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.NOTEDIAGNOSTIC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.PRIORITEDERENOUVELLEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.RAISONDEPLANTATION,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.REMARQUES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.SOUS_CATEGORIE_DESC,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEDEVELOPPEMENT,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.STADEDEVELOPPEMENTDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAITEMENTCHENILLES,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TRAVAUXPRECONISESDIAG,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TROTTOIR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.TYPEIMPLANTATIONPLU,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VARIETE,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.VIGUEUR,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Default_or_not,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Collet,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Houppier,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Racine,&#xD;&#xA;&#x9;&#x9;dbo.diagnosis_file.Tronc&#xD;&#xA;FROM&#x9;dbo.diagnosis_file, cube_version&#xD;&#xA;WHERE row_version > year_dim_version"/>
+      <query xmi:id="_50kNEAvpEeiabtQquS7mgw" id="_50jmAAvpEeiabtQquS7mgw" label="Update cube_version closest_dim" value="UPDATE cube_version&#xD;&#xA;SET closest_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM closest_file)"/>
+      <query xmi:id="_9lyb8QvpEeiabtQquS7mgw" id="_9lyb8AvpEeiabtQquS7mgw" label="Update cube_version development_status" value="UPDATE cube_version&#xD;&#xA;SET development_status_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_CLSncQvqEeiabtQquS7mgw" id="_CLSncAvqEeiabtQquS7mgw" label="Update cube_version diagnosis_note" value="UPDATE cube_version&#xD;&#xA;SET diagnosis_note_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_FZS0gQvqEeiabtQquS7mgw" id="_FZS0gAvqEeiabtQquS7mgw" label="Update cube_version environment_busyness" value="UPDATE cube_version&#xD;&#xA;SET environment_busyness_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_JPj7cQvqEeiabtQquS7mgw" id="_JPj7cAvqEeiabtQquS7mgw" label="Update cube_version sidewalk_proximity" value="UPDATE cube_version&#xD;&#xA;SET sidewalk_proximity_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_Ncpm8QvqEeiabtQquS7mgw" id="_Ncpm8AvqEeiabtQquS7mgw" label="Update cube_version specie" value="UPDATE cube_version&#xD;&#xA;SET specie_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_RYtz4QvqEeiabtQquS7mgw" id="_RYtz4AvqEeiabtQquS7mgw" label="Update cube_version stump_diameter" value="UPDATE cube_version&#xD;&#xA;SET stump_diameter_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_UZHCwQvqEeiabtQquS7mgw" id="_UZHCwAvqEeiabtQquS7mgw" label="Update cube_version vigor" value="UPDATE cube_version&#xD;&#xA;SET vigor_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_WEeYYQvqEeiabtQquS7mgw" id="_WEeYYAvqEeiabtQquS7mgw" label="Update cube_version year" value="UPDATE cube_version&#xD;&#xA;SET year_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_AHIscQvsEeiabtQquS7mgw" id="_AHIscAvsEeiabtQquS7mgw" label="Update cube_version station" value="UPDATE cube_version&#xD;&#xA;SET station_dim_version = &#xD;&#xA;&#x9;(SELECT MAX(row_version) FROM diagnosis_file)"/>
+      <query xmi:id="_oqBi8QwFEeiAlKbILEfj2g" id="_oqBi8AwFEeiAlKbILEfj2g" label="Select closest_file closest_version" value="SELECT dbo.closest_file.tree_code,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_industrial_zone,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_mall,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_motorway,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_parking,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_river,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_road,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_train_station&#xD;&#xA;FROM&#x9;dbo.closest_file, cube_version&#xD;&#xA;WHERE row_version > closest_dim_version"/>
+      <query xmi:id="_uyDRIQwFEeiAlKbILEfj2g" id="_uyDRIAwFEeiAlKbILEfj2g" label="Select closest_file diagnosis_fact_version" value="SELECT dbo.closest_file.tree_code,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_industrial_zone,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_mall,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_motorway,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_parking,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_river,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_road,&#xD;&#xA;&#x9;&#x9;dbo.closest_file.closest_train_station&#xD;&#xA;FROM&#x9;dbo.closest_file, cube_version&#xD;&#xA;WHERE row_version > diagnosis_fact_version"/>
+      <query xmi:id="_wV7IkQwOEeiAlKbILEfj2g" id="_wV7IkAwOEeiAlKbILEfj2g" label="Update cube_version diagnosis_fact" value="DECLARE @diagnosis_version binary(8), @closest_version binary(8)&#xD;&#xA;SET @diagnosis_version = (SELECT MAX (row_version) from diagnosis_file)&#xD;&#xA;SET @closest_version = (SELECT MAX (row_version) from closest_file)&#xD;&#xA;&#xD;&#xA;IF (@diagnosis_version > @closest_version)&#xD;&#xA;&#x9;BEGIN&#xD;&#xA;&#x9;&#x9;UPDATE cube_version&#xD;&#xA;&#x9;&#x9;SET diagnosis_fact_version = @diagnosis_version&#xD;&#xA;&#x9;END&#xD;&#xA;ELSE &#xD;&#xA;&#x9;BEGIN&#xD;&#xA;&#x9;&#x9;UPDATE cube_version&#xD;&#xA;&#x9;&#x9;SET diagnosis_fact_version = @closest_version&#xD;&#xA;&#x9;END"/>
+    </queries>
     <parameters xmi:id="_SnOtAv4WEeefhtkL1s2Nuw" key="CONN_PARA_KEY_USERNAME" value="sa"/>
     <parameters xmi:id="_cBw68AAdEeiz8Zjf5Mo2yA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_U7PQMAhMEeiEYr-ESCXnjA" name="files" dataManager="_SnOtAP4WEeefhtkL1s2Nuw">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_U7PQMQhMEeiEYr-ESCXnjA" name="dbo"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0P9vwAjuEeiXZrK3tFCF3A" name="closest_file" id="_0P8hoAjuEeiXZrK3tFCF3A" label="closest_file" tableType="TABLE">
+      <taggedValue xmi:id="_0P9vwQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9vwgjuEeiXZrK3tFCF3A" name="tree_code" label="tree_code" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_0P9vwwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9vxAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9vxQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9vxgjuEeiXZrK3tFCF3A" name="closest_industrial_zone" label="closest_industrial_zone" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9vxwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9vyAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9vyQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9vygjuEeiXZrK3tFCF3A" name="closest_mall" label="closest_mall" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9vywjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9vzAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9vzQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9vzgjuEeiXZrK3tFCF3A" name="closest_motorway" label="closest_motorway" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9vzwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9v0AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9v0QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9v0gjuEeiXZrK3tFCF3A" name="closest_parking" label="closest_parking" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9v0wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9v1AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9v1QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9v1gjuEeiXZrK3tFCF3A" name="closest_river" label="closest_river" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9v1wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9v2AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9v2QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9v2gjuEeiXZrK3tFCF3A" name="closest_road" label="closest_road" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9v2wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9v3AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9v3QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0P9v3gjuEeiXZrK3tFCF3A" name="closest_train_station" label="closest_train_station" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0P9v3wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0P9v4AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0P9v4QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0SJhEAjuEeiXZrK3tFCF3A" name="cube_version" id="_0SI6AAjuEeiXZrK3tFCF3A" label="cube_version" tableType="TABLE">
+      <taggedValue xmi:id="_0SJhEQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhFgjuEeiXZrK3tFCF3A" name="closest_dim_version" label="closest_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhFwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhGAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhGQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhGgjuEeiXZrK3tFCF3A" name="development_status_dim_version" label="development_status_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhGwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhHAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhHQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhHgjuEeiXZrK3tFCF3A" name="diagnosis_fact_version" label="diagnosis_fact_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhHwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhIAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhIQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhIgjuEeiXZrK3tFCF3A" name="diagnosis_note_dim_version" label="diagnosis_note_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhIwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhJAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhJQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhJgjuEeiXZrK3tFCF3A" name="environment_busyness_dim_version" label="environment_busyness_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhJwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhKAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhKQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhKgjuEeiXZrK3tFCF3A" name="sidewalk_proximity_dim_version" label="sidewalk_proximity_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhKwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhLAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhLQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhLgjuEeiXZrK3tFCF3A" name="specie_dim_version" label="specie_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhLwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhMAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhMQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhMgjuEeiXZrK3tFCF3A" name="station_dim_version" label="station_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhMwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhNAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhNQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhNgjuEeiXZrK3tFCF3A" name="stump_diameter_dim_version" label="stump_diameter_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhNwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhOAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhOQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhOgjuEeiXZrK3tFCF3A" name="vigor_dim_version" label="vigor_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhOwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhPAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhPQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhPgjuEeiXZrK3tFCF3A" name="year_dim_version" label="year_dim_version" length="8" sourceType="BINARY" talendType="id_byte[]" nullable="false">
+        <taggedValue xmi:id="_0SJhPwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhQAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhQQjuEeiXZrK3tFCF3A" name="BINARY" javaDataType="-2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0SJhEgjuEeiXZrK3tFCF3A" name=" " label="id" divergency="true" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_0SJhEwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0SJhFAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0SJhFQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0YJbYAjuEeiXZrK3tFCF3A" name="diagnosis_file" id="_0YG_IAjuEeiXZrK3tFCF3A" label="diagnosis_file" tableType="TABLE">
+      <taggedValue xmi:id="_0YJbYQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbYgjuEeiXZrK3tFCF3A" name="coord_x" label="coord_x" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0YJbYwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbZAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbZQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbZgjuEeiXZrK3tFCF3A" name="coord_y" label="coord_y" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0YJbZwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbaAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbaQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbagjuEeiXZrK3tFCF3A" name="ADR_SECTEUR" label="ADR_SECTEUR" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJbawjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbbAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbbQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbbgjuEeiXZrK3tFCF3A" name="ANNEEDEPLANTATION" label="ANNEEDEPLANTATION" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJbbwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbcAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbcQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbcgjuEeiXZrK3tFCF3A" name="ANNEEREALISATIONDIAGNOSTIC" label="ANNEEREALISATIONDIAGNOSTIC" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJbcwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbdAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbdQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbdgjuEeiXZrK3tFCF3A" name="ANNEETRAVAUXPRECONISESDIAG" label="ANNEETRAVAUXPRECONISESDIAG" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJbdwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbeAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbeQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbegjuEeiXZrK3tFCF3A" name="CODE" label="CODE" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_0YJbewjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbfAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbfQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbfgjuEeiXZrK3tFCF3A" name="CODE_PARENT" label="CODE_PARENT" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbfwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbgAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbgQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbggjuEeiXZrK3tFCF3A" name="CODE_PARENT_DESC" label="CODE_PARENT_DESC" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbgwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbhAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbhQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbhgjuEeiXZrK3tFCF3A" name="DIAMETREARBREAUNMETRE" label="DIAMETREARBREAUNMETRE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbhwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbiAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbiQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbigjuEeiXZrK3tFCF3A" name="ESPECE" label="ESPECE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbiwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbjAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbjQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbjgjuEeiXZrK3tFCF3A" name="FREQUENTATIONCIBLE" label="FREQUENTATIONCIBLE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbjwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbkAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbkQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbkgjuEeiXZrK3tFCF3A" name="GENRE_BOTA" label="GENRE_BOTA" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbkwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJblAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJblQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJblgjuEeiXZrK3tFCF3A" name="IDENTIFIANTPLU" label="IDENTIFIANTPLU" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJblwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbmAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbmQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbmgjuEeiXZrK3tFCF3A" name="INTITULEPROTECTIONPLU" label="INTITULEPROTECTIONPLU" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbmwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbnAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbnQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbngjuEeiXZrK3tFCF3A" name="NOTEDIAGNOSTIC" label="NOTEDIAGNOSTIC" length="500" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbnwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJboAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJboQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbogjuEeiXZrK3tFCF3A" name="PRIORITEDERENOUVELLEMENT" label="PRIORITEDERENOUVELLEMENT" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbowjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbpAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbpQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbpgjuEeiXZrK3tFCF3A" name="RAISONDEPLANTATION" label="RAISONDEPLANTATION" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbpwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbqAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbqQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbqgjuEeiXZrK3tFCF3A" name="REMARQUES" label="REMARQUES" length="500" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbqwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbrAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbrQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbrgjuEeiXZrK3tFCF3A" name="SOUS_CATEGORIE" label="SOUS_CATEGORIE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbrwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbsAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbsQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbsgjuEeiXZrK3tFCF3A" name="SOUS_CATEGORIE_DESC" label="SOUS_CATEGORIE_DESC" length="200" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbswjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbtAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbtQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbtgjuEeiXZrK3tFCF3A" name="STADEDEDEVELOPPEMENT" label="STADEDEDEVELOPPEMENT" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbtwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbuAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbuQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbugjuEeiXZrK3tFCF3A" name="STADEDEVELOPPEMENTDIAG" label="STADEDEVELOPPEMENTDIAG" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbuwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbvAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbvQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbvgjuEeiXZrK3tFCF3A" name="TRAITEMENTCHENILLES" label="TRAITEMENTCHENILLES" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbvwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbwAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbwQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbwgjuEeiXZrK3tFCF3A" name="TRAVAUXPRECONISESDIAG" label="TRAVAUXPRECONISESDIAG" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbwwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbxAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbxQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbxgjuEeiXZrK3tFCF3A" name="TROTTOIR" label="TROTTOIR" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbxwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbyAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbyQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbygjuEeiXZrK3tFCF3A" name="TYPEIMPLANTATIONPLU" label="TYPEIMPLANTATIONPLU" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbywjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJbzAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJbzQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJbzgjuEeiXZrK3tFCF3A" name="VARIETE" label="VARIETE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJbzwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb0AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb0QjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb0gjuEeiXZrK3tFCF3A" name="VIGUEUR" label="VIGUEUR" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0YJb0wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb1AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb1QjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb1gjuEeiXZrK3tFCF3A" name="Default_or_not" label="Default_or_not" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJb1wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb2AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb2QjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb2gjuEeiXZrK3tFCF3A" name="Collet" label="Collet" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJb2wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb3AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb3QjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb3gjuEeiXZrK3tFCF3A" name="Houppier" label="Houppier" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJb3wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb4AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb4QjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb4gjuEeiXZrK3tFCF3A" name="Racine" label="Racine" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJb4wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb5AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb5QjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb5gjuEeiXZrK3tFCF3A" name="Tronc" label="Tronc" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_0YJb5wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb6AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb6QjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0YJb6gjuEeiXZrK3tFCF3A" name="last_change" label="last_change" length="8" sourceType="TIMESTAMP" talendType="id_String">
+        <taggedValue xmi:id="_0YJb6wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0YJb7AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0YJb7QjuEeiXZrK3tFCF3A" name="TIMESTAMP" javaDataType="-2" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0fy7gAjuEeiXZrK3tFCF3A" name="tree_code_reference_file" id="_0fyUcAjuEeiXZrK3tFCF3A" label="tree_code_reference_file" tableType="TABLE">
+      <taggedValue xmi:id="_0fy7gQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0fy7ggjuEeiXZrK3tFCF3A" name="id_tree" label="id_tree" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_0fy7gwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0fy7hAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0fy7hQjuEeiXZrK3tFCF3A" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0fy7hgjuEeiXZrK3tFCF3A" name="tree_code" label="tree_code" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_0fy7hwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0fy7iAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0fy7iQjuEeiXZrK3tFCF3A" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0pwIwAjuEeiXZrK3tFCF3A" name="weather_file" id="_0pvhsAjuEeiXZrK3tFCF3A" label="weather_file" tableType="TABLE">
+      <taggedValue xmi:id="_0pwIwQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwIwgjuEeiXZrK3tFCF3A" name="Date" label="Date" length="10" sourceType="DATE" talendType="id_Date" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_0pwIwwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwIxAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwIxQjuEeiXZrK3tFCF3A" name="DATE" javaDataType="91"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwIxgjuEeiXZrK3tFCF3A" name="Temp_max_extreme" label="Temp_max_extreme" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwIxwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv0AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv0QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv0gjuEeiXZrK3tFCF3A" name="Temp_max_moyenne" label="Temp_max_moyenne" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv0wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv1AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv1QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv1gjuEeiXZrK3tFCF3A" name="Temp_moyenne" label="Temp_moyenne" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv1wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv2AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv2QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv2gjuEeiXZrK3tFCF3A" name="Temp_mini_moyenne" label="Temp_mini_moyenne" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv2wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv3AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv3QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv3gjuEeiXZrK3tFCF3A" name="Temp_mini_extreme" label="Temp_mini_extreme" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv3wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv4AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv4QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv4gjuEeiXZrK3tFCF3A" name="Temp_maxi_minimale" label="Temp_maxi_minimale" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv4wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv5AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv5QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv5gjuEeiXZrK3tFCF3A" name="Temp_mini_maximale" label="Temp_mini_maximale" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv5wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv6AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv6QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv6gjuEeiXZrK3tFCF3A" name="DJU_chauffagiste" label="DJU_chauffagiste" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv6wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv7AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv7QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv7gjuEeiXZrK3tFCF3A" name="DJU_climaticien" label="DJU_climaticien" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv7wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv8AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv8QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv8gjuEeiXZrK3tFCF3A" name="Ensoleillement__h" label="Ensoleillement__h" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv8wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv9AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv9QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv9gjuEeiXZrK3tFCF3A" name="Precipitations_cumul" label="Precipitations_cumul" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv9wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv-AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv-QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv-gjuEeiXZrK3tFCF3A" name="Precipitation_max_en_1j" label="Precipitation_max_en_1j" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv-wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwv_AjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwv_QjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwv_gjuEeiXZrK3tFCF3A" name="Precipitation_max_en_5j" label="Precipitation_max_en_5j" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwv_wjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwAAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwAQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwwAgjuEeiXZrK3tFCF3A" name="Precipitation_moyenne" label="Precipitation_moyenne" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwwAwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwBAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwBQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwwBgjuEeiXZrK3tFCF3A" name="Neige_au_sol_max" label="Neige_au_sol_max" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwwBwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwCAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwCQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwwCgjuEeiXZrK3tFCF3A" name="Rafale_maximale" label="Rafale_maximale" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwwCwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwDAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwDQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwwDgjuEeiXZrK3tFCF3A" name="Pression_min" label="Pression_min" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwwDwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwEAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwEQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0pwwEgjuEeiXZrK3tFCF3A" name="Pression_max" label="Pression_max" length="24" sourceType="REAL" talendType="id_Float">
+        <taggedValue xmi:id="_0pwwEwjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_0pwwFAjuEeiXZrK3tFCF3A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_0pwwFQjuEeiXZrK3tFCF3A" name="REAL" numericPrecisionRadix="2" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
