@@ -19,7 +19,9 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Eit1cAQhEei4c-S5LSWU-g" name="closest_train_station" label="closest_train_station" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JteT4AgjEeiMKsAiPwfgJw" name="id_development_status" label="id_development_status" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oXA68AghEeiMKsAiPwfgJw" name="id_diagnosis_note" label="id_diagnosis_note" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFnzcBI1EeiYzoKs0_t_UA" name="id_disease" label="id_disease" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x4u9UAAUEeiz8Zjf5Mo2yA" name="id_environment_busyness" label="id_environment_busyness" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M52lIBI7EeiYzoKs0_t_UA" name="id_is_last" label="id_is_last" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m04kYAgiEeiMKsAiPwfgJw" name="id_sidewalk_proximity" label="id_sidewalk_proximity" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HKb9q-wPEeem669hVG2Afw" name="id_specie" label="id_specie" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U6oIAAhTEeiEYr-ESCXnjA" name="id_station" label="id_station" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
