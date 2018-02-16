@@ -1383,7 +1383,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata comment="" label="diagnosis_fact" name="diagnosis_fact">
+    <metadata comment="" connector="FLOW" label="diagnosis_fact" name="diagnosis_fact">
       <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -1412,7 +1412,7 @@
       <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="diagnosis_fact" activateCondensedTool="true" id="_HHTxIOwPEeem669hVG2Afw - diagnosis_fact">
         <mapperTableEntries name="tree_code" expression="row2.CODE " type="id_String" nullable="true"/>
@@ -1879,7 +1879,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata comment="" label="diagnosis_fact" name="update_flow">
+    <metadata comment="" connector="FLOW" label="diagnosis_fact" name="update_flow">
       <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -1887,55 +1887,27 @@
       <column comment="" key="false" length="-1" name="has_disease_on_trunk" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_collar" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_crown" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="true" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata comment="" label="diagnosis_fact" name="insert_flow">
-      <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="has_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="has_disease_on_root" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="has_disease_on_trunk" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="has_disease_on_collar" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="has_disease_on_crown" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="true" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="FLOW" name="out1">
       <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -1966,7 +1938,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="update_flow" expressionFilter="!row19.quantity.equals(diagnosis_fact.quantity)&#xD;&#xA;|| !row19.has_disease.equals(diagnosis_fact.has_disease )&#xD;&#xA;|| !row19.has_disease_on_root .equals(diagnosis_fact.has_disease_on_root )&#xD;&#xA;|| !row19.has_disease_on_trunk.equals(diagnosis_fact.has_disease_on_trunk )&#xD;&#xA;|| !row19.has_disease_on_collar.equals(diagnosis_fact.has_disease_on_collar)&#xD;&#xA;|| !row19.has_disease_on_crown.equals(diagnosis_fact.has_disease_on_crown)&#xD;&#xA;|| !row19.closest_industrial_zone .equals(diagnosis_fact.closest_industrial_zone)&#xD;&#xA;|| !row19.closest_mall.equals(diagnosis_fact.closest_mall)&#xD;&#xA;|| !row19.closest_motorway.equals(diagnosis_fact.closest_motorway )&#xD;&#xA;|| !row19.closest_parking.equals(diagnosis_fact.closest_parking )&#xD;&#xA;|| !row19.closest_river.equals(diagnosis_fact.closest_river )&#xD;&#xA;|| !row19.closest_road.equals(diagnosis_fact.closest_road )&#xD;&#xA;|| !row19.closest_train_station.equals(diagnosis_fact.closest_train_station )&#xD;&#xA;|| !row19.id_development_status.equals(diagnosis_fact.id_development_status )&#xD;&#xA;|| !row19.id_diagnosis_note.equals(diagnosis_fact.id_diagnosis_note )&#xD;&#xA;|| !row19.id_disease.equals(diagnosis_fact.id_disease)&#xA;|| !row19.id_environment_busyness.equals(diagnosis_fact.id_environment_busyness )&#xA;|| !row19.id_is_last.equals(diagnosis_fact.id_is_last)&#xD;&#xA;|| !row19.id_sidewalk_proximity.equals(diagnosis_fact.id_sidewalk_proximity )&#xD;&#xA;|| !row19.id_specie.equals(diagnosis_fact.id_specie)&#xD;&#xA;|| !row19.id_station.equals(diagnosis_fact.id_station)&#xD;&#xA;|| !row19.id_stump_diameter.equals(diagnosis_fact.id_stump_diameter )&#xD;&#xA;|| !row19.id_vigor.equals(diagnosis_fact.id_vigor)&#xD;&#xA;|| !row19.diagnosis_year.equals(diagnosis_fact.diagnosis_year)&#xD;&#xA;|| !row19.seeding_year.equals(diagnosis_fact.seeding_year)" activateExpressionFilter="true" activateCondensedTool="true" id="_HHTxIOwPEeem669hVG2Afw - diagnosis_fact">
+      <outputTables sizeState="INTERMEDIATE" name="update_flow" expressionFilter="!row19.quantity.equals(diagnosis_fact.quantity)&#xD;&#xA;|| !row19.has_disease.equals(diagnosis_fact.has_disease )&#xD;&#xA;|| !row19.has_disease_on_root .equals(diagnosis_fact.has_disease_on_root )&#xD;&#xA;|| !row19.has_disease_on_trunk.equals(diagnosis_fact.has_disease_on_trunk )&#xD;&#xA;|| !row19.has_disease_on_collar.equals(diagnosis_fact.has_disease_on_collar)&#xD;&#xA;|| !row19.has_disease_on_crown.equals(diagnosis_fact.has_disease_on_crown)&#xD;&#xA;|| !row19.closest_industrial_zone .equals(diagnosis_fact.closest_industrial_zone)&#xD;&#xA;|| !row19.closest_mall.equals(diagnosis_fact.closest_mall)&#xD;&#xA;|| !row19.closest_motorway.equals(diagnosis_fact.closest_motorway )&#xD;&#xA;|| !row19.closest_parking.equals(diagnosis_fact.closest_parking )&#xD;&#xA;|| !row19.closest_river.equals(diagnosis_fact.closest_river )&#xD;&#xA;|| !row19.closest_road.equals(diagnosis_fact.closest_road )&#xD;&#xA;|| !row19.closest_train_station.equals(diagnosis_fact.closest_train_station )&#xD;&#xA;|| !row19.id_development_status.equals(diagnosis_fact.id_development_status )&#xD;&#xA;|| !row19.id_diagnosis_note.equals(diagnosis_fact.id_diagnosis_note )&#xD;&#xA;|| !row19.id_disease.equals(diagnosis_fact.id_disease)&#xA;|| !row19.id_environment_busyness.equals(diagnosis_fact.id_environment_busyness )&#xA;|| !row19.id_is_last.equals(diagnosis_fact.id_is_last)&#xD;&#xA;|| !row19.id_sidewalk_proximity.equals(diagnosis_fact.id_sidewalk_proximity )&#xD;&#xA;|| !row19.id_specie.equals(diagnosis_fact.id_specie)&#xD;&#xA;|| !row19.id_station.equals(diagnosis_fact.id_station)&#xD;&#xA;|| !row19.id_stump_diameter.equals(diagnosis_fact.id_stump_diameter )&#xD;&#xA;|| !row19.id_vigor.equals(diagnosis_fact.id_vigor)&#xD;&#xA;|| !row19.diagnosis_year.equals(diagnosis_fact.diagnosis_year)&#xD;&#xA;|| !row19.seeding_year.equals(diagnosis_fact.seeding_year)" activateExpressionFilter="true" activateCondensedTool="true">
         <mapperTableEntries name="tree_code" expression="diagnosis_fact.tree_code " type="id_String" nullable="true"/>
         <mapperTableEntries name="quantity" expression="diagnosis_fact.quantity != null ? diagnosis_fact.quantity : row19.quantity " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="has_disease" expression="diagnosis_fact.has_disease != null ? diagnosis_fact.has_disease : row19.has_disease " type="id_Integer" nullable="true"/>
@@ -2003,34 +1975,6 @@
         <mapperTableEntries name="has_disease_on_collar" expression="diagnosis_fact.has_disease_on_collar " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="has_disease_on_crown" expression="diagnosis_fact.has_disease_on_crown " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="closest_industrial_zone" expression=" diagnosis_fact.closest_industrial_zone " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_mall" expression="diagnosis_fact.closest_mall " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_motorway" expression="diagnosis_fact.closest_motorway " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_parking" expression="diagnosis_fact.closest_parking " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_river" expression="diagnosis_fact.closest_river " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_road" expression="diagnosis_fact.closest_road " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_train_station" expression="diagnosis_fact.closest_train_station " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_development_status" expression="diagnosis_fact.id_development_status " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_diagnosis_note" expression="diagnosis_fact.id_diagnosis_note " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_disease" expression="diagnosis_fact.id_disease " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_environment_busyness" expression="diagnosis_fact.id_environment_busyness " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_is_last" expression="diagnosis_fact.id_is_last " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_sidewalk_proximity" expression="diagnosis_fact.id_sidewalk_proximity " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_specie" expression="diagnosis_fact.id_specie " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_station" expression="diagnosis_fact.id_station " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_stump_diameter" expression="diagnosis_fact.id_stump_diameter " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="id_vigor" expression="diagnosis_fact.id_vigor " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="diagnosis_year" expression="diagnosis_fact.diagnosis_year " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="seeding_year" expression="diagnosis_fact.seeding_year " type="id_Integer" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="!(diagnosis_fact.closest_industrial_zone != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_mall != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_motorway != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_parking != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_river != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_road != null &amp;&amp;&#xD;&#xA;diagnosis_fact.closest_train_station != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_development_status != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_diagnosis_note != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_disease != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_environment_busyness != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_is_last != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_sidewalk_proximity != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_specie != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_station != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_stump_diameter != null &amp;&amp;&#xD;&#xA;diagnosis_fact.id_vigor != null &amp;&amp;&#xD;&#xA;diagnosis_fact.diagnosis_year != null &amp;&amp;&#xD;&#xA;diagnosis_fact.seeding_year != null)" activateExpressionFilter="true" activateCondensedTool="true" columnNameFilter="" rejectInnerJoin="true">
-        <mapperTableEntries name="tree_code" expression="diagnosis_fact.tree_code " type="id_String" nullable="true"/>
-        <mapperTableEntries name="quantity" expression="diagnosis_fact.quantity " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="has_disease" expression="diagnosis_fact.has_disease " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="has_disease_on_root" expression="diagnosis_fact.has_disease_on_root " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="has_disease_on_trunk" expression="diagnosis_fact.has_disease_on_trunk " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="has_disease_on_collar" expression="diagnosis_fact.has_disease_on_collar " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="has_disease_on_crown" expression="diagnosis_fact.has_disease_on_crown " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="closest_industrial_zone" expression="diagnosis_fact.closest_industrial_zone " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="closest_mall" expression="diagnosis_fact.closest_mall " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="closest_motorway" expression="diagnosis_fact.closest_motorway " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="closest_parking" expression="diagnosis_fact.closest_parking " type="id_Integer" nullable="true"/>
@@ -2241,8 +2185,6 @@
     <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="tree_code" show="false"/>
     <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
     <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_HHTxIOwPEeem669hVG2Afw - diagnosis_fact" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -2400,25 +2342,25 @@
       <column comment="" key="false" length="-1" name="has_disease_on_trunk" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_collar" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_crown" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="true" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="diagnosis_fact" name="REJECT">
       <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -2428,25 +2370,25 @@
       <column comment="" key="false" length="-1" name="has_disease_on_trunk" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_collar" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease_on_crown" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="true" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_industrial_zone" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_mall" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_motorway" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_parking" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_river" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_road" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="closest_train_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_development_status" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_diagnosis_note" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_environment_busyness" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_is_last" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_sidewalk_proximity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_specie" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_station" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id_vigor" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
