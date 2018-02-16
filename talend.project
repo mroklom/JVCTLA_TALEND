@@ -1009,6 +1009,8 @@
       <relatedItems xmi:id="_OtEofBL6EeiEdOC2eS7gGw" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OtEofRL6EeiEdOC2eS7gGw" id="__8makBL1EeiEdOC2eS7gGw - metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_OtEofhL6EeiEdOC2eS7gGw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_mEJ04BMAEeiEdOC2eS7gGw" id="_rpHkMBL-EeiEdOC2eS7gGw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_mEJ04RMAEeiEdOC2eS7gGw" id="_rpHkMBL-EeiEdOC2eS7gGw - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>process/Cube</deletedFolders>
     <deletedFolders>process/DataWarehouse/contraints</deletedFolders>

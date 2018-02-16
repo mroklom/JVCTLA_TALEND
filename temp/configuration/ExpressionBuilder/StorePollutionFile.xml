@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.measure_value == -1 ? null : Float.parseFloat(row1.measure_value )">
-  <variables name="row1.measure_date" value="null" talendType="id_Date" nullable="true"/>
-  <variables name="row1.station_name" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.unity" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.pollution_name" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.measure_value" value="null" talendType="id_Float" nullable="true"/>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_2=>" expression="row2.Longitude == -1 ? null : row2.Longitude">
+  <variables name="row2.Station" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Typologie" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Influence" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Latitude" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row2.Longitude" value="null" talendType="id_Float" nullable="true"/>
 </expression:EMFExpression>
