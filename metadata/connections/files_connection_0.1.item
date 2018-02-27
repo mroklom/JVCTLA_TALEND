@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_SnOtAP4WEeefhtkL1s2Nuw" name="files_connection" id="_Kl3eoP4WEeefhtkL1s2Nuw" label="files_connection" dataPackage="_hnbtABJzEeiTRo-M1cd8kw _U7PQMAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=files_talend;" dbVersionString="MSSQL_PROP" Port="54627" Username="sa" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="files_talend" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+  <TalendMetadata:DatabaseConnection xmi:id="_SnOtAP4WEeefhtkL1s2Nuw" name="files_connection" id="_Kl3eoP4WEeefhtkL1s2Nuw" label="files_connection" dataPackage="_U7PQMAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=files;" dbVersionString="MSSQL_PROP" Port="54627" Username="sa" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="files" SqlSynthax="Syntaxe SQL" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
     <taggedValue xmi:id="_SnOtAf4WEeefhtkL1s2Nuw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_SnYeAP4WEeefhtkL1s2Nuw" tag="package filter" value=""/>
     <taggedValue xmi:id="_SnYeAf4WEeefhtkL1s2Nuw" tag="Status" value=""/>
@@ -42,11 +42,60 @@
     <parameters xmi:id="_SnOtAv4WEeefhtkL1s2Nuw" key="CONN_PARA_KEY_USERNAME" value="sa"/>
     <parameters xmi:id="_cBw68AAdEeiz8Zjf5Mo2yA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_hnbtABJzEeiTRo-M1cd8kw" name="files_talend_test" dataManager="_SnOtAP4WEeefhtkL1s2Nuw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hnbtARJzEeiTRo-M1cd8kw" name="dbo"/>
-  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_U7PQMAhMEeiEYr-ESCXnjA" name="files" dataManager="_SnOtAP4WEeefhtkL1s2Nuw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_U7PQMQhMEeiEYr-ESCXnjA" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_U7PQMQhMEeiEYr-ESCXnjA" name="dbo">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_XhN6YRsYEeiOj_yWyc2BEQ" name="pollution_station_file" id="_XhN6YBsYEeiOj_yWyc2BEQ" label="pollution_station_file" tableType="TABLE">
+        <taggedValue xmi:id="_XhN6YhsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_XhN6YxsYEeiOj_yWyc2BEQ" name="station_name" label="station_name" length="50" precision="-1" sourceType="NVARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_XhN6ZBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XhN6ZRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XhN6ZhsYEeiOj_yWyc2BEQ" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_XhN6ZxsYEeiOj_yWyc2BEQ" name="latitude" label="latitude" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+          <taggedValue xmi:id="_XhN6aBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XhN6aRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XhN6ahsYEeiOj_yWyc2BEQ" name="FLOAT" numericPrecisionRadix="2" javaDataType="8" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_XhN6axsYEeiOj_yWyc2BEQ" name="longitude" label="longitude" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+          <taggedValue xmi:id="_XhN6bBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XhN6bRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XhN6bhsYEeiOj_yWyc2BEQ" name="FLOAT" numericPrecisionRadix="2" javaDataType="8" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_dW6icRsYEeiOj_yWyc2BEQ" name="pollution_file" id="_dW6icBsYEeiOj_yWyc2BEQ" label="pollution_file" tableType="TABLE">
+        <taggedValue xmi:id="_dW6ichsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6icxsYEeiOj_yWyc2BEQ" name="measure_date" label="measure_date" length="10" precision="-1" sourceType="DATE" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd&quot;">
+          <taggedValue xmi:id="_dW6idBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6idRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6idhsYEeiOj_yWyc2BEQ" name="DATE" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6idxsYEeiOj_yWyc2BEQ" name="station_name" label="station_name" length="50" precision="-1" sourceType="NVARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_dW6ieBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6ieRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6iehsYEeiOj_yWyc2BEQ" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6iexsYEeiOj_yWyc2BEQ" name="unity" label="unity" length="50" precision="-1" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_dW6ifBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6ifRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6ifhsYEeiOj_yWyc2BEQ" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6ifxsYEeiOj_yWyc2BEQ" name="family_name" label="family_name" length="50" precision="-1" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_dW6igBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6igRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6ighsYEeiOj_yWyc2BEQ" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6igxsYEeiOj_yWyc2BEQ" name="pollution_name" label="pollution_name" length="50" precision="-1" sourceType="NVARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_dW6ihBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6ihRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6ihhsYEeiOj_yWyc2BEQ" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dW6ihxsYEeiOj_yWyc2BEQ" name="measure_value" label="measure_value" length="-1" precision="-1" sourceType="REAL" talendType="id_Float">
+          <taggedValue xmi:id="_dW6iiBsYEeiOj_yWyc2BEQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dW6iiRsYEeiOj_yWyc2BEQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_dW6iihsYEeiOj_yWyc2BEQ" name="FLOAT" numericPrecisionRadix="2" javaDataType="8" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_0P9vwAjuEeiXZrK3tFCF3A" name="closest_file" id="_0P8hoAjuEeiXZrK3tFCF3A" label="closest_file" tableType="TABLE">
       <taggedValue xmi:id="_0P9vwQjuEeiXZrK3tFCF3A" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_0P9vwgjuEeiXZrK3tFCF3A" name="tree_code" label="tree_code" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
