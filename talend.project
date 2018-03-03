@@ -626,6 +626,8 @@
       <relatedItems xmi:id="_TP9KgPqgEee9X7_s89Smgg" id="_BXGxMNRiEeevt7A7e6Mzcw" version="Latest" type="context"/>
       <relatedItems xmi:id="_0mA0wP4YEeefhtkL1s2Nuw" id="_gA6D4P4WEeefhtkL1s2Nuw" version="Latest" type="job"/>
       <relatedItems xmi:id="_7X9CoP4YEeefhtkL1s2Nuw" id="_3MWPwP4WEeefhtkL1s2Nuw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_2MOZcBu4EeiN16S8DuSFqw" id="_u8bTkBL0EeiEdOC2eS7gGw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_vdSxYBu6EeiN16S8DuSFqw" id="_VlMyABu6EeiN16S8DuSFqw" version="Latest" type="job"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_z3_RIP4YEeefhtkL1s2Nuw">
       <baseItem xmi:id="_z3_RIf4YEeefhtkL1s2Nuw" id="_3MWPwP4WEeefhtkL1s2Nuw" version="0.1" type="job"/>
@@ -1001,7 +1003,6 @@
     <ItemsRelations xmi:id="_OtEocBL6EeiEdOC2eS7gGw">
       <baseItem xmi:id="_OtEocRL6EeiEdOC2eS7gGw" id="_u8bTkBL0EeiEdOC2eS7gGw" version="0.1" type="job"/>
       <relatedItems xmi:id="_OtEochL6EeiEdOC2eS7gGw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
-      <relatedItems xmi:id="_OtEocxL6EeiEdOC2eS7gGw" id="__8makBL1EeiEdOC2eS7gGw" version="Latest" type="property"/>
       <relatedItems xmi:id="_OtEodBL6EeiEdOC2eS7gGw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OtEodRL6EeiEdOC2eS7gGw" id="TalendString" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OtEodhL6EeiEdOC2eS7gGw" id="DataOperation" version="Latest" type="routine"/>
@@ -1011,10 +1012,139 @@
       <relatedItems xmi:id="_OtEoehL6EeiEdOC2eS7gGw" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OtEoexL6EeiEdOC2eS7gGw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OtEofBL6EeiEdOC2eS7gGw" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_OtEofRL6EeiEdOC2eS7gGw" id="__8makBL1EeiEdOC2eS7gGw - metadata" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_OtEofhL6EeiEdOC2eS7gGw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_mEJ04BMAEeiEdOC2eS7gGw" id="_rpHkMBL-EeiEdOC2eS7gGw" version="Latest" type="property"/>
       <relatedItems xmi:id="_mEJ04RMAEeiEdOC2eS7gGw" id="_rpHkMBL-EeiEdOC2eS7gGw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_p_FHIBu4EeiN16S8DuSFqw" id="_CXhAsBuwEeiN16S8DuSFqw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_p_FHIRu4EeiN16S8DuSFqw" id="_CXhAsBuwEeiN16S8DuSFqw - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_S1jm0Bu4EeiN16S8DuSFqw">
+      <baseItem xmi:id="_S1jm0Ru4EeiN16S8DuSFqw" id="_yZ-JcBuwEeiN16S8DuSFqw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_S1jm0hu4EeiN16S8DuSFqw" id="_CXhAsBuwEeiN16S8DuSFqw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_S1jm0xu4EeiN16S8DuSFqw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_S1jm1Bu4EeiN16S8DuSFqw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm1Ru4EeiN16S8DuSFqw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm1hu4EeiN16S8DuSFqw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm1xu4EeiN16S8DuSFqw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm2Bu4EeiN16S8DuSFqw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm2Ru4EeiN16S8DuSFqw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm2hu4EeiN16S8DuSFqw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm2xu4EeiN16S8DuSFqw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm3Bu4EeiN16S8DuSFqw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_S1jm3hu4EeiN16S8DuSFqw" id="_CXhAsBuwEeiN16S8DuSFqw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_pmIJsBu6EeiN16S8DuSFqw" id="_TU9ZQBuwEeiN16S8DuSFqw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_pmIJsRu6EeiN16S8DuSFqw" id="_TU9ZQBuwEeiN16S8DuSFqw - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_naFI4Bu6EeiN16S8DuSFqw">
+      <baseItem xmi:id="_naFI4Ru6EeiN16S8DuSFqw" id="_VlMyABu6EeiN16S8DuSFqw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_naFI4hu6EeiN16S8DuSFqw" id="_TU9ZQBuwEeiN16S8DuSFqw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_naFI4xu6EeiN16S8DuSFqw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_naFI5Bu6EeiN16S8DuSFqw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI5Ru6EeiN16S8DuSFqw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI5hu6EeiN16S8DuSFqw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI5xu6EeiN16S8DuSFqw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI6Bu6EeiN16S8DuSFqw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI6Ru6EeiN16S8DuSFqw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI6hu6EeiN16S8DuSFqw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI6xu6EeiN16S8DuSFqw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI7Bu6EeiN16S8DuSFqw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_naFI7Ru6EeiN16S8DuSFqw" id="_TU9ZQBuwEeiN16S8DuSFqw - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_BL01UB8AEeideMxCho3lTw">
+      <baseItem xmi:id="_BL01UR8AEeideMxCho3lTw" id="_2PcoUB70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_BL01VB8AEeideMxCho3lTw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_BL01VR8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_BL01Vh8AEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01Vx8AEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01WB8AEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01WR8AEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01Wh8AEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01Wx8AEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01XB8AEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01XR8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01Xh8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BL01Xx8AEeideMxCho3lTw" id="_9KsUcB76EeideMxCho3lTw - pollution_fact" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_BL01YB8AEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_fJ-rIB8AEeideMxCho3lTw" id="_5EIWcB70EeideMxCho3lTw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_fJ-rIR8AEeideMxCho3lTw" id="_6wGwEB70EeideMxCho3lTw" version="Latest" type="job"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_MIySIB8AEeideMxCho3lTw">
+      <baseItem xmi:id="_MIySIR8AEeideMxCho3lTw" id="_5EIWcB70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_MIySIh8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_MIySIx8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_specie" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySJB8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySJR8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_vigor" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySJh8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_environment_busyness" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySJx8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_stump_diameter" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySKB8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_closest" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySKR8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_sidewalk_proximity" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySKh8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_diagnosis_note" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySKx8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_development_status" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySLB8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_station" version="Latest" type="query"/>
+      <relatedItems xmi:id="_MIySLR8AEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySLh8AEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySLx8AEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySMB8AEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySMR8AEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySMh8AEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySMx8AEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySNB8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MIySNR8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_X7dO8B8AEeideMxCho3lTw">
+      <baseItem xmi:id="_X7dO8R8AEeideMxCho3lTw" id="_6wGwEB70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_X7dO8h8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_X7dO8x8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_specie" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO9B8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO9R8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_vigor" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO9h8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_environment_busyness" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO9x8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_stump_diameter" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO-B8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_closest" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO-R8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_sidewalk_proximity" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO-h8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_diagnosis_note" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO-x8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_development_status" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO_B8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_id_station" version="Latest" type="query"/>
+      <relatedItems xmi:id="_X7dO_R8AEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dO_h8AEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dO_x8AEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPAB8AEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPAR8AEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPAh8AEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPAx8AEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPBB8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_X7dPBR8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_mqIp4B8AEeideMxCho3lTw">
+      <baseItem xmi:id="_mqIp4R8AEeideMxCho3lTw" id="_k2v3IB70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_mqIp4h8AEeideMxCho3lTw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_mqIp4x8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_mqIp5B8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_mqIp5R8AEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp5h8AEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp5x8AEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp6B8AEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp6R8AEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp6h8AEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp6x8AEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp7B8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp7R8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_mqIp7h8AEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_mqIp7x8AEeideMxCho3lTw" id="_27YKsOnBEeehJsOLQJy-pA - year_dim" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_0HUnwB8AEeideMxCho3lTw">
+      <baseItem xmi:id="_0HUnwR8AEeideMxCho3lTw" id="_q4PCAB8AEeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_0HUnwh8AEeideMxCho3lTw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_0HUnwx8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_0HUnxB8AEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_0HUnxR8AEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnxh8AEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnxx8AEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnyB8AEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnyR8AEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnyh8AEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnyx8AEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnzB8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnzR8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_0HUnzh8AEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_GLx2QB8CEeideMxCho3lTw" id="_LjPfoB8BEeideMxCho3lTw - pollution_name" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>process/Cube</deletedFolders>
     <deletedFolders>process/DataWarehouse/contraints</deletedFolders>

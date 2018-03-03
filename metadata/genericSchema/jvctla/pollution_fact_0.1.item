@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9K4hsB76EeideMxCho3lTw" name="repository.metadataGenericSchema" dataPackage="_9K4hsR76EeideMxCho3lTw"/>
+  <TalendMetadata:GenericPackage xmi:id="_9K4hsR76EeideMxCho3lTw" name="repository.metadataGenericSchema" dataManager="_9K4hsB76EeideMxCho3lTw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9K4hsh76EeideMxCho3lTw" id="_mpszwB76EeideMxCho3lTw" label="pollution_fact">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4hsx76EeideMxCho3lTw" name="id_mesure" label="id_mesure" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htB76EeideMxCho3lTw" name="mesure_value" label="mesure_value" length="-1" precision="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htR76EeideMxCho3lTw" name="unity" label="unity" length="50" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4hth76EeideMxCho3lTw" name="id_measure_date" label="id_measure_date" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htx76EeideMxCho3lTw" name="id_pollution_name" label="id_pollution_name" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4huB76EeideMxCho3lTw" name="id_pollution_station" label="id_pollution_station" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
