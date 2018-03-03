@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_xFU8wB8IEeideMxCho3lTw" name="repository.metadataGenericSchema" dataPackage="_xFU8wR8IEeideMxCho3lTw"/>
+  <TalendMetadata:GenericPackage xmi:id="_xFU8wR8IEeideMxCho3lTw" name="repository.metadataGenericSchema" dataManager="_xFU8wB8IEeideMxCho3lTw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xFU8wh8IEeideMxCho3lTw" id="_pAEs4B8IEeideMxCho3lTw" label="pollution_station">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xFU8wx8IEeideMxCho3lTw" name="id_pollution_station" label="id_pollution_station" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xFU8xB8IEeideMxCho3lTw" name="pollution_station" label="pollution_station" length="50" precision="-1" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

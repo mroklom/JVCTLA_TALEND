@@ -1146,6 +1146,41 @@
       <relatedItems xmi:id="_0HUnzh8AEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
       <relatedItems xmi:id="_GLx2QB8CEeideMxCho3lTw" id="_LjPfoB8BEeideMxCho3lTw - pollution_name" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_Idj2MB8DEeideMxCho3lTw">
+      <baseItem xmi:id="_Idj2MR8DEeideMxCho3lTw" id="_wLgI4B70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_Idj2Mh8DEeideMxCho3lTw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_Idj2Mx8DEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_Idj2NB8DEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_Idj2NR8DEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2Nh8DEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2Nx8DEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2OB8DEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2OR8DEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2Oh8DEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2Ox8DEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2PB8DEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2PR8DEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Idj2Ph8DEeideMxCho3lTw" id="_LjPfoB8BEeideMxCho3lTw - pollution_name" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Idj2Px8DEeideMxCho3lTw" id="_r6Hq4B8CEeideMxCho3lTw - family_name" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Idj2QB8DEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_A4LKcB8JEeideMxCho3lTw">
+      <baseItem xmi:id="_A4LKcR8JEeideMxCho3lTw" id="_yvkoIB70EeideMxCho3lTw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_A4LKch8JEeideMxCho3lTw" id="_Kl3eoP4WEeefhtkL1s2Nuw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_A4LKcx8JEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_A4LKdB8JEeideMxCho3lTw" id="_ufCv0Ol6Eee2CufEc0MnEw - Add FK_diagnosis_fact_year" version="Latest" type="query"/>
+      <relatedItems xmi:id="_A4LKdR8JEeideMxCho3lTw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKdh8JEeideMxCho3lTw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKdx8JEeideMxCho3lTw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKeB8JEeideMxCho3lTw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKeR8JEeideMxCho3lTw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKeh8JEeideMxCho3lTw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKex8JEeideMxCho3lTw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKfB8JEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKfR8JEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_A4LKfh8JEeideMxCho3lTw" id="_xFUVsB8IEeideMxCho3lTw - pollution_station" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_A4LKgB8JEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
+    </ItemsRelations>
     <deletedFolders>process/Cube</deletedFolders>
     <deletedFolders>process/DataWarehouse/contraints</deletedFolders>
     <deletedFolders>process/hive</deletedFolders>
