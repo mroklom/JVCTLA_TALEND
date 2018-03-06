@@ -6,7 +6,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4hsx76EeideMxCho3lTw" name="id_mesure" label="id_mesure" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htB76EeideMxCho3lTw" name="mesure_value" label="mesure_value" length="-1" precision="-1" talendType="id_Float"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htR76EeideMxCho3lTw" name="unity" label="unity" length="50" precision="-1" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4hth76EeideMxCho3lTw" name="id_measure_date" label="id_measure_date" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4hth76EeideMxCho3lTw" name="id_measure_date" label="id_measure_date" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false" pattern="&quot;yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4htx76EeideMxCho3lTw" name="id_pollution_name" label="id_pollution_name" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K4huB76EeideMxCho3lTw" name="id_pollution_station" label="id_pollution_station" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
     </ownedElement>

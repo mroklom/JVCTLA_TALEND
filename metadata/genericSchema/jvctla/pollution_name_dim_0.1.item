@@ -5,7 +5,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LjQGsh8BEeideMxCho3lTw" id="_C1pdYB8BEeideMxCho3lTw" label="pollution_name">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LjQGsx8BEeideMxCho3lTw" name="id_pollution_name" label="id_pollution_name" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LjQGtB8BEeideMxCho3lTw" name="pollution_name" label="pollution_name" length="50" precision="-1" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LjQGtR8BEeideMxCho3lTw" name="id_family_name" label="id_family_name" length="-1" precision="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LjQGtR8BEeideMxCho3lTw" name="family_name" label="family_name" length="50" precision="-1" talendType="id_String"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
