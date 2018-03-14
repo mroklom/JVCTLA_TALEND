@@ -1062,11 +1062,12 @@
       <relatedItems xmi:id="_BL01XR8AEeideMxCho3lTw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BL01Xh8AEeideMxCho3lTw" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BL01Xx8AEeideMxCho3lTw" id="_9KsUcB76EeideMxCho3lTw - pollution_fact" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_BL01YB8AEeideMxCho3lTw" id="_RvAaUBL4EeiEdOC2eS7gGw - pollution_file" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_OpM2gCEbEeib1LjYygZu-g" id="_xFUVsB8IEeideMxCho3lTw - pollution_station" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_OpM2gSEbEeib1LjYygZu-g" id="_LjPfoB8BEeideMxCho3lTw - pollution_name" version="Latest" type="schema"/>
       <relatedItems xmi:id="_c8JH8CEsEeib1LjYygZu-g" id="_5EIWcB70EeideMxCho3lTw" version="Latest" type="job"/>
       <relatedItems xmi:id="_c8JH8SEsEeib1LjYygZu-g" id="_6wGwEB70EeideMxCho3lTw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_0Ky-4CYZEeiA3PNG3viMdQ" id="_CXhAsBuwEeiN16S8DuSFqw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_0Ky-4SYZEeiA3PNG3viMdQ" id="_CXhAsBuwEeiN16S8DuSFqw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_BsN1ICYdEeiA3PNG3viMdQ" id="_LjPfoB8BEeideMxCho3lTw - pollution_name" version="Latest" type="schema"/>
+      <relatedItems xmi:id="__KnTsCYfEeiA3PNG3viMdQ" id="_27YKsOnBEeehJsOLQJy-pA - year_dim" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_MIySIB8AEeideMxCho3lTw">
       <baseItem xmi:id="_MIySIR8AEeideMxCho3lTw" id="_5EIWcB70EeideMxCho3lTw" version="0.1" type="job"/>

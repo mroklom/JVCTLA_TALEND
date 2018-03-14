@@ -9,7 +9,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKphuwEeiN16S8DuSFqw" label="unity" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKpxuwEeiN16S8DuSFqw" label="family_name" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKqBuwEeiN16S8DuSFqw" label="pollution_name" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKqRuwEeiN16S8DuSFqw" label="measure_value" length="-1" precision="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKqRuwEeiN16S8DuSFqw" label="measure_value" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
