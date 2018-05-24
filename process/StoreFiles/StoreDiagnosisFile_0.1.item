@@ -1392,7 +1392,11 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;files&quot;"/>
+<<<<<<< HEAD
     <elementParameter field="TEXT" name="USER" value="&quot;steven&quot;"/>
+=======
+    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+>>>>>>> datasources
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_CXqKoBuwEeiN16S8DuSFqw" name="pollution_file_ids" dataPackage="_CXqKoRuwEeiN16S8DuSFqw" Server="Localhost 127.0.0.1" FilePath="C:/Program Files/TOS_DI-20170623_1246-V6.4.1/workspace/JVCTLA_TALEND/sources/pollution/pollution_file_ids.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CXqKoRuwEeiN16S8DuSFqw" name="default" dataManager="_CXqKoBuwEeiN16S8DuSFqw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CXqKohuwEeiN16S8DuSFqw" id="_3tj_cBuvEeiN16S8DuSFqw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKoxuwEeiN16S8DuSFqw" label="id" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKpBuwEeiN16S8DuSFqw" label="measure_date" length="10" precision="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKpRuwEeiN16S8DuSFqw" label="station_name" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKphuwEeiN16S8DuSFqw" label="unity" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKpxuwEeiN16S8DuSFqw" label="family_name" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKqBuwEeiN16S8DuSFqw" label="pollution_name" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CXqKqRuwEeiN16S8DuSFqw" label="measure_value" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

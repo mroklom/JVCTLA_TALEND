@@ -3,16 +3,18 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_RvBocBL4EeiEdOC2eS7gGw" name="repository.metadataGenericSchema" dataPackage="_RvBocRL4EeiEdOC2eS7gGw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
   <TalendMetadata:GenericPackage xmi:id="_RvBocRL4EeiEdOC2eS7gGw" name="repository.metadataGenericSchema" dataManager="_RvBocBL4EeiEdOC2eS7gGw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RvBochL4EeiEdOC2eS7gGw" id="_H5BzsBL4EeiEdOC2eS7gGw" label="pollution_file">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBocxL4EeiEdOC2eS7gGw" name="measure_date" label="measure_date" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PlRFkBsaEeiOj_yWyc2BEQ" name="id" label="id" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBocxL4EeiEdOC2eS7gGw" name="measure_date" label="measure_date" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
         <initialValue xmi:id="_RvBodBL4EeiEdOC2eS7gGw" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBodRL4EeiEdOC2eS7gGw" name="station_name" label="station_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBodRL4EeiEdOC2eS7gGw" name="station_name" label="station_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_RvBodhL4EeiEdOC2eS7gGw" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBodxL4EeiEdOC2eS7gGw" name="unity" label="unity" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_RvBoeBL4EeiEdOC2eS7gGw" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBoeRL4EeiEdOC2eS7gGw" name="pollution_name" label="pollution_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A2yK0BsNEeiOj_yWyc2BEQ" name="family_name" label="family_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBoeRL4EeiEdOC2eS7gGw" name="pollution_name" label="pollution_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_RvBoehL4EeiEdOC2eS7gGw" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RvBoexL4EeiEdOC2eS7gGw" name="measure_value" label="measure_value" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
