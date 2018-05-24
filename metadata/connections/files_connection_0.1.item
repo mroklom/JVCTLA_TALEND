@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_SnOtAP4WEeefhtkL1s2Nuw" name="files_connection" id="_Kl3eoP4WEeefhtkL1s2Nuw" label="files_connection" dataPackage="_hnbtABJzEeiTRo-M1cd8kw _U7PQMAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=files_talend;" dbVersionString="MSSQL_PROP" Port="54627" Username="sa" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="files_talend" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+  <TalendMetadata:DatabaseConnection xmi:id="_SnOtAP4WEeefhtkL1s2Nuw" name="files_connection" id="_Kl3eoP4WEeefhtkL1s2Nuw" label="files_connection" dataPackage="_U7PQMAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=files;" dbVersionString="MSSQL_PROP" Port="54627" Username="steven" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="files" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
     <taggedValue xmi:id="_SnOtAf4WEeefhtkL1s2Nuw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_SnYeAP4WEeefhtkL1s2Nuw" tag="package filter" value=""/>
     <taggedValue xmi:id="_SnYeAf4WEeefhtkL1s2Nuw" tag="Status" value=""/>
@@ -40,12 +40,9 @@
       <query xmi:id="_wV7IkQwOEeiAlKbILEfj2g" id="_wV7IkAwOEeiAlKbILEfj2g" label="Update cube_version diagnosis_fact" value="DECLARE @diagnosis_version binary(8), @closest_version binary(8)&#xD;&#xA;SET @diagnosis_version = (SELECT MAX (row_version) from diagnosis_file)&#xD;&#xA;SET @closest_version = (SELECT MAX (row_version) from closest_file)&#xD;&#xA;&#xD;&#xA;IF (@diagnosis_version > @closest_version)&#xD;&#xA;&#x9;BEGIN&#xD;&#xA;&#x9;&#x9;UPDATE cube_version&#xD;&#xA;&#x9;&#x9;SET diagnosis_fact_version = @diagnosis_version&#xD;&#xA;&#x9;END&#xD;&#xA;ELSE &#xD;&#xA;&#x9;BEGIN&#xD;&#xA;&#x9;&#x9;UPDATE cube_version&#xD;&#xA;&#x9;&#x9;SET diagnosis_fact_version = @closest_version&#xD;&#xA;&#x9;END"/>
       <query xmi:id="_m8BckRL2Eeispsi_ZfRhDA" id="_m8BckBL2Eeispsi_ZfRhDA" label="Select pollution_file pollution_fact" value="SELECT measure_date,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;station_name,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;unity,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;pollution_name,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;measure_value&#xD;&#xA;FROM pollution_file"/>
     </queries>
-    <parameters xmi:id="_SnOtAv4WEeefhtkL1s2Nuw" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_SnOtAv4WEeefhtkL1s2Nuw" key="CONN_PARA_KEY_USERNAME" value="steven"/>
     <parameters xmi:id="_cBw68AAdEeiz8Zjf5Mo2yA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_hnbtABJzEeiTRo-M1cd8kw" name="files_talend_test" dataManager="_SnOtAP4WEeefhtkL1s2Nuw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hnbtARJzEeiTRo-M1cd8kw" name="dbo"/>
-  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_U7PQMAhMEeiEYr-ESCXnjA" name="files" dataManager="_SnOtAP4WEeefhtkL1s2Nuw">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_U7PQMQhMEeiEYr-ESCXnjA" name="dbo"/>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_0P9vwAjuEeiXZrK3tFCF3A" name="closest_file" id="_0P8hoAjuEeiXZrK3tFCF3A" label="closest_file" tableType="TABLE">

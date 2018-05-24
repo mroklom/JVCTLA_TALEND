@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="measure_date"
+        length="10" nullable="true" originalDbColumnName="measure_date"
+        originalLength="0" pattern="&quot;yyyy-MM-dd&quot;"
+        precision="0" talendType="id_Date"/>
+    <column comment="" default="" key="true" label="station_name"
+        length="19" nullable="true" originalDbColumnName="station_name"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="unity" length="9"
+        nullable="true" originalDbColumnName="unity" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+    <column comment="" default="" key="true" label="pollution_name"
+        length="15" nullable="true"
+        originalDbColumnName="pollution_name" originalLength="0"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="measure_value"
+        length="-1" nullable="true" originalDbColumnName="measure_value"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Float"/>
+</schema>

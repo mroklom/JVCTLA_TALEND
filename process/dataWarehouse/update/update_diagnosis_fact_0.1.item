@@ -114,8 +114,8 @@
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;files_talend&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;files&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;steven&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -139,8 +139,8 @@
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla_talend&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;steven&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1907,7 +1907,7 @@
       <column comment="" defaultValue="" key="false" length="-1" name="diagnosis_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="diagnosis_fact" name="insert_flow">
+    <metadata comment="" connector="FLOW" label="diagnosis_fact" name="insert_flow">
       <column comment="" key="true" length="50" name="tree_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="has_disease" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -1936,7 +1936,7 @@
       <column comment="" key="true" length="-1" name="seeding_year" nullable="true" pattern="&quot;yyyy&quot;" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="update_flow" expressionFilter="!row19.quantity.equals(diagnosis_fact.quantity)&#xD;&#xA;|| !row19.has_disease.equals(diagnosis_fact.has_disease )&#xD;&#xA;|| !row19.has_disease_on_root .equals(diagnosis_fact.has_disease_on_root )&#xD;&#xA;|| !row19.has_disease_on_trunk.equals(diagnosis_fact.has_disease_on_trunk )&#xD;&#xA;|| !row19.has_disease_on_collar.equals(diagnosis_fact.has_disease_on_collar)&#xD;&#xA;|| !row19.has_disease_on_crown.equals(diagnosis_fact.has_disease_on_crown)&#xD;&#xA;|| !row19.closest_industrial_zone .equals(diagnosis_fact.closest_industrial_zone)&#xD;&#xA;|| !row19.closest_mall.equals(diagnosis_fact.closest_mall)&#xD;&#xA;|| !row19.closest_motorway.equals(diagnosis_fact.closest_motorway )&#xD;&#xA;|| !row19.closest_parking.equals(diagnosis_fact.closest_parking )&#xD;&#xA;|| !row19.closest_river.equals(diagnosis_fact.closest_river )&#xD;&#xA;|| !row19.closest_road.equals(diagnosis_fact.closest_road )&#xD;&#xA;|| !row19.closest_train_station.equals(diagnosis_fact.closest_train_station )&#xD;&#xA;|| !row19.id_development_status.equals(diagnosis_fact.id_development_status )&#xD;&#xA;|| !row19.id_diagnosis_note.equals(diagnosis_fact.id_diagnosis_note )&#xD;&#xA;|| !row19.id_disease.equals(diagnosis_fact.id_disease)&#xA;|| !row19.id_environment_busyness.equals(diagnosis_fact.id_environment_busyness )&#xA;|| !row19.id_is_last.equals(diagnosis_fact.id_is_last)&#xD;&#xA;|| !row19.id_sidewalk_proximity.equals(diagnosis_fact.id_sidewalk_proximity )&#xD;&#xA;|| !row19.id_specie.equals(diagnosis_fact.id_specie)&#xD;&#xA;|| !row19.id_station.equals(diagnosis_fact.id_station)&#xD;&#xA;|| !row19.id_stump_diameter.equals(diagnosis_fact.id_stump_diameter )&#xD;&#xA;|| !row19.id_vigor.equals(diagnosis_fact.id_vigor)&#xD;&#xA;|| !row19.diagnosis_year.equals(diagnosis_fact.diagnosis_year)&#xD;&#xA;|| !row19.seeding_year.equals(diagnosis_fact.seeding_year)" activateExpressionFilter="true" activateCondensedTool="true">
         <mapperTableEntries name="tree_code" expression="diagnosis_fact.tree_code " type="id_String" nullable="true"/>

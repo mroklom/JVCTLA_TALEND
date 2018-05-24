@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_toZmQOl7Eee2CufEc0MnEw" name="jvctla_connection" id="_ufCv0Ol6Eee2CufEc0MnEw" label="jvctla_connection" dataPackage="_mHrlEBJzEeiTRo-M1cd8kw _YUPzYAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=jvctla_talend;" dbVersionString="MSSQL_PROP" Port="54627" Username="sa" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="jvctla_talend" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+  <TalendMetadata:DatabaseConnection xmi:id="_toZmQOl7Eee2CufEc0MnEw" name="jvctla_connection" id="_ufCv0Ol6Eee2CufEc0MnEw" label="jvctla_connection" dataPackage="_YUPzYAhMEeiEYr-ESCXnjA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://10.195.25.10:54627;DatabaseName=jvctla;" dbVersionString="MSSQL_PROP" Port="54627" Username="steven" Password="lP2HENR4XhTGNLWrtHW00A==" ServerName="10.195.25.10" DatasourceName="" FileFieldName="" SID="jvctla" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
     <taggedValue xmi:id="_toaNUOl7Eee2CufEc0MnEw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_tog7AOl7Eee2CufEc0MnEw" tag="package filter" value=""/>
     <taggedValue xmi:id="_tolMcOl7Eee2CufEc0MnEw" tag="Status" value=""/>
@@ -33,13 +33,12 @@
       <query xmi:id="_t7XCYQgjEeiMKsAiPwfgJw" id="_t7XCYAgjEeiMKsAiPwfgJw" label="Drop FK_diagnosis_fact_id_development_status" value="ALTER TABLE diagnosis_fact&#xD;&#xA;DROP CONSTRAINT FK_diagnosis_fact_id_development_status"/>
       <query xmi:id="_LcdHwQgvEeiMKsAiPwfgJw" id="_LcdHwAgvEeiMKsAiPwfgJw" label="Add FK_diagnosis_fact_id_station" value="ALTER TABLE diagnosis_fact   &#xD;&#xA;ADD CONSTRAINT FK_diagnosis_fact_id_station FOREIGN KEY (id_station)     &#xD;&#xA;    REFERENCES station_dim (id_station)"/>
       <query xmi:id="_NWqxsQgvEeiMKsAiPwfgJw" id="_NWqxsAgvEeiMKsAiPwfgJw" label="Drop FK_diagnosis_fact_id_station" value="ALTER TABLE diagnosis_fact   &#xD;&#xA;DROP CONSTRAINT FK_diagnosis_fact_id_station"/>
+      <query xmi:id="_sRdGQR7VEei-z5_OCAvEPQ" id="_sRdGQB7VEei-z5_OCAvEPQ" label="Add FK_weather_fact_month and FK_weather_fact_year" value="ALTER TABLE weather_fact   &#xD;&#xA;ADD CONSTRAINT FK_weather_fact_month FOREIGN KEY (month)&#xD;&#xA;&#x9;REFERENCES month_dim (month),&#xD;&#xA;CONSTRAINT FK_weather_fact_year FOREIGN KEY (year)&#xD;&#xA;&#x9;REFERENCES year_dim (year)"/>
+      <query xmi:id="_2sQ4QR7VEei-z5_OCAvEPQ" id="_2sQ4QB7VEei-z5_OCAvEPQ" label="Drop FK_weather_fact_month and FK_weather_fact_year" value="ALTER TABLE weather_fact   &#xD;&#xA;DROP CONSTRAINT FK_weather_fact_month,&#xD;&#xA;CONSTRAINT FK_weather_fact_year"/>
     </queries>
-    <parameters xmi:id="_toaNUel7Eee2CufEc0MnEw" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_toaNUel7Eee2CufEc0MnEw" key="CONN_PARA_KEY_USERNAME" value="steven"/>
     <parameters xmi:id="_QnGvwOnHEeehJsOLQJy-pA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_mHrlEBJzEeiTRo-M1cd8kw" name="jvctla_talend_test" dataManager="_toZmQOl7Eee2CufEc0MnEw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_mHrlERJzEeiTRo-M1cd8kw" name="dbo"/>
-  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_YUPzYAhMEeiEYr-ESCXnjA" name="jvctla" dataManager="_toZmQOl7Eee2CufEc0MnEw">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_YUPzYQhMEeiEYr-ESCXnjA" name="dbo">
       <ownedElement xsi:type="relational:TdTable" xmi:id="_1IIOMAjrEeiXZrK3tFCF3A" name="closest_dim" id="_1IASYAjrEeiXZrK3tFCF3A" label="closest_dim" tableType="TABLE">

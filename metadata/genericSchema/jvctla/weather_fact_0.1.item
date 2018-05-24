@@ -3,7 +3,8 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_M1O-cOm4EeehJsOLQJy-pA" name="repository.metadataGenericSchema" dataPackage="_M1O-cem4EeehJsOLQJy-pA" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
   <TalendMetadata:GenericPackage xmi:id="_M1O-cem4EeehJsOLQJy-pA" name="repository.metadataGenericSchema" dataManager="_M1O-cOm4EeehJsOLQJy-pA">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_M1O-cum4EeehJsOLQJy-pA" id="_zwtxEOm3EeehJsOLQJy-pA" label="weather_fact">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M1O-c-m4EeehJsOLQJy-pA" name="month_year" label="month_year" length="-1" precision="-1" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;MM/yyyy&quot;" originalLength="-1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A7NN8B7VEei-z5_OCAvEPQ" name="year" label="year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M1O-c-m4EeehJsOLQJy-pA" name="month" label="month" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" pattern="&quot;MM/yyyy&quot;" originalLength="-1">
         <initialValue xmi:id="_M1O-dOm4EeehJsOLQJy-pA" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M1O-dem4EeehJsOLQJy-pA" name="maximal_max_temp" label="maximal_max_temp" length="-1" precision="-1" sourceType="REAL" talendType="id_Float" originalLength="-1">

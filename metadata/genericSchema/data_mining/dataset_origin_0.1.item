@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_wZIb8SaZEeilX_8WaHLxCg" name="repository.metadataGenericSchema" dataPackage="_wZIb8iaZEeilX_8WaHLxCg" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_wZIb8iaZEeilX_8WaHLxCg" name="repository.metadataGenericSchema" dataManager="_wZIb8SaZEeilX_8WaHLxCg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wZJDACaZEeilX_8WaHLxCg" id="_qw95kCaZEeilX_8WaHLxCg" label="dataset_origin">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3BP_cCaZEeilX_8WaHLxCg" name="coord_x" label="coord_x" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mKqYCaZEeilX_8WaHLxCg" name="coord_y" label="coord_y" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wZJDASaZEeilX_8WaHLxCg" name="sector" label="sector" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9RGz8CaZEeilX_8WaHLxCg" name="seeding_year" label="seeding_year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Az6zYCaaEeilX_8WaHLxCg" name="diagnosis_year" label="diagnosis_year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcSfYCaaEeilX_8WaHLxCg" name="recommended_work_year" label="recommended_work_year" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K-GvcCaaEeilX_8WaHLxCg" name="tree_code" label="tree_code" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTqacCaaEeilX_8WaHLxCg" name="tree_code_parent" label="tree_code_parent" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TIhMICaaEeilX_8WaHLxCg" name="tree_code_parent_desc" label="tree_code_parent_desc" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WXPx8CaaEeilX_8WaHLxCg" name="stump_diameter" label="stump_diameter" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZMXk8CaaEeilX_8WaHLxCg" name="specie" label="specie" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bhb-4CaaEeilX_8WaHLxCg" name="environment_busyness" label="environment_busyness" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gfragCaaEeilX_8WaHLxCg" name="genus" label="genus" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jMdw4CaaEeilX_8WaHLxCg" name="id_plu" label="id_plu" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lDtmYCaaEeilX_8WaHLxCg" name="plu_name" label="plu_name" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n77JoCaaEeilX_8WaHLxCg" name="diagnosis_note" label="diagnosis_note" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qFihgCaaEeilX_8WaHLxCg" name="renewal_priority" label="renewal_priority" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sl4-YCaaEeilX_8WaHLxCg" name="seeding_purpose" label="seeding_purpose" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v9lS8CaaEeilX_8WaHLxCg" name="remarks" label="remarks" length="500" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ys5Y4CaaEeilX_8WaHLxCg" name="sub_category" label="sub_category" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4lVy8CaaEeilX_8WaHLxCg" name="sub_category_desc" label="sub_category_desc" length="200" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R7NPACabEeilX_8WaHLxCg" name="development_status" label="development_status" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aUAF8CabEeilX_8WaHLxCg" name="development_status_diagnosis" label="development_status_diagnosis" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cjWSYCabEeilX_8WaHLxCg" name="caterpillar_treatment" label="caterpillar_treatment" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hk8kACabEeilX_8WaHLxCg" name="work_to_do" label="work_to_do" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jxUU8CabEeilX_8WaHLxCg" name="sidewalk_proximity" label="sidewalk_proximity" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6PrYYCabEeilX_8WaHLxCg" name="plu_implementation_type" label="plu_implementation_type" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9Qon8CabEeilX_8WaHLxCg" name="variety" label="variety" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__f574CabEeilX_8WaHLxCg" name="vigor" label="vigor" length="50" precision="-1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bwk-ACacEeilX_8WaHLxCg" name="closest_industrial_zone" label="closest_industrial_zone" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EOa5cCacEeilX_8WaHLxCg" name="closest_mall" label="closest_mall" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GRkc8CacEeilX_8WaHLxCg" name="closest_motorway" label="closest_motorway" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ISHYYCacEeilX_8WaHLxCg" name="closest_parking" label="closest_parking" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MGV38CacEeilX_8WaHLxCg" name="closest_river" label="closest_river" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_No6d8CacEeilX_8WaHLxCg" name="closest_road" label="closest_road" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QRwIcCacEeilX_8WaHLxCg" name="closest_train_station" label="closest_train_station" length="-1" precision="-1" sourceType="REAL" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QZ0zcCapEeilX_8WaHLxCg" name="default_or_not" label="default_or_not" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R_ABgCapEeilX_8WaHLxCg" name="collar" label="collar" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S99kICapEeilX_8WaHLxCg" name="crown" label="crown" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TeKHICapEeilX_8WaHLxCg" name="root" label="root" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UUZLkCapEeilX_8WaHLxCg" name="trunk" label="trunk" length="-1" precision="-1" sourceType="INT" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

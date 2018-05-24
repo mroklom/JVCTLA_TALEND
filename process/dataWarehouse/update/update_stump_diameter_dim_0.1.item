@@ -114,8 +114,8 @@
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;files_talend&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;files&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;steven&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -139,8 +139,8 @@
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;54627&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla_talend&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;jvctla&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;steven&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="a7JcNlvPILajK7EouJcBKA=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -529,18 +529,18 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="add id"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata comment="" label="stump_diameter_dim" name="update_flow">
+    <metadata comment="" connector="FLOW" label="stump_diameter_dim" name="update_flow">
       <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="stump_diameter" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="stump_diameter_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="stump_diameter_dim" name="insert_flow">
+    <metadata comment="" connector="FLOW" label="stump_diameter_dim" name="insert_flow">
       <column comment="" key="true" length="-1" name="id_stump_diameter" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="stump_diameter" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="stump_diameter_group" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="update_flow" expressionFilter="!row5.stump_diameter.equals(row6.stump_diameter)" activateExpressionFilter="true" activateCondensedTool="true" id="_ELy8YPb-Eee8NNpqy_oZ4g - stump_diameter_dim">
         <mapperTableEntries name="id_stump_diameter" expression="row5.id_stump_diameter " type="id_Integer" nullable="true"/>
